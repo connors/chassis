@@ -1,6 +1,7 @@
 /* -------------------------------------------------------------------- 
    Buttons
    -------------------------------------------------------------------- */
+   
 [class*="button"] {
   position: relative;
   display: inline-block;
@@ -20,11 +21,11 @@
 }
 .button-small {
   padding: 3px 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .button-large {
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 22px;
 }
 .button-block {
   display: block;

@@ -4,6 +4,7 @@
    Default mobile: Simple two column fluid grid for mobile.
    Desktop/tablet: Simple twelve column fixed grid.
    -------------------------------------------------------------------- */
+
 .container {
   margin: 0 3%;
 }
@@ -24,6 +25,7 @@
 /* -------------------------------------------------------------------- 
    Tablet to desktop
    -------------------------------------------------------------------- */
+
 @media screen and (min-width: 768px) {
   .container {
     margin: 0 auto;
@@ -63,9 +65,11 @@
   .offset-11    { margin-left: 702px; }
 }
 
+
 /* -------------------------------------------------------------------- 
    Standard sized screens
    -------------------------------------------------------------------- */
+
 @media screen and (min-width: 960px) {
   .container {
     width: 940px;
@@ -97,9 +101,11 @@
   .offset-11    { margin-left: 900px; }
 }
 
+
 /* -------------------------------------------------------------------- 
    Large desktop screens
    -------------------------------------------------------------------- */
+
 @media screen and (min-width: 1200px) {
   .container {
     width: 1170px;
@@ -137,9 +143,11 @@
   .offset-11    { margin-left: 1130px; }
 }
 
+
 /* -------------------------------------------------------------------- 
    Clear all the things!
    -------------------------------------------------------------------- */
+
 .wrap:after { 
   content: "\0020";
   display: block;
