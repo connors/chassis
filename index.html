@@ -32,12 +32,18 @@
      - Complete the docs.
      - Finish the base theme.
      - Comment all the things!
+     - Browser/device testing.
      - Get a code review from Mark.
      - Refine code based on feedback.
      - Ship all the things!!!
    -->
 
   <body ontouchstart="">
+    <header class="masthead">
+      <h1 class="title">No Framework</h1>
+      <p class="subheader">A mobile first web framework for people that don't need a framework.</p>
+    </header>
+
     <div class="container">
       <div id="typography" class="wrap">
         <div class="column-2">
@@ -115,42 +121,131 @@
       </div>
 
       <div id="grid-example" class="wrap">
-        <div class="column-1 lg-column-6">6 column</div>
-        <div class="column-1 lg-column-6">6 column</div>
+        <div class="column-1 lg-column-6">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">6 columns</span>
+        </div>
+        <div class="column-1 lg-column-6">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">6 columns</span>
+        </div>
 
-        <div class="column-2 lg-column-12">12 columns</div>
-
-        <div class="column-1 lg-column-4">4 column</div>
-        <div class="column-1 lg-column-4">4 column</div>
-        <div class="column-2 lg-column-4">4 column</div>
-
-        <div class="column-2 lg-column-3">3 columns</div>
-        <div class="column-2 lg-column-3">3 columns</div>
-        <div class="column-2 lg-column-3">3 columns</div>
-        <div class="column-2 lg-column-3">3 columns</div>
+        <div class="column-2 lg-column-12">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">12 columns</span>
+        </div>
 
 
-        <div class="column-1 lg-column-2">2</div>
-        <div class="column-1 lg-column-2">2</div>
-        <div class="column-1 lg-column-2">2</div>
-        <div class="column-1 lg-column-2">2</div>
-        <div class="column-1 lg-column-2">2</div>
-        <div class="column-1 lg-column-2">2</div>
+        <div class="column-1 lg-column-4">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">4 columns</span>
+        </div>
+        <div class="column-1 lg-column-4">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">4 columns</span>
+        </div>
+        <div class="column-1 lg-column-4">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">4 columns</span>
+        </div>
 
-        <div class="column-2 lg-column-1">1</div>
-        <div class="column-2 lg-column-1">1</div>
-        <div class="column-2 lg-column-1">1</div>
-        <div class="column-2 lg-column-1">1</div>
-        <div class="column-2 lg-column-1">1</div>
-        <div class="column-2 lg-column-1">1</div>
-        <div class="column-2 lg-column-1">1</div>
-        <div class="column-2 lg-column-1">1</div>
-        <div class="column-2 lg-column-1">1</div>
-        <div class="column-2 lg-column-1">1</div>
-        <div class="column-2 lg-column-1">1</div>
-        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-3">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">3 columns</span>
+        </div>
+        <div class="column-2 lg-column-3">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">3 columns</span>
+        </div>
+        <div class="column-2 lg-column-3">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">3 columns</span>
+        </div>
+        <div class="column-2 lg-column-3">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">3 columns</span>
+        </div>
 
-        <div class="column-1 lg-column-11 offset-1">col</div>
+
+        <div class="column-1 lg-column-2">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">2 columns</span>
+        </div>
+        <div class="column-1 lg-column-2">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">2 columns</span>
+        </div>
+        <div class="column-1 lg-column-2">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">2 columns</span>
+        </div>
+        <div class="column-1 lg-column-2">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">2 columns</span>
+        </div>
+        <div class="column-1 lg-column-2">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">2 columns</span>
+        </div>
+        <div class="column-1 lg-column-2">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">2 columns</span>
+        </div>
+
+
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+        <div class="column-2 lg-column-1">
+          <span class="grid">2 columns</span>
+          <span class="lg-grid">1 column</span>
+        </div>
+
+        <div class="column-1 lg-column-11 offset-1">
+          <span class="grid">1 column</span>
+          <span class="lg-grid">11 columns</span>
+        </div>
       </div>
     </div>
   </body>
