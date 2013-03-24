@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>No Framework</title>
+    <meta name="description" content="A mobile first web framework for people that don't need a framework.">
+    <meta name="author" content="Connor Sears">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/docs.css">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="//use.typekit.net/xgn2yfk.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>  
+  </head>
+
+  <!-- TODO:
+     - Clean up base.css
+     - Check on the flexible grid for desktop screens.
+     - Finish components:
+          - Header (vertical media query)
+          - Popovers?
+          - Images
+          - Tables
+          - Typography
+     - Complete the docs.
+     - Finish the base theme.
+     - Comment all the things!
+     - Get a code review from Mark.
+     - Refine code based on feedback.
+     - Ship all the things!!!
+   -->
+
+  <body ontouchstart="">
+    <div class="container">
+      <div id="typography" class="wrap">
+        <div class="column-2">
+          <h1>h1. Heading 1</h1>
+          <h2>h2. Heading 2</h2>
+          <h3>h3. Heading 3</h3>
+          <h4>h4. Heading 4</h4>
+          <h5>h5. Heading 5</h5>
+          <h6>h6. Heading 6</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div id="icons" class="wrap">
+        <div class="column-2">
+          <i>&#128100;</i>
+          <i>&#128319;</i>
+          <i>&#128241;</i>
+          <i>&#59273;</i>
+          <i>&#9993;</i>
+          <i>&hearts;</i>
+          <i>&#59198;</i>
+          <i>&#59196;</i>
+          <i>&#127919;</i>
+          <i>&#128247;</i>
+        </div>
+      </div>
+
+      <div id="forms" class="wrap">
+        <div class="column-2">
+          <form>
+            <input type="text" placeholder="Your name">
+            <input type="search" placeholder="Search">
+            <textarea rows="5"></textarea>
+            <select>
+              <option>Option one</option>
+              <option>Option two</option>
+              <option>Option three</option>
+            </select>
+
+            <label>
+              <input type="checkbox" value="Check 1">
+              <span>Here's a checkbox</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Check 2">
+              <span>Here's another checkbox</span>
+            </label>
+
+            <label>
+              <input type="radio" name="radio-group" value="Radio 1">
+              <span>Choose this option</span>
+            </label>
+
+            <label>
+              <input type="radio" name="radio-group" value="Radio 2">
+              <span>Or this one</span>
+            </label>
+          </form>
+        </div>
+      </div>
+
+      <div id="buttons" class="wrap">
+        <div class="column-2">  
+          <a href="#buttons" class="button-small">Small button</a>
+          <a href="#buttons" class="button">Normal button</a>
+          <a href="#buttons" class="button-large">Large button</a>
+          <a href="#buttons" class="button-large button-block">Block button</a>
+        </div>
+      </div>
+
+      <div id="grid-example" class="wrap">
+        <div class="column-1 lg-column-6">6 column</div>
+        <div class="column-1 lg-column-6">6 column</div>
+
+        <div class="column-2 lg-column-12">12 columns</div>
+
+        <div class="column-1 lg-column-4">4 column</div>
+        <div class="column-1 lg-column-4">4 column</div>
+        <div class="column-2 lg-column-4">4 column</div>
+
+        <div class="column-2 lg-column-3">3 columns</div>
+        <div class="column-2 lg-column-3">3 columns</div>
+        <div class="column-2 lg-column-3">3 columns</div>
+        <div class="column-2 lg-column-3">3 columns</div>
+
+
+        <div class="column-1 lg-column-2">2</div>
+        <div class="column-1 lg-column-2">2</div>
+        <div class="column-1 lg-column-2">2</div>
+        <div class="column-1 lg-column-2">2</div>
+        <div class="column-1 lg-column-2">2</div>
+        <div class="column-1 lg-column-2">2</div>
+
+        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-1">1</div>
+        <div class="column-2 lg-column-1">1</div>
+
+        <div class="column-1 lg-column-11 offset-1">col</div>
+      </div>
+    </div>
+  </body>
+</html>

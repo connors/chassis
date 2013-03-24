@@ -1,0 +1,16 @@
+/* -------------------------------------------------------------------- 
+   Icons
+   -------------------------------------------------------------------- */
+  @font-face {
+    font-family: "Entypo";
+    src: url("../icons/entypo.eot");
+    src: url("../icons/entypo.eot?#iefix") format("embedded-opentype"),
+         url("../icons/entypo.woff") format("woff"),
+         url("../icons/entypo.ttf")  format("truetype"),
+         url("../icons/entypo.svg#svgFontName") format("svg");
+  }
+  i { 
+    font-family: "Entypo", sans-serif;
+    font-style: inherit;
+    font-size: 48px;
+  }

@@ -1,0 +1,168 @@
+/* -------------------------------------------------------------------- 
+   The grid
+   --------
+   Default mobile: Simple two column fluid grid for mobile.
+   Desktop/tablet: Simple twelve column fixed grid.
+   -------------------------------------------------------------------- */
+.container {
+  margin: 0 3%;
+}
+.wrap {
+  margin: 3% 0 -3% -3%;
+}
+[class*="column"] {
+  margin: 0 0 3% 3%;
+  float: left;
+}
+.column-1 { width: 47%; }
+.column-2 { width: 97%; }
+
+/* Offsets */
+.offset-1 { margin-left: 53%; }
+
+
+/* -------------------------------------------------------------------- 
+   Tablet to desktop
+   -------------------------------------------------------------------- */
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+    width: 724px;
+  }
+  .wrap {
+    margin: 20px 0 -20px -20px;
+  }
+  [class*="column"] {
+    margin: 0 0 20px 20px;
+  }
+
+  .lg-column-1  { width: 42px; }
+  .lg-column-2  { width: 104px; }
+  .lg-column-3  { width: 166px; }
+  .lg-column-4  { width: 228px; }
+  .lg-column-5  { width: 290px; }
+  .lg-column-6  { width: 352px; }
+  .lg-column-7  { width: 414px; }
+  .lg-column-8  { width: 476px; }
+  .lg-column-9  { width: 538px; }
+  .lg-column-10 { width: 600px; }
+  .lg-column-11 { width: 662px; }
+  .lg-column-12 { width: 724px; }
+
+  /* Offsets */
+  .offset-1     { margin-left: 82px; }
+  .offset-2     { margin-left: 144px; }
+  .offset-3     { margin-left: 206px; }
+  .offset-4     { margin-left: 268px; }
+  .offset-5     { margin-left: 330px; }
+  .offset-6     { margin-left: 392px; }
+  .offset-7     { margin-left: 454px; }
+  .offset-8     { margin-left: 516px; }
+  .offset-9     { margin-left: 578px; }
+  .offset-10    { margin-left: 640px; }
+  .offset-11    { margin-left: 702px; }
+}
+
+/* -------------------------------------------------------------------- 
+   Standard sized screens
+   -------------------------------------------------------------------- */
+@media screen and (min-width: 960px) {
+  .container {
+    width: 940px;
+  }
+  .lg-column-1  { width: 60px; }
+  .lg-column-2  { width: 140px; }
+  .lg-column-3  { width: 220px; }
+  .lg-column-4  { width: 300px; }
+  .lg-column-5  { width: 380px; }
+  .lg-column-6  { width: 460px; }
+  .lg-column-7  { width: 540px; }
+  .lg-column-8  { width: 620px; }
+  .lg-column-9  { width: 700px; }
+  .lg-column-10 { width: 780px; }
+  .lg-column-11 { width: 860px; }
+  .lg-column-12 { width: 940px; }
+
+  /* Offsets */
+  .offset-1     { margin-left: 100px; }
+  .offset-2     { margin-left: 180px; }
+  .offset-3     { margin-left: 260px; }
+  .offset-4     { margin-left: 340px; }
+  .offset-5     { margin-left: 420px; }
+  .offset-6     { margin-left: 500px; }
+  .offset-7     { margin-left: 580px; }
+  .offset-8     { margin-left: 660px; }
+  .offset-9     { margin-left: 740px; }
+  .offset-10    { margin-left: 820px; }
+  .offset-11    { margin-left: 900px; }
+}
+
+/* -------------------------------------------------------------------- 
+   Large desktop screens
+   -------------------------------------------------------------------- */
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  .wrap {
+    margin: 30px 0 -30px -30px;
+  }
+  [class*="column"] {
+    margin: 0 0 30px 30px;
+  }
+  .lg-column-1  { width: 70px; }
+  .lg-column-2  { width: 170px; }
+  .lg-column-3  { width: 270px; }
+  .lg-column-4  { width: 370px; }
+  .lg-column-5  { width: 470px; }
+  .lg-column-6  { width: 570px; }
+  .lg-column-7  { width: 670px; }
+  .lg-column-8  { width: 770px; }
+  .lg-column-9  { width: 870px; }
+  .lg-column-10 { width: 970px; }
+  .lg-column-11 { width: 1070px; }
+  .lg-column-12 { width: 1170px; }
+
+  /* Offsets */
+  .offset-1     { margin-left: 130px; }
+  .offset-2     { margin-left: 230px; }
+  .offset-3     { margin-left: 330px; }
+  .offset-4     { margin-left: 430px; }
+  .offset-5     { margin-left: 530px; }
+  .offset-6     { margin-left: 630px; }
+  .offset-7     { margin-left: 730px; }
+  .offset-8     { margin-left: 830px; }
+  .offset-9     { margin-left: 930px; }
+  .offset-10    { margin-left: 1030px; }
+  .offset-11    { margin-left: 1130px; }
+}
+
+/* -------------------------------------------------------------------- 
+   Clear all the things!
+   -------------------------------------------------------------------- */
+.wrap:after { 
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.wrap:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; 
+}
+.wrap:after,
+.clearfix:after {
+  clear: both;
+}
+.wrap,
+.clearfix {
+  zoom: 1;
+}

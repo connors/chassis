@@ -1,0 +1,53 @@
+/* -------------------------------------------------------------------- 
+   Forms
+   -------------------------------------------------------------------- */
+textarea,
+input[type="text"],
+input[type=search],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="color"],
+.input-group {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  background-color: #fff;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+}
+
+/* Search input */
+input[type=search] {
+  height: 34px;
+  border-radius: 30px !important;
+}
+
+/* Allow text area's height to grow larger than a normal input */
+textarea {
+  height: auto;
+}
+
+/* Style select button to look like part of the Ratchet's style */
+select {
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 350px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}

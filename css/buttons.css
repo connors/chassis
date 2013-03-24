@@ -1,0 +1,43 @@
+/* -------------------------------------------------------------------- 
+   Buttons
+   -------------------------------------------------------------------- */
+[class*="button"] {
+  position: relative;
+  display: inline-block;
+  padding: 5px 15px;
+  margin: 0;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  vertical-align: top;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+[class*="button"]:hover {
+  background-color: #fcfcfc;
+}
+.button-small {
+  padding: 3px 10px;
+  font-size: 12px;
+}
+.button-large {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.button-block {
+  display: block;
+}
+[class*="button"]:active {
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+.button-small:active {
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+.button-large:active {
+  padding-top: 11px;
+  padding-bottom: 9px;
+}

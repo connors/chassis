@@ -1,0 +1,12 @@
+/* -------------------------------------------------------------------- 
+   Theme
+   -------------------------------------------------------------------- */
+
+#grid-example [class*="column"] {
+  padding: 15px;
+  background: #eee; 
+  border-radius: 3px; 
+  text-align: center; 
+  font-weight: bold; 
+  color: #999;
+}
