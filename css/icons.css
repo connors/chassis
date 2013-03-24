@@ -10,8 +10,10 @@
        url("../icons/entypo.ttf")  format("truetype"),
        url("../icons/entypo.svg#svgFontName") format("svg");
 }
-i { 
+.icon {
+  display: inline-block;
   font-family: "Entypo", sans-serif;
   font-style: inherit;
   font-size: 48px;
+  line-height: 20px;
 }

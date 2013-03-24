@@ -42,3 +42,18 @@
   padding-top: 11px;
   padding-bottom: 9px;
 }
+
+/* Icons in buttons */
+[class*="button"] .icon {
+  margin-top: 5px;
+  font-size: 35px;
+  font-weight: normal;
+}
+.button-small .icon {
+  margin-top: 4px;
+  font-size: 30px;
+}
+.button-large .icon {
+  margin-top: 4px;
+  font-size: 40px;
+}

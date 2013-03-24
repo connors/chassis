@@ -29,6 +29,9 @@
           - Images
           - Tables
           - Typography
+          - Buttons
+            - Icons and text in buttons
+            - Icons only in buttons
      - Complete the docs.
      - Finish the base theme.
      - Comment all the things!
@@ -63,16 +66,16 @@
       </div>
       <div id="icons" class="wrap">
         <div class="column-2">
-          <i>&#128100;</i>
-          <i>&#128319;</i>
-          <i>&#128241;</i>
-          <i>&#59273;</i>
-          <i>&#9993;</i>
-          <i>&hearts;</i>
-          <i>&#59198;</i>
-          <i>&#59196;</i>
-          <i>&#127919;</i>
-          <i>&#128247;</i>
+          <i class="icon">&#128100;</i>
+          <i class="icon">&#128319;</i>
+          <i class="icon">&#128241;</i>
+          <i class="icon">&#59273;</i>
+          <i class="icon">&#9993;</i>
+          <i class="icon">&hearts;</i>
+          <i class="icon">&#59198;</i>
+          <i class="icon">&#59196;</i>
+          <i class="icon">&#127919;</i>
+          <i class="icon">&#128247;</i>
         </div>
       </div>
 
@@ -112,11 +115,26 @@
       </div>
 
       <div id="buttons" class="wrap">
-        <div class="column-2">  
+        <div class="column-2">
+          <h4>Buttons</h4>
           <a href="#buttons" class="button-small">Small button</a>
           <a href="#buttons" class="button">Normal button</a>
           <a href="#buttons" class="button-large">Large button</a>
           <a href="#buttons" class="button-large button-block">Block button</a>
+        </div>
+
+        <div class="column-2">  
+          <h4>Icon plus text buttons</h4>
+          <a href="#buttons" class="button-small"><i class="icon">&#9889;</i> Small button</a>
+          <a href="#buttons" class="button"><i class="icon">&#128640;</i> Normal button</a>
+          <a href="#buttons" class="button-large"><i class="icon">&#128101;</i> Large button</a>
+        </div>
+
+        <div class="column-2">  
+          <h4>Icon only buttons</h4>
+          <a href="#buttons" class="button-small"><i class="icon">&#10060;</i></a>
+          <a href="#buttons" class="button"><i class="icon">&#128222;</i></a>
+          <a href="#buttons" class="button-large"><i class="icon">&#59157;</i></a>
         </div>
       </div>
 
@@ -144,8 +162,8 @@
           <span class="grid">1 column</span>
           <span class="lg-grid">4 columns</span>
         </div>
-        <div class="column-1 lg-column-4">
-          <span class="grid">1 column</span>
+        <div class="column-2 lg-column-4">
+          <span class="grid">2 column</span>
           <span class="lg-grid">4 columns</span>
         </div>
 

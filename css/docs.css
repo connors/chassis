@@ -30,6 +30,15 @@
 .lg-grid { display: none; }
 
 @media screen and (min-width: 768px) {
+  .title {
+    font-size: 75px;
+    margin-bottom: 30px;
+  }
+  .subheader {
+    margin-bottom: 0;
+    font-size: 30px;
+  }
+
   .grid { display: none; }
   .lg-grid { display: inline; }
 }
