@@ -3,19 +3,22 @@
    -------------------------------------------------------------------- */
 
 .masthead {
-  text-align: center;
+  margin-bottom: 40px;
   padding: 12%;
   background-color: #f1f1f1;
+  text-align: center;
 }
 .title {
-  font-size: 45px;
+  font-size: 70px;
+  margin-bottom: 20px;
 }
 .subheader {
   margin-bottom: 0;
-  font-size: 22px;
+  font-size: 25px;
+  line-height: 30px;
 }
 
-#grid-example [class*="column"] {
+.grid-example [class*="column"] {
   padding: 15px;
   background: #eee; 
   border-radius: 3px; 
@@ -32,6 +35,34 @@
 #buttons [class*="button"] {
   margin-bottom: 5px;
 }
+.section {
+  margin-bottom: 20px;
+}
+.section-header {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+}
+.section-title {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.section-description {
+  font-size: 20px;
+}
+.section-divider {
+  margin: 20px -3% 50px;
+}
+.feature {
+  text-align: center;
+}
+.feature .icon {
+  font-size: 92px;
+  display: block;
+  margin-bottom: 10px;
+  line-height: 49px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(rgba(0,0,0,0.8)));
+}
 
 @media screen and (min-width: 768px) {
   .title {
@@ -45,4 +76,9 @@
 
   .grid { display: none; }
   .lg-grid { display: inline; }
+
+  .section-divider {
+    margin: 20px 0 50px;
+  }
+}
 }

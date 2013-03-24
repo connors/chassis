@@ -33,6 +33,7 @@
   }
   .wrap {
     margin: 20px 0 -20px -20px;
+    overflow: hidden;
   }
   [class*="column"] {
     margin: 0 0 20px 20px;

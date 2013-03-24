@@ -21,7 +21,6 @@
      - Check on the flexible grid for desktop screens.
      - Finish components:
           - Header (vertical media query)
-          - Popovers?
           - Images
           - Tables
           - Typography
@@ -39,14 +38,188 @@
      - Ship all the things!!!
    -->
 
-  <body ontouchstart="">
+  <body ontouchstart=""><!-- Make sure this isn't going to screw too much stuff up. -->
     <header class="masthead">
       <h1 class="title">Chassis</h1>
       <p class="subheader">A lightweight, mobile first approach to web development.</p>
     </header>
 
     <div class="container">
-      <div id="typography" class="wrap">
+
+      <div class="wrap section">
+        <div class="column-2 section-header">
+          <h3 class="section-title">Overview</h3>
+          <p class="section-description">It's just enough to get you started.</p>
+        </div>
+        <div class="column-1 lg-column-3 feature">
+          <i class="icon">&#128241;</i>
+          <h5>Mobile first</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="column-1 lg-column-3 feature">
+          <i class="icon">&#128167;</i>
+          <h5>Your style</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="column-1 lg-column-3 feature">
+          <i class="icon">&#128319;</i>
+          <h5>Lightweight</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="column-1 lg-column-3 feature">
+          <i class="icon">&#9889;</i>
+          <h5>Fast</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+
+      <hr class="section-divider">
+
+      <div class="wrap section">
+        <div class="column-2 section-header">
+          <h3 class="section-title">The grid</h3>
+          <p class="section-description">Chassis sets you up with headings and paragraphs.</p>
+        </div>
+        <div class="grid-example">
+          <div class="column-1 lg-column-6">
+            <span class="grid">1 column</span>
+            <span class="lg-grid">6 columns</span>
+          </div>
+          <div class="column-1 lg-column-6">
+            <span class="grid">1 column</span>
+            <span class="lg-grid">6 columns</span>
+          </div>
+
+          <div class="column-2 lg-column-12">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">12 columns</span>
+          </div>
+
+
+          <div class="column-1 lg-column-4">
+            <span class="grid">1 column</span>
+            <span class="lg-grid">4 columns</span>
+          </div>
+          <div class="column-1 lg-column-4">
+            <span class="grid">1 column</span>
+            <span class="lg-grid">4 columns</span>
+          </div>
+          <div class="column-2 lg-column-4">
+            <span class="grid">2 column</span>
+            <span class="lg-grid">4 columns</span>
+          </div>
+
+          <div class="column-2 lg-column-3">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">3 columns</span>
+          </div>
+          <div class="column-2 lg-column-3">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">3 columns</span>
+          </div>
+          <div class="column-2 lg-column-3">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">3 columns</span>
+          </div>
+          <div class="column-2 lg-column-3">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">3 columns</span>
+          </div>
+
+
+          <div class="column-1 lg-column-2">
+            <span class="grid">1 column</span>
+            <span class="lg-grid">2 columns</span>
+          </div>
+          <div class="column-1 lg-column-2">
+            <span class="grid">1 column</span>
+            <span class="lg-grid">2 columns</span>
+          </div>
+          <div class="column-1 lg-column-2">
+            <span class="grid">1 column</span>
+            <span class="lg-grid">2 columns</span>
+          </div>
+          <div class="column-1 lg-column-2">
+            <span class="grid">1 column</span>
+            <span class="lg-grid">2 columns</span>
+          </div>
+          <div class="column-1 lg-column-2">
+            <span class="grid">1 column</span>
+            <span class="lg-grid">2 columns</span>
+          </div>
+          <div class="column-1 lg-column-2">
+            <span class="grid">1 column</span>
+            <span class="lg-grid">2 columns</span>
+          </div>
+
+
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+          <div class="column-2 lg-column-1">
+            <span class="grid">2 columns</span>
+            <span class="lg-grid">1 column</span>
+          </div>
+
+          <div class="column-1 offset-1 lg-column-8 lg-offset-4">
+            <span class="grid">1 column</span>
+            <span class="lg-grid">8 columns, offset by 4</span>
+          </div>
+        </div>
+      </div>
+
+      <hr class="section-divider">
+
+      <div id="typography" class="wrap section">
+        <div class="column-2 section-header">
+          <h3 class="section-title">Typography</h3>
+          <p class="section-description">Chassis sets you up with headings and paragraphs.</p>
+        </div>
         <div class="column-2">
           <h1>h1. Heading 1</h1>
           <h2>h2. Heading 2</h2>
@@ -62,20 +235,47 @@
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
-      <div id="icons" class="wrap">
+
+      <hr class="section-divider">
+
+      <div id="buttons" class="wrap section">
+        <div class="column-2 section-header">
+          <h3 class="section-title">Buttons</h3>
+          <p class="section-description">Chassis sets you up with headings and paragraphs.</p>
+        </div>
         <div class="column-2">
-          <i class="icon">&#128100;</i>
-          <i class="icon">&#128319;</i>
-          <i class="icon">&#128241;</i>
-          <i class="icon">&#59273;</i>
-          <i class="icon">&#9993;</i>
-          <i class="icon">&hearts;</i>
-          <i class="icon">&#127919;</i>
-          <i class="icon">&#128247;</i>
+          <h4>Basic buttons</h4>
+          <p>  
+            <a href="#buttons" class="button-large">Large button</a>
+            <a href="#buttons" class="button">Normal button</a>
+            <a href="#buttons" class="button-small">Small button</a>
+          </p>
+
+          <p><a href="#buttons" class="button-large button-block">Block button</a></p>
+
+          <h4>Icon plus text buttons</h4>
+          <p>
+            <a href="#buttons" class="button-large"><i class="icon">&#128101;</i> Large button</a>
+            <a href="#buttons" class="button"><i class="icon">&#128640;</i> Normal button</a>
+            <a href="#buttons" class="button-small"><i class="icon">&#9889;</i> Small button</a>
+          </p>
+
+          <h4>Icon only buttons</h4>
+          <p>
+            <a href="#buttons" class="button-large"><i class="icon">&#59157;</i></a>
+            <a href="#buttons" class="button"><i class="icon">&#128222;</i></a>
+            <a href="#buttons" class="button-small"><i class="icon">&#10060;</i></a>
+          </p>
         </div>
       </div>
 
-      <div id="forms" class="wrap">
+      <hr class="section-divider">
+
+      <div id="forms" class="wrap section">
+        <div class="column-2 section-header">
+          <h3 class="section-title">Forms</h3>
+          <p class="section-description">Chassis sets you up with headings and paragraphs.</p>
+        </div>
         <div class="column-2">
           <form>
             <input type="text" placeholder="Your name">
@@ -110,158 +310,22 @@
         </div>
       </div>
 
-      <div id="buttons" class="wrap">
+      <hr class="section-divider">
+
+      <div id="icons" class="wrap section">
+        <div class="column-2 section-header">
+          <h3 class="section-title">Icons</h3>
+          <p class="section-description">A great icon font by Entypo.</p>
+        </div>
         <div class="column-2">
-          <h4>Buttons</h4>
-          <p>  
-            <a href="#buttons" class="button-large">Large button</a>
-            <a href="#buttons" class="button">Normal button</a>
-            <a href="#buttons" class="button-small">Small button</a>
-          </p>
-
-          <p><a href="#buttons" class="button-large button-block">Block button</a></p>
-
-          <h4>Icon plus text buttons</h4>
-          <p>
-            <a href="#buttons" class="button-large"><i class="icon">&#128101;</i> Large button</a>
-            <a href="#buttons" class="button"><i class="icon">&#128640;</i> Normal button</a>
-            <a href="#buttons" class="button-small"><i class="icon">&#9889;</i> Small button</a>
-          </p>
-
-          <h4>Icon only buttons</h4>
-          <p>
-            <a href="#buttons" class="button-large"><i class="icon">&#59157;</i></a>
-            <a href="#buttons" class="button"><i class="icon">&#128222;</i></a>
-            <a href="#buttons" class="button-small"><i class="icon">&#10060;</i></a>
-          </p>
-        </div>
-      </div>
-
-      <div id="grid-example" class="wrap">
-        <div class="column-1 lg-column-6">
-          <span class="grid">1 column</span>
-          <span class="lg-grid">6 columns</span>
-        </div>
-        <div class="column-1 lg-column-6">
-          <span class="grid">1 column</span>
-          <span class="lg-grid">6 columns</span>
-        </div>
-
-        <div class="column-2 lg-column-12">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">12 columns</span>
-        </div>
-
-
-        <div class="column-1 lg-column-4">
-          <span class="grid">1 column</span>
-          <span class="lg-grid">4 columns</span>
-        </div>
-        <div class="column-1 lg-column-4">
-          <span class="grid">1 column</span>
-          <span class="lg-grid">4 columns</span>
-        </div>
-        <div class="column-2 lg-column-4">
-          <span class="grid">2 column</span>
-          <span class="lg-grid">4 columns</span>
-        </div>
-
-        <div class="column-2 lg-column-3">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">3 columns</span>
-        </div>
-        <div class="column-2 lg-column-3">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">3 columns</span>
-        </div>
-        <div class="column-2 lg-column-3">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">3 columns</span>
-        </div>
-        <div class="column-2 lg-column-3">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">3 columns</span>
-        </div>
-
-
-        <div class="column-1 lg-column-2">
-          <span class="grid">1 column</span>
-          <span class="lg-grid">2 columns</span>
-        </div>
-        <div class="column-1 lg-column-2">
-          <span class="grid">1 column</span>
-          <span class="lg-grid">2 columns</span>
-        </div>
-        <div class="column-1 lg-column-2">
-          <span class="grid">1 column</span>
-          <span class="lg-grid">2 columns</span>
-        </div>
-        <div class="column-1 lg-column-2">
-          <span class="grid">1 column</span>
-          <span class="lg-grid">2 columns</span>
-        </div>
-        <div class="column-1 lg-column-2">
-          <span class="grid">1 column</span>
-          <span class="lg-grid">2 columns</span>
-        </div>
-        <div class="column-1 lg-column-2">
-          <span class="grid">1 column</span>
-          <span class="lg-grid">2 columns</span>
-        </div>
-
-
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-        <div class="column-2 lg-column-1">
-          <span class="grid">2 columns</span>
-          <span class="lg-grid">1 column</span>
-        </div>
-
-        <div class="column-1 offset-1 lg-column-8 lg-offset-4">
-          <span class="grid">1 column</span>
-          <span class="lg-grid">8 columns</span>
+          <i class="icon">&#128100;</i>
+          <i class="icon">&#128319;</i>
+          <i class="icon">&#128241;</i>
+          <i class="icon">&#59273;</i>
+          <i class="icon">&#9993;</i>
+          <i class="icon">&hearts;</i>
+          <i class="icon">&#127919;</i>
+          <i class="icon">&#128247;</i>
         </div>
       </div>
     </div>
