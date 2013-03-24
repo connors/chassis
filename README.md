@@ -1,4 +1,4 @@
 Chassis
 ===========
 
-A mobile first web framework for people that don't need a framework.
+A lightweight, mobile first approach to web development.
