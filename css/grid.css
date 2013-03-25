@@ -146,32 +146,21 @@
 
 
 /* -------------------------------------------------------------------- 
-   Clear all the things!
+   Clear all the things! Thanks @necolas.
    -------------------------------------------------------------------- */
 
-.wrap:after { 
-  content: "\0020";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
+.wrap:before,
+.wrap:after,
 .clearfix:before,
-.clearfix:after,
-.row:before,
-.wrap:after {
-  content: '\0020';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0; 
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
 .wrap:after,
 .clearfix:after {
-  clear: both;
+    clear: both;
 }
 .wrap,
 .clearfix {
-  zoom: 1;
+    *zoom: 1;
 }
