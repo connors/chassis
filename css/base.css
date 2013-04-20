@@ -37,9 +37,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 18px;
-  line-height: 28px;
+  font: 18px/1.6 "Helvetica Neue", sans-serif;
   color: #333;
   background-color: #fff;
   margin: 0;
@@ -62,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
 }
 h1, h2, h3 {
-  line-height: 40px;
+  line-height: 1;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
   font-weight: inherit; 

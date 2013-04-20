@@ -16,7 +16,6 @@
 .subheader {
   margin-bottom: 0;
   font-size: 25px;
-  line-height: 30px;
 }
 
 .grid-example [class*="column"] {
@@ -61,7 +60,7 @@
   font-size: 92px;
   display: block;
   margin-bottom: 10px;
-  line-height: 49px;
+  line-height: 50px;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(rgba(0,0,0,0.8)));
 }
 
