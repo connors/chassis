@@ -2,7 +2,7 @@
    The grid
    --------
    Default mobile: Simple two column fluid grid for mobile.
-   Desktop/tablet: Simple twelve column fixed grid.
+   Desktop/tablet: Simple twelve column fluid grid.
    -------------------------------------------------------------------- */
 
 .container {
@@ -26,122 +26,62 @@
    Tablet to desktop
    -------------------------------------------------------------------- */
 
-@media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) {
   .container {
     margin: 0 auto;
-    width: 724px;
+    max-width: 900px;
+    padding: 0 2%;
   }
   .wrap {
-    margin: 20px 0 -20px -20px;
+    margin: 2% 0 -2% -2%;
     overflow: hidden;
+    width: 102%;
   }
   [class*="column"] {
-    margin: 0 0 20px 20px;
+    margin: 0 0 2% 2%;
   }
 
-  .lg-column-1  { width: 42px; }
-  .lg-column-2  { width: 104px; }
-  .lg-column-3  { width: 166px; }
-  .lg-column-4  { width: 228px; }
-  .lg-column-5  { width: 290px; }
-  .lg-column-6  { width: 352px; }
-  .lg-column-7  { width: 414px; }
-  .lg-column-8  { width: 476px; }
-  .lg-column-9  { width: 538px; }
-  .lg-column-10 { width: 600px; }
-  .lg-column-11 { width: 662px; }
-  .lg-column-12 { width: 724px; }
+  /* Override the mobile grid */
+  .column-1 { width: 52%; }
+  .column-2 { width: 98%; }
+
+  /* Twelve column fluid grid */
+  .lg-column-1  { width: 6.333%; }
+  .lg-column-2  { width: 14.666%; }
+  .lg-column-3  { width: 23%; }
+  .lg-column-4  { width: 31.333%; }
+  .lg-column-5  { width: 39.666%; }
+  .lg-column-6  { width: 48%; }
+  .lg-column-7  { width: 56.333%; }
+  .lg-column-8  { width: 64.666%; }
+  .lg-column-9  { width: 73%; }
+  .lg-column-10 { width: 81.333%; }
+  .lg-column-11 { width: 89.666%; }
+  .lg-column-12 { width: 98%; }
 
   /* Offsets */
-  .lg-offset-1     { margin-left: 82px; }
-  .lg-offset-2     { margin-left: 144px; }
-  .lg-offset-3     { margin-left: 206px; }
-  .lg-offset-4     { margin-left: 268px; }
-  .lg-offset-5     { margin-left: 330px; }
-  .lg-offset-6     { margin-left: 392px; }
-  .lg-offset-7     { margin-left: 454px; }
-  .lg-offset-8     { margin-left: 516px; }
-  .lg-offset-9     { margin-left: 578px; }
-  .lg-offset-10    { margin-left: 640px; }
-  .lg-offset-11    { margin-left: 702px; }
+  .lg-offset-1     { margin-left: 10.333%; }
+  .lg-offset-2     { margin-left: 18.666%; }
+  .lg-offset-3     { margin-left: 27%; }
+  .lg-offset-4     { margin-left: 35.333%; }
+  .lg-offset-5     { margin-left: 43.666%; }
+  .lg-offset-6     { margin-left: 52%; }
+  .lg-offset-7     { margin-left: 60.333%; }
+  .lg-offset-8     { margin-left: 68.666%; }
+  .lg-offset-9     { margin-left: 77%; }
+  .lg-offset-10    { margin-left: 85.333%; }
+  .lg-offset-11    { margin-left: 93.666%; }
 }
 
 
 /* -------------------------------------------------------------------- 
-   Standard sized screens
+   Standard sized screens to large screens
    -------------------------------------------------------------------- */
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1000px) {
   .container {
-    width: 940px;
+    max-width: 1220px;
   }
-  .lg-column-1  { width: 60px; }
-  .lg-column-2  { width: 140px; }
-  .lg-column-3  { width: 220px; }
-  .lg-column-4  { width: 300px; }
-  .lg-column-5  { width: 380px; }
-  .lg-column-6  { width: 460px; }
-  .lg-column-7  { width: 540px; }
-  .lg-column-8  { width: 620px; }
-  .lg-column-9  { width: 700px; }
-  .lg-column-10 { width: 780px; }
-  .lg-column-11 { width: 860px; }
-  .lg-column-12 { width: 940px; }
-
-  /* Offsets */
-  .lg-offset-1     { margin-left: 100px; }
-  .lg-offset-2     { margin-left: 180px; }
-  .lg-offset-3     { margin-left: 260px; }
-  .lg-offset-4     { margin-left: 340px; }
-  .lg-offset-5     { margin-left: 420px; }
-  .lg-offset-6     { margin-left: 500px; }
-  .lg-offset-7     { margin-left: 580px; }
-  .lg-offset-8     { margin-left: 660px; }
-  .lg-offset-9     { margin-left: 740px; }
-  .lg-offset-10    { margin-left: 820px; }
-  .lg-offset-11    { margin-left: 900px; }
-}
-
-
-/* -------------------------------------------------------------------- 
-   Large desktop screens
-   -------------------------------------------------------------------- */
-
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-  .wrap {
-    margin: 30px 0 -30px -30px;
-  }
-  [class*="column"] {
-    margin: 0 0 30px 30px;
-  }
-  .lg-column-1  { width: 70px; }
-  .lg-column-2  { width: 170px; }
-  .lg-column-3  { width: 270px; }
-  .lg-column-4  { width: 370px; }
-  .lg-column-5  { width: 470px; }
-  .lg-column-6  { width: 570px; }
-  .lg-column-7  { width: 670px; }
-  .lg-column-8  { width: 770px; }
-  .lg-column-9  { width: 870px; }
-  .lg-column-10 { width: 970px; }
-  .lg-column-11 { width: 1070px; }
-  .lg-column-12 { width: 1170px; }
-
-  /* Offsets */
-  .lg-offset-1     { margin-left: 130px; }
-  .lg-offset-2     { margin-left: 230px; }
-  .lg-offset-3     { margin-left: 330px; }
-  .lg-offset-4     { margin-left: 430px; }
-  .lg-offset-5     { margin-left: 530px; }
-  .lg-offset-6     { margin-left: 630px; }
-  .lg-offset-7     { margin-left: 730px; }
-  .lg-offset-8     { margin-left: 830px; }
-  .lg-offset-9     { margin-left: 930px; }
-  .lg-offset-10    { margin-left: 1030px; }
-  .lg-offset-11    { margin-left: 1130px; }
 }
 
 
