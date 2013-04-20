@@ -19,7 +19,7 @@ body, h1, h2, h3, h4, h5, h6 {
    -------------------------------------------------------------------- */
 
 [class*="button"] {
-  text-shadow: 0 1px 0px rgba(255,255,255,1);
+  text-shadow: 0 1px 0 rgba(255,255,255,1);
   border-radius: 3px;
   border: 1px solid #ccc;
   box-shadow: 0 1px 1px rgba(0,0,0,.1);

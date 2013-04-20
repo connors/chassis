@@ -229,3 +229,23 @@ hr {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #fff;
 }
+
+/* -------------------------------------------------------------------- 
+   Responsive classes
+   -------------------------------------------------------------------- */
+.show-mobile  { display: inherit !important; }
+.hide-mobile  { display: none; }
+
+.show-desktop { display: none; }
+.hide-desktop { display: inherit !important; }
+
+@media screen and (min-width: 768px) {
+  .show-mobile  { display: none; }
+  .hide-mobile  { display: inherit !important; }
+
+  .show-desktop { display: inherit !important;; }
+  .hide-desktop { display: none; }
+}
+
+
+    
