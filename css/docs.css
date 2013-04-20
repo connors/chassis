@@ -1,10 +1,10 @@
 /* -------------------------------------------------------------------- 
-   Theme
+   Documentation styles
    -------------------------------------------------------------------- */
 
 .masthead {
   margin-bottom: 40px;
-  padding: 12%;
+  padding: 100px 30px;
   background-color: #f1f1f1;
   text-shadow: 0 1px 0 #fff;
   text-align: center;
@@ -30,13 +30,14 @@
   overflow: hidden;
 }
 
-.lg-grid { display: none; }
-
-#buttons [class*="button"] {
-  margin-bottom: 5px;
+.lg-grid { 
+  display: none;
+}
+.example [class*="button"] {
+  margin-bottom: 10px;
 }
 .section {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 .section-header {
   text-align: center;
@@ -51,7 +52,9 @@
   font-size: 20px;
 }
 .section-divider {
-  margin: 20px -3% 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  clear: both;
 }
 .feature {
   text-align: center;
@@ -65,9 +68,13 @@
 }
 
 @media screen and (min-width: 768px) {
+  .masthead {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
   .title {
     font-size: 75px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   .subheader {
     margin-bottom: 0;
@@ -78,7 +85,8 @@
   .lg-grid { display: inline; }
 
   .section-divider {
-    margin: 20px 0 50px;
+    margin-top: 80px;
+    margin-bottom: 120px;
   }
 }
 }

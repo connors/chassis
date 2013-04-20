@@ -6,20 +6,23 @@
    -------------------------------------------------------------------- */
 
 .container {
-  margin: 0 3%;
+  margin: 0 auto;
+  padding: 0 4%;
 }
 .wrap {
-  margin: 3% 0 -3% -3%;
+  margin: 4% 0 -4% -4%;
+  overflow: hidden;
+  width: 104%;
 }
 [class*="column"] {
-  margin: 0 0 3% 3%;
+  margin: 0 0 4% 4%;
   float: left;
 }
-.column-1 { width: 47%; }
-.column-2 { width: 97%; }
+.column-1 { width: 46%; }
+.column-2 { width: 96%; }
 
 /* Offsets */
-.offset-1 { margin-left: 53%; }
+.offset-1 { margin-left: 54%; }
 
 
 /* -------------------------------------------------------------------- 
@@ -28,13 +31,11 @@
 
  @media screen and (min-width: 768px) {
   .container {
-    margin: 0 auto;
     max-width: 900px;
     padding: 0 2%;
   }
   .wrap {
     margin: 2% 0 -2% -2%;
-    overflow: hidden;
     width: 102%;
   }
   [class*="column"] {
@@ -128,18 +129,17 @@
    Clear all the things! Thanks @necolas.
    -------------------------------------------------------------------- */
 
-.wrap:before,
-.wrap:after,
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-.wrap:after,
-.clearfix:after {
-    clear: both;
-}
 .wrap,
 .clearfix {
-    *zoom: 1;
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.wrap:after,
+.clearfix:after {
+  clear: both;
 }
