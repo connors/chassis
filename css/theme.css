@@ -6,7 +6,7 @@
    -------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------- 
-   Type
+   Theme's type style (Using Typekit)
    -------------------------------------------------------------------- */
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -15,7 +15,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 
 /* -------------------------------------------------------------------- 
-   Buttons
+   Theme's buttons
    -------------------------------------------------------------------- */
 
 [class*="button"] {
@@ -34,7 +34,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
 
 /* -------------------------------------------------------------------- 
-   Forms
+   Theme's forms styles
    -------------------------------------------------------------------- */
 
 textarea,
@@ -51,8 +51,32 @@ input[type="number"],
 input[type="email"],
 input[type="url"],
 input[type="tel"],
-input[type="color"],
-.input-group {
+input[type="color"] {
   border-radius: 3px;
   box-shadow: 0 1px 1px rgba(255, 255, 255, .2), inset 0 1px 1px rgba(0, 0, 0, .1);
+  -webkit-transition: border linear .2s, box-shadow linear .2s;
+     -moz-transition: border linear .2s, box-shadow linear .2s;
+          transition: border linear .2s, box-shadow linear .2s;
 }
+
+/* Focus states */
+textarea:focus,
+input[type="text"]:focus,
+input[type=search]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2), 0 1px 1px rgba(255, 255, 255, .2);
+}
+
+
+  

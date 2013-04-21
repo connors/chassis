@@ -30,6 +30,7 @@
 }
 .button-block {
   display: block;
+  width: 100%;
 }
 [class*="button"]:active {
   padding-top: 11px;

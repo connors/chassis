@@ -19,11 +19,7 @@
   <!-- TODO:
      - Clean up base.css
      - Finish components:
-          - Header (vertical media query)
           - Images
-          - Tables
-          - Typography
-          - Buttons: Icons only in buttons
      - Complete the docs.
      - Finish the base theme.
      - Add a starter template file.
@@ -37,10 +33,10 @@
    -->
 
   <body ontouchstart=""><!-- Make sure this isn't going to screw too much stuff up. -->
-    <header class="masthead">
+    <!-- <header class="masthead">
       <h1 class="title">Chassis</h1>
       <p class="subheader">A lightweight, mobile first approach to web development.</p>
-    </header>
+    </header> -->
 
     <div class="container">
 
@@ -280,7 +276,7 @@
         </div>
 
         <div id="typography" class="column-2 lg-column-3">
-          <h3>Typograghy</h3>
+          <h2>Typograghy</h2>
           <p>Chassis sets you up with headings and paragraphs.</p>
         </div>
         <div class="column-2 lg-column-8 lg-offset-1">
@@ -307,25 +303,25 @@
         <div class="example column-2 lg-column-8 lg-offset-1">
           <h5>Basic buttons</h5>
           <p>  
-            <a href="#buttons" class="button-large">Large button</a>
-            <a href="#buttons" class="button">Normal button</a>
-            <a href="#buttons" class="button-small">Small button</a>
+            <button class="button-large">Large button</button>
+            <button class="button">Normal button</button>
+            <button class="button-small">Small button</button>
           </p>
 
-          <p><a href="#buttons" class="button-large button-block">Block button</a></p>
+          <p><button class="button-large button-block">Block button</button></p>
 
           <h5>Icon plus text buttons</h5>
           <p>
-            <a href="#buttons" class="button-large"><i class="icon">&#59157;</i> Large button</a>
-            <a href="#buttons" class="button"><i class="icon">&#59157;</i> Normal button</a>
-            <a href="#buttons" class="button-small"><i class="icon">&#59157;</i> Small button</a>
+            <button class="button-large"><i class="icon">&#59157;</i> Large button</button>
+            <button class="button"><i class="icon">&#59157;</i> Normal button</button>
+            <button class="button-small"><i class="icon">&#59157;</i> Small button</button>
           </p>
 
           <h5>Icon only buttons</h5>
           <p>
-            <a href="#buttons" class="button-large"><i class="icon">&#59157;</i></a>
-            <a href="#buttons" class="button"><i class="icon">&#59157;</i></a>
-            <a href="#buttons" class="button-small"><i class="icon">&#59157;</i></a>
+            <button class="button-large"><i class="icon">&#59157;</i></button>
+            <button class="button"><i class="icon">&#59157;</i></button>
+            <button class="button-small"><i class="icon">&#59157;</i></button>
           </p>
         </div>
 
@@ -365,7 +361,48 @@
               <input type="radio" name="radio-group" value="Radio 2">
               <span>Or this one</span>
             </label>
+
+
+            <button type="submit" class="button-large">Submit</button>
           </form>
+        </div>
+
+        <hr class="column-2 section-divider">
+
+        <div id="images" class="column-2 lg-column-3">
+          <h3>Tables</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+
+        <div class="column-2 lg-column-8 lg-offset-1">
+          <div class="example-images">
+            <table>
+              <thead>
+                <tr>
+                  <th>First name</th>
+                  <th>Last name</th>
+                  <th>Company</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Connor</td>
+                  <td>Sears</td>
+                  <td>Pinterest</td>
+                </tr>
+                <tr>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>GitHub</td>
+                </tr>
+                <tr>
+                  <td>Dave</td>
+                  <td>Gamache</td>
+                  <td>Medium</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <hr class="column-2 section-divider">
@@ -373,6 +410,14 @@
         <div id="images" class="column-2 lg-column-3">
           <h3>Images</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+
+        <div class="column-2 lg-column-8 lg-offset-1">
+          <div class="example-images">
+            <img src="http://placehold.it/200x150">
+            <img src="http://placehold.it/200x150">
+            <img src="http://placehold.it/200x150">
+          </div>
         </div>
 
         <hr class="column-2 section-divider">

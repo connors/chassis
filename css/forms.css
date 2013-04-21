@@ -16,18 +16,16 @@ input[type="number"],
 input[type="email"],
 input[type="url"],
 input[type="tel"],
-input[type="color"],
-.input-group {
+input[type="color"] {
   display: block;
   width: 100%;
-  max-width: 350px;
   height: 40px;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid rgba(0, 0, 0, .2);
   background-color: #fff;
-  -webkit-appearance: none;
   box-sizing: border-box;
+  -webkit-appearance: none;
 }
 
 /* Search input */
@@ -36,19 +34,57 @@ input[type=search] {
   border-radius: 30px !important;
 }
 
-/* Allow text area's height to grow larger than a normal input */
+/* Make textareas height greater than inputs */
 textarea {
   height: auto;
 }
 
-/* Style select button to look like part of the Ratchet's style */
 select {
   margin-bottom: 10px;
   width: 100%;
-  max-width: 350px;
 }
 
 label {
   display: block;
   margin-bottom: 10px;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type=search]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {
+  border: 1px solid rgba(0, 0, 0, .3);
+  outline: 0;
+}
+
+@media screen and (min-width: 768px) {
+  textarea,
+  input[type="text"],
+  input[type=search],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"],
+  input[type="tel"],
+  input[type="color"],
+  select {
+    max-width: 400px;
+  }
 }
