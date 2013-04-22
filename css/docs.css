@@ -52,7 +52,7 @@
 }
 .section-header {
   margin-bottom: 40px;
-  text-align: center;
+  /*text-align: center;*/
   border-bottom: 1px solid #ddd;
 }
 .section-description {
@@ -66,6 +66,7 @@
 .section-divider {
   margin-top: 30px;
   margin-bottom: 50px;
+  border-top: 0;
   clear: both;
 }
 .feature {
@@ -137,8 +138,8 @@ body pre.prettyprint .clo {
     display: block;
   }
   .section-divider {
-    margin-top: 80px;
-    margin-bottom: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 }
