@@ -1,0 +1,26 @@
+/* -------------------------------------------------------------------- 
+   Tables
+   -------------------------------------------------------------------- */
+table {
+  margin-bottom: 10px;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-right: 0;
+  border-bottom: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+table th,
+table td {
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+table td {
+  background-color: #fcfcfc;
+}

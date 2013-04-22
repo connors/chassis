@@ -37,7 +37,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  font: 18px/1.6 "Helvetica Neue", sans-serif;
+  font: 18px/1.5 "Helvetica Neue", sans-serif;
   color: #333;
   background-color: #fff;
   margin: 0;
@@ -78,6 +78,18 @@ p img { margin: 0; }
 em { font-style: italic; }
 strong { font-weight: bold;  }
 small { font-size: 80%; }
+
+blockquote {
+  margin: 0;
+  padding: 2px 0 2px 20px;
+  border-left: 3px solid #ddd;
+}
+blockquote p {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 1.2em;
+}
 
 abbr[title] {
     border-bottom: 1px dotted;
@@ -240,11 +252,11 @@ hr {
 .hide-desktop { display: inherit !important; }
 
 @media screen and (min-width: 768px) {
-  .show-mobile  { display: none; }
+  .show-mobile  { display: none !important; }
   .hide-mobile  { display: inherit !important; }
 
   .show-desktop { display: inherit !important;; }
-  .hide-desktop { display: none; }
+  .hide-desktop { display: none !important; }
 }
 
 

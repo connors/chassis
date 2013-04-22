@@ -2,6 +2,7 @@
    Documentation styles
    -------------------------------------------------------------------- */
 
+/* Styles for the masthead at the top of the docs. */
 .masthead {
   margin-bottom: 40px;
   padding: 100px 30px;
@@ -18,21 +19,31 @@
   font-size: 25px;
 }
 
+/* Specific styles for the grid example of the docs. */
 .grid-example [class*="column"] {
   padding: 15px;
   background: #eee; 
-  border-radius: 3px; 
-  text-align: center; 
+  border-radius: 3px;
+  font-size: 14px;
   font-weight: bold; 
+  text-align: center;
   color: #999;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-
+.grid-example [class*="column"] .wrap {
+  margin-top: 20px;
+}
+.grid-example [class*="column"] .wrap [class*="column"] {
+  background: #ddd;
+}
+/* Hides the grid example text for desktop by default */
 .lg-grid { 
   display: none;
 }
+
+/* Button example styles */
 .example [class*="button"] {
   margin-bottom: 10px;
 }
@@ -67,6 +78,32 @@
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(rgba(0,0,0,0.8)));
 }
 
+/* Prettify styles */
+body pre.prettyprint {
+  margin-bottom: 50px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  background-color: #fafafa;
+  -webkit-border-radius: 3px; 
+     -moz-border-radius: 3px; 
+          border-radius: 3px; 
+}
+body pre.prettyprint .atn {
+  color: teal;
+}
+body pre.prettyprint .atv {
+  color: #d14;
+}
+body pre.prettyprint .pun,
+body pre.prettyprint .opn,
+body pre.prettyprint .clo {
+  color: #660;
+}
+[class*="column"] pre.prettyprint:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 768px) {
   .masthead {
     padding-top: 200px;
@@ -80,10 +117,15 @@
     margin-bottom: 0;
     font-size: 30px;
   }
-
+  .grid-example [class*="column"] { 
+    font-size: 16px;
+  }
   .grid { display: none; }
   .lg-grid { display: inline; }
-
+  /* Nested example text */
+  .nested-example .lg-grid { 
+    display: block;
+  }
   .section-divider {
     margin-top: 80px;
     margin-bottom: 120px;

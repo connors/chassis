@@ -31,7 +31,7 @@
 
  @media screen and (min-width: 768px) {
   .container {
-    max-width: 900px;
+    max-width: 1007px;
     padding: 0 2%;
   }
   .wrap {
@@ -79,9 +79,9 @@
    Standard sized screens to large screens
    -------------------------------------------------------------------- */
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .container {
-    max-width: 1220px;
+    max-width: 1262px;
     padding: 0 3%;
   }
   .wrap {
