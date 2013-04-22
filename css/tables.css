@@ -15,12 +15,15 @@ table {
      -moz-border-radius: 3px;
           border-radius: 3px;
 }
+table thead {
+  background-color: #fff;
+}
+table tbody {
+  background-color: #fafafa;
+}
 table th,
 table td {
   padding: 10px;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-}
-table td {
-  background-color: #fcfcfc;
 }

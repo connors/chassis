@@ -51,16 +51,17 @@
   margin-bottom: 60px;
 }
 .section-header {
+  margin-bottom: 40px;
   text-align: center;
   border-bottom: 1px solid #ddd;
-  margin-bottom: 40px;
-}
-.section-title {
-  font-size: 50px;
-  margin-bottom: 10px;
 }
 .section-description {
-  font-size: 20px;
+  font-size: 24px;
+  color: #777;
+}
+
+.section-description strong {
+  color: #333;
 }
 .section-divider {
   margin-top: 30px;
@@ -77,13 +78,19 @@
   line-height: 50px;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(rgba(0,0,0,0.8)));
 }
+.feature h3 {
+  font-size: 26px;
+}
 
 /* Prettify styles */
 body pre.prettyprint {
   margin-bottom: 50px;
   padding: 10px;
+  overflow-x: auto;
   border: 1px solid #ddd;
   font-size: 14px;
+  white-space: pre;
+  word-wrap: normal;
   background-color: #fafafa;
   -webkit-border-radius: 3px; 
      -moz-border-radius: 3px; 
@@ -94,6 +101,9 @@ body pre.prettyprint .atn {
 }
 body pre.prettyprint .atv {
   color: #d14;
+}
+body pre.prettyprint .com {
+  color: #999;
 }
 body pre.prettyprint .pun,
 body pre.prettyprint .opn,

@@ -37,7 +37,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  font: 18px/1.5 "Helvetica Neue", sans-serif;
+  font: 18px/1.4 "Helvetica Neue", sans-serif;
   color: #333;
   background-color: #fff;
   margin: 0;
@@ -60,24 +60,24 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
 }
 h1, h2, h3 {
-  line-height: 1;
+  line-height: 1.1;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
   font-weight: inherit; 
 }
-h1 { font-size: 45px; }
+h1 { font-size: 50px; }
 h2 { font-size: 40px; }
-h3 { font-size: 35px; }
-h4 { font-size: 30px; }
-h5 { font-size: 24px; }
-h6 { font-size: 18px; }
+h3 { font-size: 32px; }
+h4 { font-size: 22px; }
+h5 { font-size: 18px; }
+h6 { font-size: 14px; }
 
 p { margin: 0 0 20px 0; }
 p img { margin: 0; }
 
 em { font-style: italic; }
 strong { font-weight: bold;  }
-small { font-size: 80%; }
+small { font-size: 90%; }
 
 blockquote {
   margin: 0;
