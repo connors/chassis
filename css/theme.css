@@ -6,12 +6,14 @@
    -------------------------------------------------------------------- */
 
 /* -------------------------------------------------------------------- 
-   Theme's type style (Using Typekit)
+   Theme's type style (Open Sans)
    -------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300);
 
 body, h1, h2, h3, h4, h5, h6 {
-  font-family: "franklin-gothic-urw", "Helvetica Neue", Helvetica, serif;
+  font-family: 'Open Sans', sans-serif;
 }
+
 
 
 /* -------------------------------------------------------------------- 

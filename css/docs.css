@@ -2,6 +2,11 @@
    Documentation styles
    -------------------------------------------------------------------- */
 
+h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+
 /* Styles for the masthead at the top of the docs. */
 .masthead {
   margin-bottom: 40px;
