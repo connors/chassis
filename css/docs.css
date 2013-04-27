@@ -7,17 +7,21 @@
 }
 .masthead {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: -10px;
   padding-bottom: 30px;
+  color: #777;
   font-size: 40px;
   font-weight: 300;
-  color: #777;
-  border-bottom: 1px solid #ddd;
 }
 .section {
-  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-bottom: 80px;
   overflow: hidden;
   clear: both;
+}
+.section:first-child {
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 .section-description {
   margin-bottom: 30px;
@@ -28,11 +32,10 @@
 .section-sub-title {
   font-size: 24px;
 }
-/*.section-sub-title,*/
 .example {
   font-weight: 500;
 }
- /* Specific styles for the grid example of the docs. */
+/* Specific styles for the grid example of the docs. */
 .grid-example {
   clear: both;
 }
@@ -44,15 +47,13 @@
   font-weight: bold;
   color: #999;
   white-space: nowrap;
+  text-align: center;
   text-overflow: ellipsis;
   overflow: hidden;
   box-shadow: inset 0 0 2px rgba(0,0,0,.2);
 }
-.grid-example [class*="column"] .wrap {
-  margin-top: 20px;
-}
-.grid-example [class*="column"] .wrap [class*="column"] {
-  background: #ddd;
+.grid-example [class*="column"] [class*="column"] {
+  padding: 0 4%;
 }
 /* Hides the grid example text for desktop by default */
 .lg-grid { 

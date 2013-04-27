@@ -37,7 +37,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 body {
-  font: 18px/1.5 "Helvetica Neue", sans-serif;
+  font: 18px/1.5 "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
   color: #333;
   background-color: #fff;
   margin: 0;
