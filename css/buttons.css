@@ -19,6 +19,7 @@
 }
 [class*="button"]:hover {
   background-color: #fcfcfc;
+  color: #333;
 }
 .button-small {
   padding: 6px 8px;
