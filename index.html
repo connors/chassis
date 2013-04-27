@@ -10,7 +10,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="stylesheet" href="css/css-list.css">
     <link rel="stylesheet" href="css/theme.css">
-    <link rel="stylesheet" href="css/docs.css">
+    <link rel="stylesheet" href="css/test.css">
     <link rel="stylesheet" href="css/prettify.css">
     
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -20,361 +20,142 @@
   </head>
 
   <!-- TODO:
-     - Clean up base.css
-     - Complete the docs.
-     - Finish the base theme.
-     - Add a starter template file.
-     - Comment all the things!
-     - Browser/device testing.
-     - Get a code review from @mdo.
-     - Write the Readme.
-     - See if I can get @chassis on Twitter.
-     - Refine code based on feedback.
-     - Ship all the things!!!
+    - Refine masthead
+    - Refine icon section
+    - Write the docs
+    - Add templates
+    - Add Favicon
+    - Finish the base theme.
+    - Add a starter template file.
+    - Comment all the things!
+    - Browser/device testing.
+    - Get a code review from @mdo.
+    - Write the Readme.
+    - See if I can get @chassis on Twitter.
+    - Refine code based on feedback.
+    - Ship all the things!!!
    -->
 
-  <body ontouchstart=""><!-- Make sure this isn't going to screw too much stuff up. -->
-    
-    <!-- <header class="masthead">
-      <h1 class="title">Chassis</h1>
-      <p class="subheader">A lightweight, mobile first approach to web development.</p>
-    </header> -->
+  <body ontouchstart="">
+    <div class="dashboard">
+      <h1 class="title">Chassis <span class="byline">by <a href="">@connors</a></span></h1>
+      <ul class="navigation">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#grid">Grid</a></li>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#tables">Tables</a></li>
+        <li><a href="#icons">Icons</a></li>
+      </ul>
+    </div>
 
     <div class="container">
+      <div class="column-2 lg-column-9">
+        <div id="overview" class="section">
+          <!-- <h2 class="section-title">Overview</h2> -->
+          <p class="masthead">A lightweight HTML &amp; CSS base layer for mobile-first web development.</p>
+          <p>Chassis provides you with the base CSS and HTML files to jump start your web development. If you're looking for a full featured front-end framework, you're in the wrong place. Chassis gives you just what you need, and nothing else.</p>
+        </div>
 
-      <div class="wrap section">
-        <div class="column-2 section-header">
-          <h1 class="section-title">Overview</h1>
-          <p class="section-description">Chassis gives you everything you need and nothing you don't.</p>
-          <hr>
-        </div>
-        <div class="column-1 lg-column-3 feature">
-          <i class="icon">&#128241;</i>
-          <h3>Mobile first</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="column-1 lg-column-3 feature">
-          <i class="icon">&#128167;</i>
-          <h3>Your style</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <br class="clear hide-desktop">
-        <div class="column-1 lg-column-3 feature">
-          <i class="icon">&#128319;</i>
-          <h3>Lightweight</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="column-1 lg-column-3 feature">
-          <i class="icon">&#9889;</i>
-          <h3>Fast</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </div>
-
-      <div class="wrap section">
-        <div class="column-2 section-header">
-          <h1 class="section-title">The grid</h1>
+        <div id="grid" class="section">
+          <h2 class="section-title">Grid</h2>
           <p class="section-description">You're all set with this simple <strong>2 column grid for mobile</strong> and <strong>12 column grid for desktop</strong>.</p>
-          <hr>
-        </div>
-        <div class="grid-example">
-
-          <div class="column-1 lg-column-1">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          <div class="column-1 lg-column-1">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          <div class="column-2 lg-column-1">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          <div class="column-1 lg-column-1 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          <div class="column-2 lg-column-1 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          <div class="column-2 lg-column-1 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          <div class="column-2 lg-column-1 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          <div class="column-2 lg-column-1 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          <div class="column-2 lg-column-1 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          <div class="column-2 lg-column-1 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          <div class="column-2 lg-column-1 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          <div class="column-2 lg-column-1 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-
-
-          <div class="column-2 lg-column-2 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">2 columns</span>
-          </div>
-          <div class="column-2 lg-column-2 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">2 columns</span>
-          </div>
-          <div class="column-2 lg-column-2 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">2 columns</span>
-          </div>
-          <div class="column-2 lg-column-2 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">2 columns</span>
-          </div>
-          <div class="column-2 lg-column-2 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">2 columns</span>
-          </div>
-          <div class="column-2 lg-column-2 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">2 columns</span>
-          </div>
-
-
-          <div class="column-2 lg-column-3 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">3 columns</span>
-          </div>
-          <div class="column-2 lg-column-3 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">3 columns</span>
-          </div>
-          <div class="column-2 lg-column-3 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">3 columns</span>
-          </div>
-          <div class="column-2 lg-column-3 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">3 columns</span>
-          </div>
-
-
-          <div class="column-1 lg-column-4 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">4 columns</span>
-          </div>
-          <div class="column-1 lg-column-4 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">4 columns</span>
-          </div>
-          <div class="column-2 lg-column-4 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">4 columns</span>
-          </div>
-
-
-          <div class="column-1 lg-column-5 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">5 columns</span>
-          </div>
-          <div class="column-1 lg-column-7 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">7 columns</span>
-          </div>
-
-
-          <div class="column-1 lg-column-6 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">6 columns</span>
-          </div>
-          <div class="column-1 lg-column-6 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">6 columns</span>
-          </div>
-
-
-          <div class="column-2 lg-column-7 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">7 columns</span>
-          </div>
-          <div class="column-2 lg-column-5 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">5 columns</span>
-          </div>
-
-
-          <div class="column-1 lg-column-8 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">8 columns</span>
-          </div>
-          <div class="column-1 lg-column-4 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">4 columns</span>
-          </div>
-
-
-          <div class="column-1 lg-column-9 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">9 columns</span>
-          </div>
-          <div class="column-1 lg-column-3 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">3 columns</span>
-          </div>
-
-
-          <div class="column-1 lg-column-10 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">10 columns</span>
-          </div>
-          <div class="column-1 lg-column-2 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">2 columns</span>
-          </div>
-
-
-          <div class="column-1 lg-column-11 hide-mobile">
-            <span class="grid">1 columns</span>
-            <span class="lg-grid">11 columns</span>
-          </div>
-          <div class="column-1 lg-column-1 hide-mobile">
-            <span class="grid">1 column</span>
-            <span class="lg-grid">1 column</span>
-          </div>
-          
-          <div class="column-2 lg-column-12 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">12 columns</span>
-          </div>
-
-           <div class="column-1 offset-1 lg-column-10 lg-offset-2">
-            <span class="grid">1 column offset</span>
-            <span class="lg-grid">10 columns, offset by 2</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="wrap">
-        <div class="column-2 lg-column-3">
-          <h3>Simple grids</h3>
-          <p>Chassis sets you up with headings, paragraphs, and blockquotes.</p>
-        </div>
-        <div class="column-2 lg-column-8 lg-offset-1">
-
-<pre class="prettyprint code-example">
-&lt;div class=&quot;wrap&quot;&gt;
-  &lt;!-- Mobile: Two single columns --&gt;
-  &lt;!-- Desktop: Two six columns --&gt;
-  &lt;div class=&quot;column-1 lg-column-6&quot;&gt;&#8230;&lt;/div&gt;
-  &lt;div class=&quot;column-1 lg-column-6&quot;&gt;&#8230;&lt;/div&gt;
-
-  &lt;!-- Mobile: Two columns --&gt;
-  &lt;!-- Desktop: Twelve columns --&gt;
-  &lt;div class=&quot;column-2 lg-column-12&quot;&gt;&#8230;&lt;/div&gt;
-
-  &lt;!-- Mobile: One column ofset by one --&gt;
-  &lt;!-- Desktop: Ten columns offset by two --&gt;
-  &lt;div class=&quot;column-1 offset-1 lg-column-10 lg-offset-2&quot;&gt;&#8230;&lt;/div&gt;
-&lt;/div&gt;
-</pre>
-        </div>
-
-        <hr class="column-2 section-divider">
-
-        <div class="grid-example">
-          <!-- Testing nested grid -->
-          <div class="nested-example column-2 lg-column-8 hide-mobile">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">8 columns</span>
-            <div class="wrap">
-              <!-- Nesting two columns -->
-              <div class="column-1 lg-column-6">
-                <span class="grid">1 column</span>
-                <span class="lg-grid">6 columns nested</span>
-              </div>
-              <div class="column-1 lg-column-6">
-                <span class="grid">1 column</span>
-                <span class="lg-grid">6 columns nested</span>
-              </div>
+          <div class="grid-example">
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
             </div>
-          </div>
-          <div class="nested-example column-2 lg-column-4">
-            <span class="grid">2 columns</span>
-            <span class="lg-grid">4 columns</span>
-            <div class="wrap">
-              <!-- Nesting two columns -->
-              <div class="column-1 lg-column-12">
-                <span class="grid">1 column nested</span>
-                <span class="lg-grid">12 columns nested</span>
-              </div>
-              <div class="column-1 lg-column-12 hide-desktop">
-                <span class="grid">1 column nested</span>
-              </div>
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
+            </div>
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
+            </div>
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
+            </div>
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
+            </div>
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
+            </div>
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
+            </div>
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
+            </div>
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
+            </div>
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
+            </div>
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
+            </div>
+            <div class="column-1 lg-column-1 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">1 column</span>
+            </div>
+
+            <br class="clear">
+
+            <div class="column-1 lg-column-3 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">3 columns</span>
+            </div>
+            <div class="column-1 lg-column-3 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">3 columns</span>
+            </div>
+            <div class="column-1 lg-column-6 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">6 columns</span>
+            </div>
+
+            <div class="column-1 lg-column-7 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">7 columns</span>
+            </div>
+            <div class="column-1 lg-column-5 hide-mobile">
+              <span class="grid">1 column</span>
+              <span class="lg-grid">5 columns</span>
+            </div>
+            
+            <div class="column-2 lg-column-12 hide-mobile">
+              <span class="grid">2 columns</span>
+              <span class="lg-grid">9 columns</span>
+            </div>
+
+             <div class="column-1 offset-1 lg-column-10 lg-offset-2">
+              <span class="grid">1 column offset</span>
+              <span class="lg-grid">10 columns, offset by 2</span>
             </div>
           </div>
         </div>
 
-        <br class="clear">
+        <hr>
 
-        <div class="column-2 lg-column-3">
-          <h3>Nested grids</h3>
-          <p>Chassis sets you up with headings, paragraphs, and blockquotes.</p>
-        </div>
-
-        <div class="column-2 lg-column-8 lg-offset-1">
-
-<pre class="prettyprint code-example">
-&lt;div class=&quot;wrap&quot;&gt;
-  &lt;!-- Mobile: Two columns --&gt;
-  &lt;!-- Desktop: Eight columns --&gt;
-  &lt;div class=&quot;column-2 lg-column-8&quot;&gt;
-
-    &lt;!-- Nested grid --&gt;
-    &lt;div class=&quot;wrap&quot;&gt;
-      &lt;!-- Mobile: Two single columns --&gt;
-      &lt;!-- Desktop: Two six columns --&gt;
-      &lt;div class=&quot;column-1 lg-column-6&quot;&gt;&#8230;&lt;/div&gt;
-      &lt;div class=&quot;column-1 lg-column-6&quot;&gt;&#8230;&lt;/div&gt;
-    &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-</pre>
-        </div>
-
-        <hr class="column-2 section-divider">
-      </div>
-
-      <div class="wrap section">
-        <div id="typography" class="column-2 section-header">
-          <h1 class="section-title">Typography</h1>
+        <div id="typography" class="section">
+          <h2 class="section-title">Typography</h2>
           <p class="section-description">Chassis sets you up with headings, paragraphs, and blockquotes.</p>
-          <hr>
-        </div>
+          
+          <h3 class="section-sub-title">Headings</h3>
+          <p>Use headings to title and give hierarchy to your content. Chassis gives you <strong>six</strong> heading sizes to choose from. <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> </p>
 
-        <div class="column-2 lg-column-3">
-          <h3>Headings</h3>
-          <p>Chassis sets you up with headings, paragraphs, and blockquotes.</p>
-        </div>
-        <div class="column-2 lg-column-8 lg-offset-1">
           <h1>Heading 1</h1>
           <h2>Heading 2</h2>
           <h3>Heading 3</h3>
@@ -390,143 +171,88 @@
 &lt;h5&gt;Heading 5&lt;/h5&gt;
 &lt;h6&gt;Heading 6&lt;/h6&gt;
 </pre>
-        </div>
 
-        <div class="column-2 lg-column-3">
-          <h3>Body copy</h3>
-          <p>Chassis sets you up with headings, paragraphs, and blockquotes.</p>
-        </div>
-        <div class="column-2 lg-column-8 lg-offset-1">
-          <h4>Example</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+        <h3 class="section-sub-title">Body copy</h3>
+        <p>The default paragraph <code>font-size</code> for body copy is <strong>18px</strong> with a unit-less <code>line-height</code> of <strong>1.5</strong>.</p>
 <pre class="prettyprint code-example">
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod&#8230;&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&gt;
 </pre>
-        </div>
 
-        <div class="column-2 lg-column-3">
-          <h3>Blockquotes</h3>
-          <p>Chassis sets you up with headings, paragraphs, and blockquotes.</p>
-        </div>
-        <div class="column-2 lg-column-8 lg-offset-1">
-          <h4>Example</h4>
-          <blockquote>
-            <p>This is my block quote. There are many like it, but this one is mine.</p>
-            <small>Connor Sears</small>
-          </blockquote>
+        <h3 class="section-sub-title">Block quotes</h3>
+        <p>Use a <code>&lt;blockquote&gt;</code> to call out quoted text and give credit to the author.</p>
 
+        <h5 class="example">Example</h5>
+        <blockquote>
+          <p>This is my block quote. There are many like it, but this one is mine.</p>
+          <small>Connor Sears, Creator of Chassis</small>
+        </blockquote>
 <pre class="prettyprint code-example">
 &lt;blockquote&gt;
   &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor&#8230;&lt;/p&gt;
   &lt;small&gt;Some smart person&lt;/small&gt;
 &lt;/blockquote&gt;
 </pre>
-        </div>
+      </div>
 
-        <hr class="column-2 section-divider">
+      <hr>
 
-        <div id="buttons" class="column-2 section-header">
-          <h1 class="section-title">Buttons</h1>
-          <p class="section-description">If you need some buttons, Chassis has you covered.</p>
-          <hr>
-        </div>
+      <div id="buttons" class="section">
+        <h2 class="section-title">Buttons</h2>
+        <p class="section-description">If a button is what you need, Chassis has you covered.</p>
 
-        <div class="column-2 lg-column-3">
-          <h3>Basic buttons</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="column-2 lg-column-8 lg-offset-1">
-          <h4>Example</h4>
-          <p>  
-            <button class="button-large">Large button</button>
-            <br class="clear hide-desktop">
-            <button class="button">Normal button</button>
-            <br class="clear hide-desktop">
-            <button class="button-small">Small button</button>
-          </p>
-
+        <h3 class="section-sub-title">Basic buttons</h3>
+        <p>Use a <code>&lt;button&gt;</code> when you want your users to take action on something. Remember, you can also add the <code>button</code> class to any <code>&lt;a&gt;</code> to style it as a button.</p>
+        
+        <h5 class="example">Example</h5>
+        <p>  
+          <button class="button-large">Large button</button>
+          <br class="clear hide-desktop">
+          <button class="button">Normal button</button>
+          <br class="clear hide-desktop">
+          <button class="button-small">Small button</button>
+        </p>
 <pre class="prettyprint code-example">
 &lt;button class=&quot;button-large&quot;&gt;Large button&lt;/button&gt;
 &lt;button class=&quot;button&quot;&gt;Normal button&lt;/button&gt;
 &lt;button class=&quot;button-small&quot;&gt;Small button&lt;/button&gt;
 </pre>
-        </div>
 
-        <br class="clear">
-
-        <div class="column-2 lg-column-3">
-          <h3>Block buttons</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="column-2 lg-column-8 lg-offset-1">
-          <h4>Example</h4>
-          <p>
-            <button class="button-large button-block">Block button</button>
-          </p>
+        <h3 class="section-sub-title">Block buttons</h3>
+        <p>Add <code>button-block</code> to any button to make it span the full width of its parent element.</p>
+        <h5 class="example">Example</h5>
+        <p>
+          <button class="button-large button-block">Block button</button>
+        </p>
 
 <pre class="prettyprint code-example">
 &lt;button class=&quot;button-small button-block&quot;&gt;Block button&lt;/button&gt;
 </pre>
-        </div>
-
-        <br class="clear">
-
-        <div class="column-2 lg-column-3">
-          <h3>Buttons with icons</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="column-2 lg-column-8 lg-offset-1">
-          <h4>Example</h4>
-          <p>
-            <button class="button-large"><i class="icon">&#59157;</i> Large button</button>
-            <br class="clear hide-desktop">
-            <button class="button"><i class="icon">&#59157;</i> Normal button</button>
-            <br class="clear hide-desktop">
-            <button class="button-small"><i class="icon">&#59157;</i> Small button</button>
-          </p>
-
+        <h3 class="section-sub-title">Buttons with icons</h3>
+        <p>Placing <code>&lt;i class=&quot;icon&quot;&gt;</code> inside of a button allows you to add an icon. See <a href="icons">icons</a> to learn more.</p>
+        <h5 class="example">Example</h5>
+        <p>
+          <button class="button-large"><i class="icon">&#59157;</i> Large button</button>
+          <br class="clear hide-desktop">
+          <button class="button"><i class="icon">&#59157;</i> Normal button</button>
+          <br class="clear hide-desktop">
+          <button class="button-small"><i class="icon">&#59157;</i> Small button</button>
+        </p>
 <pre class="prettyprint code-example">
 &lt;button class=&quot;button-large&quot;&gt;&lt;i class=&quot;icon&quot;&gt;...&lt;/i&gt; Large button&lt;/button&gt;
 &lt;button class=&quot;button&quot;&gt;&lt;i class=&quot;icon&quot;&gt;...&lt;/i&gt; Normal button&lt;/button&gt;
 &lt;button class=&quot;button-small&quot;&gt;&lt;i class=&quot;icon&quot;&gt;...&lt;/i&gt; Small button&lt;/button&gt;
-</pre> 
-        </div>
-
-        <br class="clear">
-
-        <div class="column-2 lg-column-3">
-          <h3>Buttons with icons</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="example column-2 lg-column-8 lg-offset-1">
-          <h4>Example</h4>
-          <p>
-            <button class="button-large"><i class="icon">&#59157;</i></button>
-            <button class="button"><i class="icon">&#59157;</i></button>
-            <button class="button-small"><i class="icon">&#59157;</i></button>
-          </p>
-
-<pre class="prettyprint code-example">
-&lt;button class=&quot;button-large&quot;&gt;&lt;i class=&quot;icon&quot;&gt;&#8230;&lt;/i&gt;&lt;/button&gt;
-&lt;button class=&quot;button&quot;&gt;&lt;i class=&quot;icon&quot;&gt;&#8230;&lt;/i&gt;&lt;/button&gt;
-&lt;button class=&quot;button-small&quot;&gt;&lt;i class=&quot;icon&quot;&gt;&#8230;&lt;/i&gt;&lt;/button&gt;
 </pre>
-        </div>
+      </div>
 
-        <hr class="column-2 section-divider">
+      <hr>
 
-        <div id="forms" class="column-2 section-header">
-          <h1 class="section-title">Forms</h1>
-          <p class="section-description">Your users gonna need to do some typing. Add a form or two!</p>
-          <hr>
-        </div>
+      <div id="forms" class="section">
+        <h2 class="section-title">Forms</h2>
+        <p class="section-description">Adding a <code>&lt;form&gt;</code> allows you to gather data directly from your users.</p>
 
-        <div class="column-2 lg-column-3">
-          <h3>Basic structure</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="column-2 lg-column-8 lg-offset-1">
-          <h4>Example</h4>
+        <h5 class="example">Example</h5>
           <form>
             <input type="text" placeholder="Your name">
             <input type="search" placeholder="Search">
@@ -561,7 +287,6 @@
 
             <button type="submit" class="button-large">Submit</button>
           </form>
-
 <pre class="prettyprint code-example">
 &lt;form&gt;
   &lt;input type=&quot;text&quot; placeholder=&quot;Your name&quot;&gt;
@@ -588,51 +313,43 @@
   &lt;button type=&quot;submit&quot; class=&quot;button-large&quot;&gt;Submit&lt;/button&gt;
 &lt;/form&gt;
 </pre>
+      </div>
+
+      <hr>
+
+      <div id="tables" class="section">
+        <h2 class="section-title">Tables</h2>
+        <p class="section-description">If you need to display tabular data, using a <code>&lt;table&gt;</code> is your best option.</p>
+
+        <h5 class="example">Example</h5>
+        <div class="example-table">
+          <table>
+            <thead>
+              <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Company</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Connor</td>
+                <td>Sears</td>
+                <td>Pinterest</td>
+              </tr>
+              <tr>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>GitHub</td>
+              </tr>
+              <tr>
+                <td>Dave</td>
+                <td>Gamache</td>
+                <td>Medium</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-
-        <hr class="column-2 section-divider">
-
-        <div id="tables" class="column-2 section-header">
-          <h1 class="section-title">Tables</h1>
-          <p class="section-description">Your users gonna need to do some typing. Add a form or two!</p>
-          <hr>
-        </div>
-
-        <div class="column-2 lg-column-3">
-          <h3>Simple structure</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="column-2 lg-column-8 lg-offset-1">
-          <h4>Example</h4>
-          <div class="example-table">
-            <table>
-              <thead>
-                <tr>
-                  <th>First name</th>
-                  <th>Last name</th>
-                  <th>Company</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Connor</td>
-                  <td>Sears</td>
-                  <td>Pinterest</td>
-                </tr>
-                <tr>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>GitHub</td>
-                </tr>
-                <tr>
-                  <td>Dave</td>
-                  <td>Gamache</td>
-                  <td>Medium</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
 <pre class="prettyprint code-example">
 &lt;table&gt;
   &lt;thead&gt;
@@ -651,37 +368,25 @@
     &#8230;
   &lt;/tbody&gt;
 &lt;/table&gt;
-
 </pre>
-        </div>
+      </div>
 
-        <hr class="column-2 section-divider">
-
-        <div id="icons" class="column-2 section-header">
-          <h1 class="section-title">Icons</h1>
-          <p class="section-description">Your users gonna need to do some typing. Add a form or two!</p>
-          <hr>
-        </div>
-
-        <div class="column-2 lg-column-3">
-          <h3>Over 50 icons</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="column-2 lg-column-8 lg-offset-1">
-          <h4>Examples</h4>
-          <span class="icon-wrap"><i class="icon">&#128100;</i></span>
-          <span class="icon-wrap"><i class="icon">&#128319;</i></span>
-          <span class="icon-wrap"><i class="icon">&#128241;</i></span>
-          <span class="icon-wrap"><i class="icon">&#59273;</i></span>
-          <span class="icon-wrap"><i class="icon">&#9993;</i></span>
-          <span class="icon-wrap"><i class="icon">&hearts;</i></span>
-          <span class="icon-wrap"><i class="icon">&#128247;</i></span>
+      <hr>
+      
+      <div id="icons" class="section">
+        <h2 class="section-title">Icons</h2>
+        <p class="section-description">The <a href="http://www.entypo.com/">Entypo</a> icon font is included as the default icon set for Chassis. Use <code>&lt;i&gt;</code> for all icons.</p>
+        <h5 class="example">Examples</h5>
+        <span class="icon-wrap"><i class="icon">&#128100;</i></span>
+        <span class="icon-wrap"><i class="icon">&#128319;</i></span>
+        <span class="icon-wrap"><i class="icon">&#128241;</i></span>
+        <span class="icon-wrap"><i class="icon">&#59273;</i></span>
+        <span class="icon-wrap"><i class="icon">&#9993;</i></span>
+        <span class="icon-wrap"><i class="icon">&hearts;</i></span>
+        <span class="icon-wrap"><i class="icon">&#128247;</i></span>
 
 <pre class="prettyprint code-example">
 &lt;i class=&quot;icon&quot;&gt;&#8230;&lt;/i&gt;
 </pre>
         </div>
-      </div>
-    </div>
   </body>
-</html>
