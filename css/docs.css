@@ -2,11 +2,6 @@
    Documentation styles
    -------------------------------------------------------------------- */
 
-h2, h3, h4, h5, h6 {
-  font-weight: 300;
-}
-
-
 /* Styles for the masthead at the top of the docs. */
 .masthead {
   margin-bottom: 40px;
@@ -28,7 +23,7 @@ h2, h3, h4, h5, h6 {
 .grid-example [class*="column"] {
   padding: 15px;
   background: #eee; 
-  border-radius: 3px;
+  border: 1px solid #dedede;
   font-size: 14px;
   font-weight: bold; 
   text-align: center;
@@ -42,6 +37,7 @@ h2, h3, h4, h5, h6 {
 }
 .grid-example [class*="column"] .wrap [class*="column"] {
   background: #ddd;
+  border: 1px solid #ccc;
 }
 /* Hides the grid example text for desktop by default */
 .lg-grid { 
