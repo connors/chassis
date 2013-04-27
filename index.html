@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="css/css-list.css">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/docs.css">
+    <link rel="stylesheet" href="css/prettify.css">
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="js/docs.js"></script>
+    <script src="js/prettify.js"></script>
   </head>
 
   <!-- TODO:
@@ -42,6 +45,7 @@
         <div class="column-2 section-header">
           <h1 class="section-title">Overview</h1>
           <p class="section-description">Chassis gives you everything you need and nothing you don't.</p>
+          <hr>
         </div>
         <div class="column-1 lg-column-3 feature">
           <i class="icon">&#128241;</i>
@@ -55,6 +59,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
+        <br class="clear hide-desktop">
         <div class="column-1 lg-column-3 feature">
           <i class="icon">&#128319;</i>
           <h3>Lightweight</h3>
@@ -70,10 +75,11 @@
       </div>
 
       <div class="wrap section">
-        <!--<div class="column-2 section-header">
+        <div class="column-2 section-header">
           <h1 class="section-title">The grid</h1>
           <p class="section-description">You're all set with this simple <strong>2 column grid for mobile</strong> and <strong>12 column grid for desktop</strong>.</p>
-        </div>-->
+          <hr>
+        </div>
         <div class="grid-example">
 
           <div class="column-1 lg-column-1">
@@ -360,6 +366,7 @@
         <div id="typography" class="column-2 section-header">
           <h1 class="section-title">Typography</h1>
           <p class="section-description">Chassis sets you up with headings, paragraphs, and blockquotes.</p>
+          <hr>
         </div>
 
         <div class="column-2 lg-column-3">
@@ -367,20 +374,20 @@
           <p>Chassis sets you up with headings, paragraphs, and blockquotes.</p>
         </div>
         <div class="column-2 lg-column-8 lg-offset-1">
-          <h1>h1. Heading 1</h1>
-          <h2>h2. Heading 2</h2>
-          <h3>h3. Heading 3</h3>
-          <h4>h4. Heading 4</h4>
-          <h5>h5. Heading 5</h5>
-          <h6>h6. Heading 6</h6>
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
 
 <pre class="prettyprint code-example">
-&lt;h1&gt;Heading&lt;/h1&gt;
-&lt;h2&gt;Heading&lt;/h2&gt;
-&lt;h3&gt;Heading&lt;/h3&gt;
-&lt;h4&gt;Heading&lt;/h4&gt;
-&lt;h5&gt;Heading&lt;/h5&gt;
-&lt;h6&gt;Heading&lt;/h6&gt;
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
 </pre>
         </div>
 
@@ -420,6 +427,7 @@
         <div id="buttons" class="column-2 section-header">
           <h1 class="section-title">Buttons</h1>
           <p class="section-description">If you need some buttons, Chassis has you covered.</p>
+          <hr>
         </div>
 
         <div class="column-2 lg-column-3">
@@ -430,7 +438,9 @@
           <h4>Example</h4>
           <p>  
             <button class="button-large">Large button</button>
+            <br class="clear hide-desktop">
             <button class="button">Normal button</button>
+            <br class="clear hide-desktop">
             <button class="button-small">Small button</button>
           </p>
 
@@ -468,7 +478,9 @@
           <h4>Example</h4>
           <p>
             <button class="button-large"><i class="icon">&#59157;</i> Large button</button>
+            <br class="clear hide-desktop">
             <button class="button"><i class="icon">&#59157;</i> Normal button</button>
+            <br class="clear hide-desktop">
             <button class="button-small"><i class="icon">&#59157;</i> Small button</button>
           </p>
 
@@ -505,6 +517,7 @@
         <div id="forms" class="column-2 section-header">
           <h1 class="section-title">Forms</h1>
           <p class="section-description">Your users gonna need to do some typing. Add a form or two!</p>
+          <hr>
         </div>
 
         <div class="column-2 lg-column-3">
@@ -581,6 +594,7 @@
         <div id="tables" class="column-2 section-header">
           <h1 class="section-title">Tables</h1>
           <p class="section-description">Your users gonna need to do some typing. Add a form or two!</p>
+          <hr>
         </div>
 
         <div class="column-2 lg-column-3">
@@ -645,6 +659,7 @@
         <div id="icons" class="column-2 section-header">
           <h1 class="section-title">Icons</h1>
           <p class="section-description">Your users gonna need to do some typing. Add a form or two!</p>
+          <hr>
         </div>
 
         <div class="column-2 lg-column-3">

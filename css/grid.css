@@ -7,10 +7,10 @@
 
 .container {
   margin: 0 auto;
-  padding: 0 3%;
+  padding: 0 2%;
 }
 [class*="column"] {
-  padding: 0 0 3% 3%;
+  padding: 0 2%;
   float: left;
 }
 .column-1 { width: 50%; }
@@ -27,9 +27,10 @@
  @media screen and (min-width: 768px) {
   .container {
     max-width: 940px;
+    padding: 0;
   }
   [class*="column"] {
-    padding: 0 0 2% 2%;
+    padding: 0 1%;
   }
 
   /* Override the mobile grid */
@@ -72,10 +73,9 @@
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1170px;
-    /*padding: 0 3%;*/
   }
   [class*="column"] {
-    padding: 0 0 3% 3%;
+    padding: 0 1.5%;
   }
 }
 
