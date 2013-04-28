@@ -9,6 +9,9 @@
   margin: 0 auto;
   padding: 0 2%;
 }
+.col-group {
+  width: 100%;
+}
 [class*="column"] {
   padding: 0 2%;
   float: left;
@@ -84,17 +87,19 @@
    Clear all the things! Thanks @necolas.
    -------------------------------------------------------------------- */
 
-.wrap,
+.col-group,
 .clearfix {
   *zoom: 1;
 }
+.col-group:before,
+.col-group:after,
 .clearfix:before,
 .clearfix:after {
   display: table;
   line-height: 0;
   content: "";
 }
-.wrap:after,
+.col-group:after,
 .clearfix:after {
   clear: both;
 }

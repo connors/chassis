@@ -22,8 +22,8 @@ body, h1, h2, h3, h4, h5, h6 {
 
 [class*="button"] {
   text-shadow: 0 1px 0 rgba(255,255,255,1);
-  border-radius: 3px;
   border: 1px solid #ccc;
+  border-radius: 3px;
   box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
 [class*="button"]:hover {
@@ -78,6 +78,14 @@ input[type="url"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus {
   box-shadow: 0 0 5px rgba(0, 0, 0, .2), 0 1px 1px rgba(255, 255, 255, .2);
+}
+
+/* -------------------------------------------------------------------- 
+   Theme's table styles
+   -------------------------------------------------------------------- */
+
+table {
+  border-radius: 3px;
 }
 
 

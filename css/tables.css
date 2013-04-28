@@ -1,6 +1,7 @@
 /* -------------------------------------------------------------------- 
    Tables
    -------------------------------------------------------------------- */
+
 table {
   margin-bottom: 10px;
   width: 100%;
@@ -9,11 +10,7 @@ table {
   border-right: 0;
   border-bottom: 0;
   border-collapse: separate;
-  border-spacing: 0;
   text-align: left;
-  -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
 }
 table thead {
   background-color: #fff;

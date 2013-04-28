@@ -2,6 +2,9 @@
    Reset adapted from normalize.css by @necolas.
    -------------------------------------------------------------------- */
 
+/* Use box sizing on all the things! */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 article,
 aside,
 details,
@@ -24,7 +27,6 @@ audio:not([controls]) {
   display: none;
   height: 0;
 }
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
 /* -------------------------------------------------------------------- 
@@ -34,7 +36,7 @@ audio:not([controls]) {
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 }
 body {
   font: 18px/1.5 "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
@@ -76,7 +78,6 @@ h6 { font-size: 14px; }
 
 p { margin: 0 0 20px 0; }
 p img { margin: 0; }
-
 em { font-style: italic; }
 strong { font-weight: bold;  }
 small { font-size: 80%; }
@@ -89,7 +90,6 @@ code {
   border: 1px solid #e1e1e8;
   border-radius: 3px;
 }
-
 blockquote {
   margin: 0;
   padding: 2px 0 2px 20px;
@@ -101,6 +101,7 @@ blockquote p {
   font-weight: 300;
   font-size: 1.2em;
 }
+/* For when you're sourcing a quote */
 blockquote small { font-size: 90% }
 }
 
@@ -219,16 +220,16 @@ input[type="search"] {
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+  border: 0;
+  padding: 0;
 }
 textarea {
-    overflow: auto;
-    vertical-align: top;
+  overflow: auto;
+  vertical-align: top;
 }
 
 
@@ -237,8 +238,7 @@ textarea {
    -------------------------------------------------------------------- */
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-spacing: 0;
 }
 
 /* -------------------------------------------------------------------- 
@@ -255,6 +255,7 @@ hr {
 /* -------------------------------------------------------------------- 
    Responsive classes
    -------------------------------------------------------------------- */
+
 .show-mobile  { display: inherit !important; }
 .hide-mobile  { display: none; }
 
@@ -268,6 +269,3 @@ hr {
   .show-desktop { display: inherit !important;; }
   .hide-desktop { display: none !important; }
 }
-
-
-    
