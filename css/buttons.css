@@ -17,10 +17,6 @@
   border: 1px solid #ccc;
   background-color: #f8f8f8;
 }
-[class*="button"]:hover {
-  background-color: #fcfcfc;
-  color: #333;
-}
 .button-small {
   padding: 6px 8px;
   font-size: 14px;
@@ -32,6 +28,10 @@
 .button-block {
   display: block;
   width: 100%;
+}
+[class*="button"]:hover {
+  background-color: #fcfcfc;
+  color: #333;
 }
 [class*="button"]:active {
   padding-top: 11px;

@@ -26,14 +26,14 @@
   margin-bottom: -10px;
   padding-bottom: 24px;
   color: #777;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
   text-align: center;
 }
 /* Make the hr span the entire screen */
 .docs-split {
-  margin-left: -4%;
-  margin-right: -4%;
+  margin-left: -4.2%;
+  margin-right: -4.2%;
 }
 /* Hides some of the copy to bring the download button above the fold. */
 .hide-on-mobile {
@@ -68,6 +68,7 @@
 
 /* Specific styles for the grid example of the docs. */
 .grid-example {
+  margin-bottom: 40px;
   clear: both;
 }
 .grid-example [class*="column"] {
@@ -124,7 +125,7 @@ body pre.prettyprint {
   /* Make the hr span the full page on desktop. */
   .docs-split {
     margin-left: -25%;
-    margin-right: -55%;
+    margin-right: -51.5%%;
   }
   /* Desktop sidebar */
   .header {
