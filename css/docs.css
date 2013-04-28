@@ -9,6 +9,7 @@
   width: 100%;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
+  text-align: center;
 }
 .header .title {
   font-size: 24px;
@@ -25,8 +26,14 @@
   margin-bottom: -10px;
   padding-bottom: 24px;
   color: #777;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 300;
+  text-align: center;
+}
+/* Make the hr span the entire screen */
+.docs-split {
+  margin-left: -4%;
+  margin-right: -4%;
 }
 /* Hides some of the copy to bring the download button above the fold. */
 .hide-on-mobile {
@@ -106,12 +113,18 @@ body pre.prettyprint {
 
   .masthead {
     font-size: 40px;
+    text-align: inherit;
   }
   .hide-on-mobile {
-    display: inline;
+    display: block;
   }
   .download {
     display: inline-block;
+  }
+  /* Make the hr span the full page on desktop. */
+  .docs-split {
+    margin-left: -25%;
+    margin-right: -55%;
   }
   /* Desktop sidebar */
   .header {
@@ -122,8 +135,8 @@ body pre.prettyprint {
     left: 0;
     padding: 0 2%;
     width: 20%;
-    background-color: #f9f9f9;
     border-right: 1px solid #ddd;
+    text-align: inherit;
   }
   .header .title {
     position: absolute;
