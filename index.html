@@ -23,6 +23,7 @@
     - Make refinments to docs.
     - Getting links working right in sidebar.
     - Create mobile sidebar.
+    - Check up on firefox search input
     - Get a code review from @mdo.
     - Refine the sidebar of docs
     - Add Favicon
@@ -38,9 +39,8 @@
 
   <body ontouchstart="">
     <div class="header">
-      <h1 class="title">Chassis <span class="byline">by <a href="http://twitter.com/connors">@connors</a></span></h1>
+      <h1 class="title">Chassis<!--  <span class="byline">by <a href="http://twitter.com/connors">@connors</a></span> --></h1>
       <ul class="navigation">
-        <li><strong>Documentation</strong></li>
         <li><a href="#overview">Overview</a></li>
         <li><a href="#grid">Grid</a></li>
         <li><a href="#typography">Typography</a></li>
@@ -49,6 +49,10 @@
         <li><a href="#tables">Tables</a></li>
         <li><a href="#icons">Icons</a></li>
       </ul>
+      <ul class="version">
+        <li>Version 1.0</li>
+        <li><a href="">View on GitHub</a></li>
+      </ul>
     </div>
 
     <div class="container">
@@ -56,7 +60,7 @@
         <div id="overview" class="section">
           <p class="masthead">A lightweight HTML &amp; CSS base layer for mobile-first web development</p>
           <p class="hide-on-mobile">Chassis provides you with base CSS and HTML files to jump start your web development. If you're looking for a full featured front-end framework, you're in the wrong place. Chassis just gives you what you need, and nothing else.</p>
-          <a href="#" class="download button-large">Download Chassis</a>
+          <a href="#" class="download button-large"><i class="icon">&#59256;</i> Download Chassis</a>
           <!--<iframe src="http://ghbtns.com/github-btn.html?user=connors&repo=facebook-user-style&type=watch&size=large&count=true"
   allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>-->
         </div>
@@ -223,7 +227,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&g
         </blockquote>
 <pre class="prettyprint code-example">
 &lt;blockquote&gt;
-  &lt;p&gt;This is my block quote. There are many like it, but this one is mine.&#8230;&lt;/p&gt;
+  &lt;p&gt;This is my block quote. There are many like it, but this one is mine.&lt;/p&gt;
   &lt;small&gt;Connor Sears, Creator of Chassis&lt;/small&gt;
 &lt;/blockquote&gt;
 </pre>
@@ -239,7 +243,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&g
         <p>Use a <code>&lt;button&gt;</code> when you want your users to take action on something. Remember, you can also add the <code>button</code> class to any <code>&lt;a&gt;</code> to style it as a button.</p>
         
         <h5 class="example">Example</h5>
-        <p>  
+        <p class="btn-example">  
           <button class="button-large">Large button</button>
           <br class="clear hide-desktop">
           <button class="button">Normal button</button>
@@ -265,7 +269,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&g
         <h3 class="section-sub-title">Buttons with icons</h3>
         <p>Placing <code>&lt;i class=&quot;icon&quot;&gt;</code> inside of a button allows you to add an icon. See <a href="#icons">icons</a> to learn more.</p>
         <h5 class="example">Example</h5>
-        <p>
+        <p class="btn-example">
           <button class="button-large"><i class="icon">&#59157;</i> Large button</button>
           <br class="clear hide-desktop">
           <button class="button"><i class="icon">&#59157;</i> Normal button</button>

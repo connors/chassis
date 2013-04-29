@@ -5,20 +5,19 @@
 /* Header on mobile & sidebar on desktop */
 .header {
   display: block;
-  padding: 0 4%;
   width: 100%;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
   text-align: center;
 }
-.header .title {
+.title {
   font-size: 24px;
 }
-.header .byline {
-  display: none
-}
-.header .navigation{
+.navigation{
   display: none;
+}
+.version {
+  display: none
 }
 /* The masthead refers to the big explaination text at the top of the main column */
 .masthead {
@@ -91,6 +90,9 @@
 .lg-grid { 
   display: none;
 }
+.btn-example [class*="button"] {
+  margin-bottom: 10px;
+}
 
 /* Prettify styles */
 body pre.prettyprint {
@@ -111,7 +113,11 @@ body pre.prettyprint {
 @media screen and (min-width: 768px) {
   .grid { display: none; }
   .lg-grid { display: inline; }
-
+  /* Positions the main content column correctly with the sidebar. */
+  .container {
+    margin-left: 23%;
+    margin-right: 3%;
+  }
   .masthead {
     font-size: 40px;
     text-align: inherit;
@@ -124,8 +130,8 @@ body pre.prettyprint {
   }
   /* Make the hr span the full page on desktop. */
   .docs-split {
-    margin-left: -25%;
-    margin-right: -51.5%%;
+    margin-left: -8%;
+    margin-right: -41.1%;
   }
   /* Desktop sidebar */
   .header {
@@ -136,40 +142,59 @@ body pre.prettyprint {
     left: 0;
     padding: 0 2%;
     width: 20%;
+    background-color: #fafafa;
     border-right: 1px solid #ddd;
     text-align: inherit;
+    box-shadow: inset -1px 0 5px rgba(0,0,0,.05);
   }
-  .header .title {
-    position: absolute;
-    bottom: 20px;
+  .title {
+    margin-top: 47px;
     margin-right: 10%;
     font-size: 30px;
     text-shadow: 0 1px 0 #fff;
   }
-  .header .byline {
-    display: inline;
-    color: #777;
-    font-size: 14px;
-    font-weight: 500;
-  }
-  .header .byline a {
-    color: #777;
-  }
-  .header .byline a:hover {
-    color: #0964b5;
-  }
-  .header .navigation {
+  .navigation {
     display: block;
     padding: 0;
     margin: 30px 0 0 0;
     list-style: none;
   }
-  .header .navigation li {
+  .navigation li {
     padding: 5px 0;
   }
-  /* Positions the main content column correctly with the sidebar. */
-  .container {
-    margin-left: 23%;
-    margin-right: 3%;
+  .version {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 70%;
+    color: #777;
+    list-style: none;
+  }
+  .version li {
+    float: left;
+    padding-right: 20px;
+  }
+  .version a {
+    color: #777;
+  }
+  .version a:hover {
+    color: #0964b5;
+  }
+  .btn-example [class*="button"]  {
+    margin-bottom: 0;
+  }
+}
+/* SUPER JANK HACK */
+@media screen and (min-width: 1200px) {
+  .docs-split {
+    margin-right: -42.5%;
+  }
+}
+@media screen and (min-width: 1677px) {
+  .docs-split {
+    margin-right: -51.3%;
   }
 }

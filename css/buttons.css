@@ -5,7 +5,7 @@
 [class*="button"] {
   position: relative;
   display: inline-block;
-  padding: 10px 12px;
+  padding: 10px 12px 11px;
   margin: 0;
   color: #333;
   text-align: center;
@@ -18,11 +18,11 @@
   background-color: #f8f8f8;
 }
 .button-small {
-  padding: 6px 8px;
+  padding: 6px 8px 7px;
   font-size: 14px;
 }
 .button-large {
-  padding: 14px 20px;
+  padding: 14px 20px 16px;
   font-size: 22px;
 }
 .button-block {
@@ -35,15 +35,15 @@
 }
 [class*="button"]:active {
   padding-top: 11px;
-  padding-bottom: 9px;
+  padding-bottom: 10px;
 }
 .button-small:active {
   padding-top: 7px;
-  padding-bottom: 5px;
+  padding-bottom: 6px;
 }
 .button-large:active {
   padding-top: 15px;
-  padding-bottom: 13px;
+  padding-bottom: 15px;
 }
 
 /* Icons in buttons */
