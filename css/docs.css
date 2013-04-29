@@ -156,11 +156,23 @@ body pre.prettyprint {
   .navigation {
     display: block;
     padding: 0;
-    margin: 30px 0 0 0;
+    margin: 15px 0 0 0;
     list-style: none;
   }
-  .navigation li {
-    padding: 5px 0;
+  .navigation li a {
+    display: block;
+    padding: 12px 13%;
+    margin: 0 -12.5%;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+  }
+  .navigation li:first-child a {
+    border-top: 1px solid #ddd;
+  }
+  .navigation li a:hover {
+    color: #0882f0;
+    background-color: #fff;
+    box-shadow: inset -1px 0 5px rgba(0,0,0,.05);
   }
   .version {
     display: block;
