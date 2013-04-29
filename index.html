@@ -23,7 +23,6 @@
     - Make refinments to docs.
     - Getting links working right in sidebar.
     - Create mobile sidebar.
-    - Check up on firefox search input
     - Get a code review from @mdo.
     - Refine the sidebar of docs
     - Add Favicon
@@ -39,7 +38,7 @@
 
   <body ontouchstart="">
     <div class="header">
-      <h1 class="title">Chassis<!--  <span class="byline">by <a href="http://twitter.com/connors">@connors</a></span> --></h1>
+      <h1 class="title">Chassis</h1>
       <ul class="navigation">
         <li><a href="#overview">Overview</a></li>
         <li><a href="#grid">Grid</a></li>
@@ -49,6 +48,8 @@
         <li><a href="#tables">Tables</a></li>
         <li><a href="#icons">Icons</a></li>
       </ul>
+      <iframe class="star-btn" src="http://ghbtns.com/github-btn.html?user=connors&repo=facebook-user-style&type=watch&size=large&count=true"
+  allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
       <ul class="version">
         <li>Version 1.0</li>
         <li><a href="">View on GitHub</a></li>
@@ -59,10 +60,8 @@
       <div class="column-2 lg-column-9">
         <div id="overview" class="section">
           <p class="masthead">A lightweight HTML &amp; CSS base layer for mobile-first web development</p>
-          <p class="hide-on-mobile">Chassis provides you with base CSS and HTML files to jump start your web development. If you're looking for a full featured front-end framework, you're in the wrong place. Chassis just gives you what you need, and nothing else.</p>
+          <p class="hide-on-mobile">Chassis provides you with base CSS and HTML files to jump start your web development. If you're looking for a full featured front-end framework, you're in the wrong place. Chassis only gives you what you need and nothing else.</p>
           <a href="#" class="download button-large"><i class="icon">&#59256;</i> Download Chassis</a>
-          <!--<iframe src="http://ghbtns.com/github-btn.html?user=connors&repo=facebook-user-style&type=watch&size=large&count=true"
-  allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>-->
         </div>
 
         <hr class="docs-split">
@@ -165,28 +164,25 @@
           </div>
 
           <h3 class="section-sub-title">Simple structure</h3>
-          <p>Use headings to title and give hierarchy to your content. Chassis gives you <strong>six</strong> heading sizes to choose from. <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> </p>
+          <p>Creating a simple grid is easy. For mobile grids, use <code>.column-*</code> to specify the number of units that make up your column. If you want to take advantage of the twelve unit grid on desktops, use <code>.lg-column-*</code>. Optionally, use the <code>.col-group</code> parent wrapper to guarantee clearing.</p>
+          
+          <p>For mobile each row is composed of a total of <strong>two units</strong>. For desktops, each row is made up of <strong>twelve units</strong>.</p> 
+
+<pre class="prettyprint code-example less-margin">
+&lt;div class=&quot;container&quot;&gt;
+  &lt;!-- Mobile: Two single unit columns, one row --&gt;
+  &lt;!-- Desktop: A five unit column and a seven unit column, one row --&gt;
+  &lt;div class=&quot;column-1 lg-column-5&quot;&gt;&#8230;&lt;/div&gt;
+  &lt;div class=&quot;column-1 lg-column-7&quot;&gt;&#8230;&lt;/div&gt;
+&lt;/div&gt;
+</pre> 
+          <p>You can also offset columns using <code>.offset-1</code> on mobile and <code>.lg-offset-*</code> on desktop screens.</p>
 
 <pre class="prettyprint code-example">
-&lt;div class=&quot;container&quot;&gt; 
-  &lt;!-- This optional parent wrapper guarantees clearing. --&gt;
-  &lt;div class=&quot;col-group&quot;&gt;
-    
-    &lt;!-- Mobile: Two single unit columns, one row --&gt;
-    &lt;!-- Desktop: Two six unit columns, one row --&gt;
-    &lt;div class=&quot;column-1 lg-column-6&quot;&gt;&#8230;&lt;/div&gt;
-    &lt;div class=&quot;column-1 lg-column-6&quot;&gt;&#8230;&lt;/div&gt;
-
-    &lt;!-- Mobile: Stacked two unit columns, two rows --&gt;
-    &lt;!-- Desktop: A five unit column and a seven unit column, one row --&gt;
-    &lt;div class=&quot;column-2 lg-column-5&quot;&gt;&#8230;&lt;/div&gt;
-    &lt;div class=&quot;column-2 lg-column-7&quot;&gt;&#8230;&lt;/div&gt;
-    
-    &lt;!-- Mobile: One single unit column offset by one, one row --&gt;
-    &lt;!-- Desktop: Ten unit column offset by two, one row --&gt;
-    &lt;div class=&quot;column-1 lg-column-10 offset-1 lg-offset-2&quot;&gt;&#8230;&lt;/div&gt;
-
-  &lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;!-- Mobile: One single unit column offset by one, one row --&gt;
+  &lt;!-- Desktop: Ten unit column offset by two, one row --&gt;
+  &lt;div class=&quot;column-1 lg-column-10 offset-1 lg-offset-2&quot;&gt;&#8230;&lt;/div&gt;
 &lt;/div&gt;
 </pre>
         </div>
