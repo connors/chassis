@@ -180,10 +180,18 @@ body pre.less-margin {
   .navigation li:first-child a {
     border-top: 1px solid #ddd;
   }
+
+  .navigation li.active a,
   .navigation li a:hover {
-    color: #0882f0;
     background-color: #fff;
     box-shadow: inset -1px 0 5px rgba(0,0,0,.05);
+  }
+  .navigation li a:hover {
+    color: #0882f0;
+  }
+  .navigation li.active a {
+    color: #333;
+    font-weight: 700;
   }
   .star-btn { 
     display: block;
