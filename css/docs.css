@@ -22,25 +22,6 @@
 .version {
   display: none
 }
-/* The masthead refers to the big explaination text at the top of the main column */
-.masthead {
-  margin-top: 30px;
-  margin-bottom: -10px;
-  padding-bottom: 24px;
-  color: #777;
-  font-size: 24px;
-  font-weight: 300;
-  text-align: center;
-}
-/* Make the hr span the entire screen */
-.docs-split {
-  margin-left: -4.2%;
-  margin-right: -4.2%;
-}
-/* Hides some of the copy to bring the download button above the fold. */
-.hide-on-mobile {
-  display: none;
-}
 /* The download button has a little bit of top margin to position it nicely. */
 .download {
   display: block;
@@ -51,10 +32,6 @@
   margin-bottom: 80px;
   clear: both;
 }
-.section:first-child {
-  margin-top: 0;
-  margin-bottom: 50px;
-}
 .section-description {
   margin-bottom: 30px;
   color: #555;
@@ -64,9 +41,30 @@
 .section-sub-title {
   font-size: 24px;
 }
+/* The masthead refers to the big explaination text at the top of the main column */
+.masthead {
+  margin-top: 0;
+}
+.masthead-text {
+  margin-top: 30px;
+  margin-bottom: -10px;
+  padding-bottom: 24px;
+  color: #777;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+/* Hides some of the copy to bring the download button above the fold. */
+.hide-on-mobile {
+  display: none;
+}
 .example {
   font-weight: 500;
 }
+.docs-split {
+  clear: both;
+}
+
 
 /* Specific styles for the grid example of the docs. */
 .grid-example {
@@ -117,6 +115,12 @@ body pre.less-margin {
 }
 
 @media screen and (min-width: 768px) {
+  /* Shortening up the container width and increasing the padding for the docs. */
+  .container { max-width: 720px }
+  [class*="column"] {
+    padding: 0 1.5%;
+  }
+  /* Shows the correct grid example for when you're on mobile or desktop */
   .grid { display: none; }
   .lg-grid { display: inline; }
   /* Positions the main content column correctly with the sidebar. */
@@ -124,7 +128,7 @@ body pre.less-margin {
     margin-left: 23%;
     margin-right: 3%;
   }
-  .masthead {
+  .masthead-text {
     font-size: 40px;
     text-align: inherit;
   }
@@ -133,11 +137,6 @@ body pre.less-margin {
   }
   .download {
     display: inline-block;
-  }
-  /* Make the hr span the full page on desktop. */
-  .docs-split {
-    margin-left: -8%;
-    margin-right: -41.1%;
   }
   /* Desktop sidebar */
   .header {
@@ -213,16 +212,5 @@ body pre.less-margin {
   }
   .btn-example [class*="button"]  {
     margin-bottom: 0;
-  }
-}
-/* SUPER JANK HACK */
-@media screen and (min-width: 1200px) {
-  .docs-split {
-    margin-right: -42.5%;
-  }
-}
-@media screen and (min-width: 1677px) {
-  .docs-split {
-    margin-right: -51.3%;
   }
 }
