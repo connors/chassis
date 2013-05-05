@@ -96,14 +96,15 @@
 }
 /* Icons styles */
 .icon-examples {
+  margin-top: 40px;
   overflow: hidden;
 }
 .icon-wrap {
   margin-right: 10px;
   margin-bottom: 10px;
   float: left;
-  width: 64px;
-  height: 64px;
+  width: 38px;
+  height: 38px;
   border: 1px solid #ddd;
   text-align: center;
   border-radius: 3px;
@@ -112,6 +113,7 @@
 .icon-wrap i {
   display: block;
   line-height: 1;
+  font-size: 38px;
 }
 
 .footer {
