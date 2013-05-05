@@ -94,6 +94,13 @@
 .btn-example [class*="button"] {
   margin-bottom: 10px;
 }
+.footer {
+  padding: 21px 0;
+  margin: 0;
+  font-size: 70%;
+  color: #777;
+
+}
 
 /* Prettify styles */
 body pre.prettyprint {
@@ -147,7 +154,7 @@ body pre.less-margin {
     left: 0;
     padding: 0 2%;
     width: 20%;
-    background-color: #fafafa;
+    background-color: #f8f8f8;
     border-right: 1px solid #ddd;
     text-align: inherit;
     box-shadow: inset -1px 0 5px rgba(0,0,0,.05);
@@ -199,9 +206,9 @@ body pre.less-margin {
   .version {
     display: block;
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     margin: 0;
-    padding: 0;
+    padding: 0 0 20px;
     width: 100%;
     font-size: 70%;
     color: #777;
