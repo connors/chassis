@@ -28,8 +28,8 @@
   margin-top: 10px;
 }
 .section {
-  margin-top: 60px;
-  margin-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 60px;
   clear: both;
 }
 .section-description {
@@ -42,9 +42,6 @@
   font-size: 24px;
 }
 /* The masthead refers to the big explaination text at the top of the main column */
-.masthead {
-  margin-top: 0;
-}
 .masthead-text {
   margin-top: 30px;
   margin-bottom: -10px;
@@ -251,7 +248,7 @@ body pre.less-margin {
     box-shadow: inset -1px 0 5px rgba(0,0,0,.05);
   }
   .title {
-    margin-top: 47px;
+    margin-top: 57px;
     margin-right: 10%;
     font-size: 30px;
     text-shadow: 0 1px 0 #fff;
