@@ -30,8 +30,7 @@ input[type="color"] {
 
 /* Search input */
 input[type=search] {
-  height: 34px;
-  border-radius: 30px !important;
+  border-radius: 20px !important;
 }
 
 /* Make textareas height greater than inputs */
