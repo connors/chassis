@@ -1,4 +1,4 @@
-# Contributing to Ratchet
+# Contributing to Chassis
 
 ## Types of issues<a name="types-of-issues"></a>
 
