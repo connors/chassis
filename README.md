@@ -4,6 +4,11 @@ A lightweight HTML & CSS base layer for mobile-first web development.
 
 Chassis provides you with base CSS and HTML files to jump start your web development. If you're looking for a full featured front-end framework, you're in the wrong place. Chassis only gives you what you need and nothing else.
 
+## Getting started
+
+- Clone the repo `git clone git@github.com:connors/chassis.git` or just [download](http://connors.github.com/chassis/chassis.zip) the bundled CSS and JS
+- [Read the docs](http://connors.github.com/chassis) to learn how to create simple layouts and use Chassis' base layer patterns.
+
 ## Support
 
 Questions or discussions about Chassis should happen in the [Google group](https://groups.google.com/forum/#!forum/chassis) or hit up the Twitter account [@chassis](http://www.twitter.com/chassis).
