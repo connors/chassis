@@ -124,6 +124,75 @@
 
 }
 
+/* Layout thumbnails */
+.layout {
+  display: block;
+  padding: 3px;
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  -webkit-transition: border linear .2s, box-shadow linear .2s;
+     -moz-transition: border linear .2s, box-shadow linear .2s;
+          transition: border linear .2s, box-shadow linear .2s;
+}
+.layout:first-child {
+  margin-top: 0;
+}
+.layout:hover {
+  border: 1px solid rgba(0, 0, 0, .3);
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+[class*="thumb"] {
+  display: block;
+  margin-top: 1.4%;
+  width: 100%;
+  height: 50px;
+  background-color: #eee;
+  border-radius: 3px;
+}
+[class*="thumb"]:first-child {
+  margin-top: 0;
+}
+.thumb-main,
+.thumb-bar {
+  height: 150px;
+}
+.thumb-main {
+  float: left;
+  width: 74.5%;
+}
+.thumb-bar {
+  float: right;
+  width: 23.94%;
+}
+.thumb-middle,
+[class*="thumb-side"],
+[class*="thumb-small"] {
+  float: left;
+  margin-left: 1.4%;
+}
+.thumb-middle,
+[class*="thumb-side"] {
+  height: 150px;
+}
+.thumb-middle {
+  width: 49%;
+}
+[class*="thumb-side"] {
+  width: 24%;
+}
+.thumb-side-first {
+  margin-left: 0;
+}
+[class*="thumb-small"] {
+  width: 23.94%;
+}
+.thumb-small-first {
+  margin-left: 0;
+}
+
+
 /* Prettify styles */
 body pre.prettyprint {
   margin-bottom: 80px;
@@ -249,5 +318,18 @@ body pre.less-margin {
   }
   .btn-example [class*="button"]  {
     margin-bottom: 0;
+  }
+  .layout-examples {
+    overflow: hidden;
+  }
+  .layout {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 3px;
+    margin-left: 2%;
+    width: 32%;
+  }
+  .layout:first-child {
+    margin-left: 0;
   }
 }
