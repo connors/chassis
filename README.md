@@ -11,7 +11,7 @@ Chassis provides you with base CSS and HTML files to jump start your web develop
 
 ## Support
 
-Questions or discussions about Chassis should happen in the [Google group](https://groups.google.com/forum/#!forum/chassis) or hit up the Twitter account [@chassis](http://www.twitter.com/chassis).
+Questions or discussions about Chassis should happen in the [Google group](https://groups.google.com/forum/#!forum/chassis-support) or hit up the Twitter account [@chassis](http://www.twitter.com/chassis).
 
 
 
