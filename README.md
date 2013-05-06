@@ -20,7 +20,7 @@ Connor Sears
 
 - Twitter: [@connors](http://twitter.com/connors)
 - GitHub: [@connors](http://github.com/connors)
-- Website: [connorsear.com](http://connorsears.com)
+- Website: [connorsears.com](http://connorsears.com)
 
 
 ## License
