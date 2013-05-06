@@ -12,7 +12,7 @@ Questions or discussions about Chassis should happen in the [Google group](https
 
 ## Reporting bugs & contributing
 
-Please file a Github issue to [report a bug](http://github.com/connors/chassis/issues). When reporting a bug, be sure to follow the [contributor guidelines](https://github.com/connors/chassis/blob/master/CONTRIBUTING.md).
+Please file a Github issue to [report a bug](http://github.com/connors/chassis/issues). When reporting a bug, be sure to search for existing issues and read the [Issue Guidelines](https://github.com/necolas/issue-guidelines), written by [Nicolas Gallagher](https://github.com/necolas/).
 
 ## Author
 
