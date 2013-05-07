@@ -20,8 +20,8 @@ input[type="color"] {
   display: block;
   width: 100%;
   height: 40px;
-  padding: 10px;
   margin-bottom: 10px;
+  padding: 10px;
   border: 1px solid rgba(0, 0, 0, .2);
   background-color: #fff;
   -webkit-appearance: none;
@@ -29,7 +29,7 @@ input[type="color"] {
 
 /* Search input */
 input[type=search] {
-  border-radius: 20px;
+  border-radius: 20px !important;
 }
 
 /* Make textareas height greater than inputs */
@@ -83,6 +83,6 @@ input[type="color"]:focus {
   input[type="tel"],
   input[type="color"],
   select {
-    max-width: 400px;
+    max-width: 400px; /* Setting a max width for desktop screens. */
   }
 }

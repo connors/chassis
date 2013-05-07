@@ -39,11 +39,11 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
+  margin: 0;
+  padding: 0;
   font: 18px/1.5 "Helvetica Neue", Helvetica, sans-serif;
   color: #333;
   background-color: #fff;
-  margin: 0;
-  padding: 0;
 }
 a {
   color: #0882f0;
@@ -59,12 +59,9 @@ a:hover {
    Typography
    -------------------------------------------------------------------- */
    
-h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
-}
-h1, h2, h3 {
-  line-height: 1.1;
-}
+h1, h2, h3, h4, h5, h6 { margin: 10px 0; }
+h1, h2, h3 { line-height: 1.1; }
+
 h1 { font-size: 50px; }
 h2 { font-size: 40px; }
 h3 { font-size: 32px; }
@@ -92,8 +89,8 @@ blockquote {
 blockquote p {
   margin: 0;
   padding: 0;
-  font-weight: 300;
   font-size: 22px;
+  font-weight: 300;
 }
 /* For when you're sourcing a quote */
 blockquote small { font-size: 90% }
@@ -105,8 +102,8 @@ dfn {
   font-style: italic;
 }
 mark {
-  background: #ff0;
   color: #333;
+  background: #ff0;
 }
 code,
 kbd,
@@ -205,8 +202,8 @@ input[type="search"]::-webkit-search-decoration {
 }
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-  border: 0;
   padding: 0;
+  border: 0;
 }
 textarea {
   overflow: auto;
