@@ -329,4 +329,12 @@ body pre.less-margin {
   .layout:first-child {
     margin-left: 0;
   }
+  .thumb-main,
+  .thumb-bar {
+    height: 120px;
+  }
+  .thumb-middle,
+  [class*="thumb-side"] {
+    height: 120px;
+  }
 }

@@ -24,13 +24,12 @@ input[type="color"] {
   margin-bottom: 10px;
   border: 1px solid rgba(0, 0, 0, .2);
   background-color: #fff;
-  box-sizing: border-box;
   -webkit-appearance: none;
 }
 
 /* Search input */
 input[type=search] {
-  border-radius: 20px !important;
+  border-radius: 20px;
 }
 
 /* Make textareas height greater than inputs */

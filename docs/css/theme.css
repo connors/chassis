@@ -31,7 +31,18 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 [class*="button"]:active {
   background-color: #f3f3f3;
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+}
+[class*="button"]:active {
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+.button-small:active {
+  padding-top: 7px;
+  padding-bottom: 6px;
+}
+.button-large:active {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 

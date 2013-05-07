@@ -39,7 +39,7 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  font: 18px/1.5 "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
+  font: 18px/1.5 "Helvetica Neue", Helvetica, sans-serif;
   color: #333;
   background-color: #fff;
   margin: 0;
@@ -54,20 +54,16 @@ a:hover {
   color: #0964b5;
 }
 
+
 /* -------------------------------------------------------------------- 
    Typography
    -------------------------------------------------------------------- */
    
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, serif;
-  font-weight: bold;
   margin: 10px 0;
 }
 h1, h2, h3 {
   line-height: 1.1;
-}
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { 
-  font-weight: inherit; 
 }
 h1 { font-size: 50px; }
 h2 { font-size: 40px; }
@@ -76,15 +72,13 @@ h4 { font-size: 22px; }
 h5 { font-size: 18px; }
 h6 { font-size: 14px; }
 
-p { margin: 0 0 20px 0; }
+p { margin: 0 0 20px; }
 p img { margin: 0; }
-em { font-style: italic; }
-strong { font-weight: bold;  }
 small { font-size: 80%; }
 
 code {
   padding: 2px 4px;
-  font-size: 80% !important;
+  font-size: 80%;
   white-space: nowrap;
   background-color: #f7f7f9;
   border: 1px solid #e1e1e8;
@@ -99,40 +93,34 @@ blockquote p {
   margin: 0;
   padding: 0;
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 22px;
 }
 /* For when you're sourcing a quote */
 blockquote small { font-size: 90% }
-}
 
 abbr[title] {
-    border-bottom: 1px dotted;
-}
-b,
-strong {
-    font-weight: bold;
+  border-bottom: 1px dotted;
 }
 dfn {
-    font-style: italic;
+  font-style: italic;
 }
 mark {
-    background: #ff0;
-    color: #333;
+  background: #ff0;
+  color: #333;
 }
 code,
 kbd,
 pre,
 samp {
-    font-family: monospace, serif;
-    font-size: 1em;
+  font-family: monospace, serif;
 }
 pre {
-    white-space: pre;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C" "\201D" "\2018" "\2019";
 }
 sub,
 sup {
@@ -155,7 +143,7 @@ sub {
 
 img {
   max-width: 100%;
-  width: auto\9;
+  width: auto;
   height: auto;
 }
 svg:not(:root) {
@@ -178,8 +166,7 @@ figure {
 
 fieldset {
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-  border: 1px solid #c0c0c0;
+  padding: 10px;
 }
 legend {
   padding: 0;
@@ -195,7 +182,7 @@ textarea {
 }
 button,
 input {
-    line-height: normal;
+  line-height: normal;
 }
 button,
 html input[type="button"],
@@ -235,6 +222,7 @@ table {
   border-spacing: 0;
 }
 
+
 /* -------------------------------------------------------------------- 
    Misc
    -------------------------------------------------------------------- */
@@ -245,6 +233,7 @@ hr {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #fff;
 }
+
 
 /* -------------------------------------------------------------------- 
    Responsive classes
