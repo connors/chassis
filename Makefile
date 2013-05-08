@@ -27,6 +27,7 @@ gh-pages: build
 	git checkout gh-pages
 	sed -i -e 's/\.\.\//\.\//g' gh-pages/index.html
 	rm -rf ./css
+	rm -rf ./js
 	rm -rf ./lib
 	rm -rf ./dist
 	mv gh-pages/* .
