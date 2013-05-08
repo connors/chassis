@@ -68,7 +68,7 @@
   margin-bottom: 40px;
   clear: both;
 }
-.grid-example [class*="column"] {
+.grid-example .column {
   padding-top: 15px;
   padding-bottom: 15px;
   background: #eee; 
@@ -81,7 +81,7 @@
   overflow: hidden;
   border: 1px solid #ddd;
 }
-.grid-example [class*="column"] [class*="column"] {
+.grid-example .column .column {
   padding: 0 4%;
 }
 /* Hides the grid example text for desktop by default */
@@ -202,7 +202,7 @@ body pre.prettyprint {
   background-color: #fafafa;
   border-radius: 3px; 
 }
-[class*="column"] pre.prettyprint:last-child {
+.column pre.prettyprint:last-child {
   margin-bottom: 0;
 }
 body pre.less-margin {
@@ -212,7 +212,7 @@ body pre.less-margin {
 @media screen and (min-width: 768px) {
   /* Shortening up the container width and increasing the padding for the docs. */
   .container { max-width: 720px }
-  [class*="column"] {
+  .column {
     padding: 0 1.5%;
   }
   /* Shows the correct grid example for when you're on mobile or desktop */

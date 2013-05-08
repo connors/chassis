@@ -9,10 +9,10 @@
   margin: 0 auto;
   padding: 0 2%;
 }
-.col-group {
+.column-group {
   width: 100%;
 }
-[class*="column"] {
+.column {
   padding: 0 2%;
   float: left;
 }
@@ -32,7 +32,7 @@
     max-width: 940px;
     padding: 0;
   }
-  [class*="column"] {
+  .column {
     padding: 0 1%;
   }
 
@@ -77,7 +77,7 @@
   .container {
     max-width: 1170px;
   }
-  [class*="column"] {
+  .column {
     padding: 0 1.5%;
   }
 }
@@ -87,19 +87,19 @@
    Clear all the things! Thanks @necolas.
    -------------------------------------------------------------------- */
 
-.col-group,
+.column-group,
 .clearfix {
   *zoom: 1;
 }
-.col-group:before,
-.col-group:after,
+.column-group:before,
+.column-group:after,
 .clearfix:before,
 .clearfix:after {
   display: table;
   line-height: 0;
   content: "";
 }
-.col-group:after,
+.column-group:after,
 .clearfix:after {
   clear: both;
 }
