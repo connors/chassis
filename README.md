@@ -14,7 +14,6 @@ Chassis provides you with base CSS and HTML files to jump start your web develop
 Questions or discussions about Chassis should happen in the [Google group](https://groups.google.com/forum/#!forum/chassis-support) or hit up the Twitter account [@chassis](http://www.twitter.com/chassis).
 
 
-
 ## Reporting bugs & contributing
 
 Please file a Github issue to [report a bug](http://github.com/connors/chassis/issues). When reporting a bug, be sure to search for existing issues and read the [Issue Guidelines](https://github.com/necolas/issue-guidelines), written by [Nicolas Gallagher](https://github.com/necolas/).
