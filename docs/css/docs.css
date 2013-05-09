@@ -133,10 +133,10 @@
      -moz-transition: border linear .2s, box-shadow linear .2s;
           transition: border linear .2s, box-shadow linear .2s;
 }
-.layout:first-child {
+.layout-example:first-child {
   margin-top: 0;
 }
-.layout:hover {
+.layout-example:hover {
   border: 1px solid rgba(0, 0, 0, .3);
   box-shadow: 0 1px 3px rgba(0,0,0,.1);
 }
@@ -319,14 +319,14 @@ body pre.less-margin {
   .layout-examples {
     overflow: hidden;
   }
-  .layout {
+  .layout-example {
     float: left;
     margin-top: 0;
     margin-bottom: 3px;
     margin-left: 2%;
     width: 32%;
   }
-  .layout:first-child {
+  .layout-example:first-child {
     margin-left: 0;
   }
   .thumb-main,
