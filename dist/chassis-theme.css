@@ -29,19 +29,18 @@ body {
   background-color: #fff;
 }
 .button:active {
-  background-color: #f3f3f3;
-}
-.button:active {
   padding-top: 11px;
-  padding-bottom: 10px;
+  padding-bottom: 9px;
+  background-color: #f3f3f3;
 }
 .button-small:active {
   padding-top: 7px;
-  padding-bottom: 6px;
+  padding-bottom: 5px;
 }
-.button-large:active {
+.button-large:active,
+.button-block:active {
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 13px;
 }
 
 

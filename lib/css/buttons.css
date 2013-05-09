@@ -18,12 +18,12 @@
   background-color: #f8f8f8;
 }
 .button-small {
-  padding: 6px 8px 7px;
+  padding: 6px 8px;
   font-size: 14px;
 }
 .button-large,
 .button-block {
-  padding: 14px 20px 16px;
+  padding: 14px 20px;
   font-size: 22px;
 }
 .button-block {
