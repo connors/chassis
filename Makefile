@@ -20,12 +20,16 @@ gh-pages: build
 	cp -r dist gh-pages/dist
 	cd gh-pages
 	cp -r dist chassis
+	cp -r dist/icons chassis/icons
 	zip -r chassis.zip chassis
 	rm -rf chassis
 	cd ..
 	git fetch origin
 	git checkout gh-pages
 	sed -i -e 's/\.\.\//\.\//g' gh-pages/index.html
+	sed -i -e 's/\.\.\//\.\//g' gh-pages/layout-example-one.html
+	sed -i -e 's/\.\.\//\.\//g' gh-pages/layout-example-two.html
+	sed -i -e 's/\.\.\//\.\//g' gh-pages/layout-example-three.html
 	rm -rf ./css
 	rm -rf ./js
 	rm -rf ./lib
