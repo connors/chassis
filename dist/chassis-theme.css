@@ -19,19 +19,19 @@ body {
    Theme's buttons
    -------------------------------------------------------------------- */
 
-[class*="button"] {
+.button {
   text-shadow: 0 1px 0 rgba(255,255,255,1);
   border: 1px solid #ccc;
   border-radius: 3px;
   box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
-[class*="button"]:hover {
+.button:hover {
   background-color: #fff;
 }
-[class*="button"]:active {
+.button:active {
   background-color: #f3f3f3;
 }
-[class*="button"]:active {
+.button:active {
   padding-top: 11px;
   padding-bottom: 10px;
 }
