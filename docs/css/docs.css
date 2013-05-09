@@ -122,7 +122,7 @@
 }
 
 /* Layout thumbnails */
-.layout {
+.layout-example {
   display: block;
   padding: 3px;
   margin-top: 20px;
@@ -313,7 +313,7 @@ body pre.less-margin {
   .version a:hover {
     color: #0964b5;
   }
-  .btn-example [class*="button"]  {
+  .btn-example .button  {
     margin-bottom: 0;
   }
   .layout-examples {
