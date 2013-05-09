@@ -416,11 +416,11 @@ hr {
 /* Embedding the icon font */
 @font-face {
   font-family: "Entypo";
-  src: url("../icons/entypo.eot");
-  src: url("../icons/entypo.eot?#iefix") format("embedded-opentype"),
-       url("../icons/entypo.woff") format("woff"),
-       url("../icons/entypo.ttf")  format("truetype"),
-       url("../icons/entypo.svg#svgFontName") format("svg");
+  src: url("icons/entypo.eot");
+  src: url("icons/entypo.eot?#iefix") format("embedded-opentype"),
+       url("icons/entypo.woff") format("woff"),
+       url("icons/entypo.ttf")  format("truetype"),
+       url("icons/entypo.svg#svgFontName") format("svg");
 }
 .icon {
   display: inline-block;
