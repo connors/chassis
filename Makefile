@@ -20,7 +20,6 @@ gh-pages: build
 	cp -r dist gh-pages/dist
 	cd gh-pages
 	cp -r dist chassis
-	cp -r dist/icons chassis/icons
 	zip -r chassis.zip chassis
 	rm -rf chassis
 	cd ..
