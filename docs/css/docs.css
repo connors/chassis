@@ -28,8 +28,7 @@
   margin-top: 10px;
 }
 .section {
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin: 40px 0 60px;
   clear: both;
 }
 .section-description {
@@ -43,8 +42,7 @@
 }
 /* The masthead refers to the big explaination text at the top of the main column */
 .masthead-text {
-  margin-top: 30px;
-  margin-bottom: -10px;
+  margin: 30px 0 -10px;
   padding-bottom: 24px;
   color: #777;
   font-size: 24px;
@@ -62,11 +60,14 @@
   clear: both;
 }
 
-
 /* Specific styles for the grid example of the docs. */
 .grid-example {
   margin-bottom: 40px;
   clear: both;
+}
+/* Lines up the grid example for presentation's sake. */
+.grid-example > .column-group {
+  margin: 0;
 }
 .grid-example .column {
   padding-top: 15px;
@@ -81,9 +82,12 @@
   overflow: hidden;
   border: 1px solid #ddd;
 }
+/* Next column example styles */
 .grid-example .column .column {
-  padding: 0 4%;
+  background: #ccc; 
+  border: 1px solid #aaa;
 }
+
 /* Hides the grid example text for desktop by default */
 .lg-grid { 
   display: none;
@@ -97,8 +101,7 @@
   overflow: hidden;
 }
 .icon-wrap {
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin: 0 10px 10px 0;
   float: left;
   width: 38px;
   height: 38px;
@@ -112,13 +115,11 @@
   line-height: 1;
   font-size: 38px;
 }
-
 .footer {
   padding: 21px 0;
   margin: 0;
   font-size: 70%;
   color: #777;
-
 }
 
 /* Layout thumbnails */
@@ -212,12 +213,11 @@ body pre.less-margin {
 @media screen and (min-width: 768px) {
   /* Shortening up the container width and increasing the padding for the docs. */
   .container { max-width: 720px }
-  .column {
-    padding: 0 1.5%;
-  }
+
   /* Shows the correct grid example for when you're on mobile or desktop */
   .grid { display: none; }
   .lg-grid { display: inline; }
+
   /* Positions the main content column correctly with the sidebar. */
   .container {
     margin-left: 23%;
@@ -233,6 +233,7 @@ body pre.less-margin {
   .download {
     display: inline-block;
   }
+
   /* Desktop sidebar */
   .header {
     display: block;
