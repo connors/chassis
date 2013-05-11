@@ -5,19 +5,19 @@
    to theme Chassis to look just how you wnat it to look.
    -------------------------------------------------------------------- */
 
-/* -------------------------------------------------------------------- 
-   Theme's type style (Open Sans)
-   -------------------------------------------------------------------- */
+
+/* Theme's type style (Open Sans)
+------------------------------- */
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300);
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, sans-serif;
 }
 
 
-/* -------------------------------------------------------------------- 
-   Theme's buttons
-   -------------------------------------------------------------------- */
+/* Theme's button styles
+------------------------------- */
 
 .button {
   text-shadow: 0 1px 0 rgba(255,255,255,1);
@@ -44,9 +44,8 @@ body {
 }
 
 
-/* -------------------------------------------------------------------- 
-   Theme's forms styles
-   -------------------------------------------------------------------- */
+/* Theme's form styles
+------------------------------- */
 
 textarea,
 input[type="text"],
@@ -73,8 +72,6 @@ input[type="color"] {
 input[type=search] {
   border-radius: 20px;
 }
-
-
 /* Focus states */
 textarea:focus,
 input[type="text"]:focus,
@@ -95,9 +92,8 @@ input[type="color"]:focus {
 }
 
 
-/* -------------------------------------------------------------------- 
-   Theme's table styles
-   -------------------------------------------------------------------- */
+/* Theme's table styles
+------------------------------- */
 
 table {
   border-radius: 3px;
