@@ -18,9 +18,9 @@ Please file a Github issue to [report a bug](http://github.com/connors/chassis/i
 
 Connor Sears
 
-- Twitter: [@connors](http://twitter.com/connors)
-- GitHub: [connors](http://github.com/connors)
-- Website: [connorsears.com](http://connorsears.com)
+- [http://twitter.com/connors](http://twitter.com/connors)
+- [http://github.com/connors](http://github.com/connors)
+- [connorsears.com](http://connorsears.com)
 
 
 ## License
