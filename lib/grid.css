@@ -27,9 +27,8 @@
 .offset-1 { margin-left: 50%; }
 
 
-/* -------------------------------------------------------------------- 
-   Tablet to desktop
-   -------------------------------------------------------------------- */
+/* Tablet to desktop 
+------------------------------- */
 
  @media screen and (min-width: 768px) {
   .container {
@@ -77,9 +76,8 @@
 }
 
 
-/* -------------------------------------------------------------------- 
-   Standard sized screens to large screens
-   -------------------------------------------------------------------- */
+/* Standard sized screens to large screens 
+------------------------------------------ */
 
 @media screen and (min-width: 1200px) {
   .container {
@@ -95,9 +93,8 @@
 }
 
 
-/* -------------------------------------------------------------------- 
-   Clear all the things! Thanks @necolas.
-   -------------------------------------------------------------------- */
+/* Clear all the things! Thanks @necolas. 
+----------------------------------------- */
 
 .column-group,
 .clearfix {
@@ -115,7 +112,6 @@
 .clearfix:after {
   clear: both;
 }
-
 /* You can also use a <br class="clear"> to clear columns */
 .clear {
   display: block;

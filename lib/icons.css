@@ -21,8 +21,7 @@
   cursor: default;
 }
 
-
-/* Thanks to pnull */
+/* Icon classes thanks to pnull */
 .icon.phone:before{ content:'\1F4DE'; }
 .icon.mobile:before{ content:'\1F4F1'; }
 .icon.mouse:before{ content:'\E789'; }
