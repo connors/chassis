@@ -339,3 +339,10 @@ body pre.less-margin {
     height: 120px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  /* Overriding the default grid in the docs. */
+  .column {
+    padding: 0 20px;
+  }
+}

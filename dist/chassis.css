@@ -345,11 +345,11 @@ hr {
     max-width: 1170px;
   }
   .column {
-    padding: 0 25px;
+    padding: 0 30px;
   }
   /* Lines nested grids up correctly. */
   .column .column-group {
-    margin: 0 -25px;
+    margin: 0 -30px;
   }
 }
 
