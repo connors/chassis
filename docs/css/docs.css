@@ -2,18 +2,21 @@
    Documentation styles
    -------------------------------------------------------------------- */
 
-/* Header on mobile & sidebar on desktop */
+
+/* Header styles 
+------------------------------- */
 .header {
   display: block;
   width: 100%;
+  text-align: center;
   background-color: #fff;
   border-bottom: 1px solid #ddd;
-  text-align: center;
 }
 .title {
   font-size: 24px;
 }
-.navigation{
+/* Hiding for mobile */
+.navigation {
   display: none;
 }
 .star-btn { 
@@ -22,7 +25,7 @@
 .version {
   display: none
 }
-/* The download button has a little bit of top margin to position it nicely. */
+/* Giving the download button a little bit of top margin to position it nicely. */
 .download {
   display: block;
   margin-top: 10px;
@@ -56,11 +59,15 @@
 .example {
   font-weight: 500;
 }
+/* The large hr dividing each section. */
 .docs-split {
   clear: both;
 }
 
-/* Specific styles for the grid example of the docs. */
+
+/* Grid docs 
+------------------------------- */
+
 .grid-example {
   margin-bottom: 40px;
   clear: both;
@@ -87,15 +94,23 @@
   background: #ccc; 
   border: 1px solid #aaa;
 }
-
 /* Hides the grid example text for desktop by default */
 .lg-grid { 
   display: none;
 }
+
+
+/* Button docs 
+------------------------------- */
+
 .btn-example [class*="button"] {
   margin-bottom: 10px;
 }
-/* Icons styles */
+
+
+/* Icon docs 
+------------------------------- */
+
 .icon-examples {
   margin-top: 40px;
   overflow: hidden;
@@ -122,7 +137,10 @@
   color: #777;
 }
 
-/* Layout thumbnails */
+
+/* Example layout docs 
+------------------------------- */
+
 .layout-example {
   display: block;
   padding: 3px;
@@ -191,7 +209,9 @@
 }
 
 
-/* Prettify styles */
+/* Code example styles
+------------------------------- */
+
 body pre.prettyprint {
   margin-bottom: 80px;
   padding: 10px;
@@ -209,6 +229,9 @@ body pre.prettyprint {
 body pre.less-margin {
   margin-bottom: 20px;
 }
+
+/* Desktop screens
+------------------------------- */
 
 @media screen and (min-width: 768px) {
   /* Shortening up the container width and increasing the padding for the docs. */
@@ -339,6 +362,10 @@ body pre.less-margin {
     height: 120px;
   }
 }
+
+
+/* Large desktop screens
+------------------------------- */
 
 @media screen and (min-width: 1200px) {
   /* Overriding the default grid in the docs. */
