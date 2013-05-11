@@ -30,6 +30,7 @@ gh-pages: build
 	sed -i -e 's/\.\.\//\.\//g' gh-pages/layout-example-two.html
 	sed -i -e 's/\.\.\//\.\//g' gh-pages/layout-example-three.html
 	rm -rf ./css
+	rm -rf ./img
 	rm -rf ./js
 	rm -rf ./lib
 	rm -rf ./dist
