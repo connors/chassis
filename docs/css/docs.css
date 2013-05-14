@@ -65,6 +65,7 @@
 .docs-split {
   clear: both;
 }
+/* Giving the social buttons needs space. */
 .star-btn,
 .twitter-share-button {
   margin-bottom: 10px;
