@@ -227,16 +227,20 @@ hr {
 /* Responsive classes 
 ------------------------------- */
 
-.show-mobile  { display: inherit !important; }
-.hide-mobile  { display: none; }
+.show-mobile  { display: block !important; }
+.show-mobile-inline  { display: inline !important; }
+.hide-mobile  { display: none !important; }
 
-.show-desktop { display: none; }
-.hide-desktop { display: inherit !important; }
+.show-desktop { display: none !important; }
+.show-desktop-inline { display: none !important; }
+.hide-desktop { display: block !important; }
 
 @media screen and (min-width: 768px) {
   .show-mobile  { display: none !important; }
-  .hide-mobile  { display: inherit !important; }
+  .show-mobile-inline  { display: none !important; }
+  .hide-mobile  { display: block !important; }
 
-  .show-desktop { display: inherit !important;; }
+  .show-desktop { display: block !important; }
+  .show-desktop-inline { display: inline !important; }
   .hide-desktop { display: none !important; }
 }

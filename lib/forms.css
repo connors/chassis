@@ -4,7 +4,7 @@
 
 textarea,
 input[type="text"],
-input[type=search],
+input[type="search"],
 input[type="password"],
 input[type="datetime"],
 input[type="datetime-local"],
@@ -49,7 +49,7 @@ label {
 
 textarea:focus,
 input[type="text"]:focus,
-input[type=search]:focus,
+input[type="search"]:focus,
 input[type="password"]:focus,
 input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
@@ -69,7 +69,7 @@ input[type="color"]:focus {
 @media screen and (min-width: 768px) {
   textarea,
   input[type="text"],
-  input[type=search],
+  input[type="search"],
   input[type="password"],
   input[type="datetime"],
   input[type="datetime-local"],

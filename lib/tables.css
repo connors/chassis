@@ -5,21 +5,19 @@
 table {
   margin-bottom: 10px;
   width: 100%;
-  overflow: hidden;
-  border: 1px solid #ddd;
-  border-right: 0;
-  border-bottom: 0;
+  border: solid #ddd;
+  border-width: 1px 0 0 1px;
   border-collapse: separate;
   text-align: left;
 }
-table thead {
+thead {
   background-color: #fff;
 }
-table tbody {
+tbody {
   background-color: #fafafa;
 }
-table th,
-table td {
+th,
+td {
   padding: 10px;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;

@@ -21,7 +21,6 @@ body {
 
 .button {
   text-shadow: 0 1px 0 rgba(255,255,255,1);
-  border: 1px solid #ccc;
   border-radius: 3px;
   box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
@@ -49,7 +48,7 @@ body {
 
 textarea,
 input[type="text"],
-input[type=search],
+input[type="search"],
 input[type="password"],
 input[type="datetime"],
 input[type="datetime-local"],
@@ -69,13 +68,13 @@ input[type="color"] {
           transition: border linear .2s, box-shadow linear .2s;
 }
 /* Search input */
-input[type=search] {
+input[type="search"] {
   border-radius: 20px;
 }
 /* Focus states */
 textarea:focus,
 input[type="text"]:focus,
-input[type=search]:focus,
+input[type="search"]:focus,
 input[type="password"]:focus,
 input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
@@ -96,5 +95,6 @@ input[type="color"]:focus {
 ------------------------------- */
 
 table {
+  overflow: hidden; /* Insures the the background-color doesn't bleed through the corners. */
   border-radius: 3px;
 }

@@ -24,7 +24,6 @@
   <!-- TODO:
     - Last bit of Browser/device testing.
     - Add appropriate social network buttons.
-    - Get one more lookover from @mdo.
     - Make sure .zip is made correctly
     - ADD ANALYTICS
     - Ship all the things!!!
@@ -33,7 +32,7 @@
   <body ontouchstart=""  data-spy="scroll" data-target=".header" data-offset="150">
     <div class="header">
       <h1 class="title">Chassis</h1>
-      <ul class="navigation">
+      <ul class="navigation hide-mobile">
         <li class="active"><a href="#overview">Overview</a></li>
         <li><a href="#grid">Grid</a></li>
         <li><a href="#typography">Typography</a></li>
@@ -43,11 +42,11 @@
         <li><a href="#icons">Icons</a></li>
         <li><a href="#layouts">Example layouts</a></li>
       </ul>
-      <iframe class="star-btn" src="http://ghbtns.com/github-btn.html?user=connors&repo=chassis&type=watch&size=large&count=true"
+      <iframe class="star-btn hide-mobile" src="http://ghbtns.com/github-btn.html?user=connors&repo=chassis&type=watch&size=large&count=true"
   allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
-      <ul class="version">
+      <ul class="version hide-mobile">
         <li>Version 1.0</li>
-        <li><a href="">View on GitHub</a></li>
+        <li><a href="https://github.com/connors/chassis">View on GitHub</a></li>
       </ul>
     </div>
 
@@ -55,8 +54,8 @@
       <div class="column units-2">
         <div id="overview" class="masthead section">
           <p class="masthead-text">A lightweight HTML &amp; CSS base layer for mobile-first web development</p>
-          <p class="hide-on-mobile">Chassis provides you with base CSS and HTML files to jump start your web development. If you're looking for a full featured front-end framework, you're in the wrong place. Chassis only gives you what you need and nothing else.</p>
-          <a href="http://connors.github.io/chassis/chassis.zip" class="download button button-large"><i class="icon install"></i> Download Chassis</a>
+          <p class="hide-mobile">Chassis provides you with base CSS and HTML files to jump start your web development. If you're looking for a full featured front-end framework, you're in the wrong place. Chassis only gives you what you need and nothing else.</p>
+          <a href="http://connors.github.io/chassis/chassis.zip" class="download button button-large"><i class="icon icon-install"></i> Download Chassis</a>
         </div>
       </div>
     </div>
@@ -69,94 +68,82 @@
           <h2 class="section-title">Grid</h2>
           <p class="section-description">You're set with this <strong>2 unit grid for mobile</strong> and <strong>12 unit grid for desktop</strong>.</p>
           <div class="grid-example">
-            <div class="column-group">
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+            <div class="column-group hide-mobile">
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
-              <div class="column units-1 lg-units-1 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">1</span>
+              <div class="column units-1 lg-units-1">
+                <span>1</span>
               </div>
             </div>
 
-            <div class="column-group">
-              <div class="column units-1 lg-units-3 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">3 units</span>
+            <div class="column-group hide-mobile">
+              <div class="column units-1 lg-units-3">
+                <span>3 units</span>
               </div>
-              <div class="column units-1 lg-units-3 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">3 units</span>
+              <div class="column units-1 lg-units-3">
+                <span>3 units</span>
               </div>
-              <div class="column units-1 lg-units-6 hide-mobile">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">6 units</span>
+              <div class="column units-1 lg-units-3">
+                <span>3 units</span>
+              </div>
+              <div class="column units-1 lg-units-3">
+                <span>3 units</span>
               </div>
             </div>
               
             <div class="column-group">
               <div class="column units-1 lg-units-7">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">7 units</span>
+                <span class="show-mobile-inline">1 unit</span>
+                <span class="show-desktop-inline">7 units</span>
               </div>
               <div class="column units-1 lg-units-5">
-                <span class="grid">1 unit</span>
-                <span class="lg-grid">5 units</span>
+                <span class="show-mobile-inline">1 unit</span>
+                <span class="show-desktop-inline">5 units</span>
               </div>
             </div>
 
             <div class="column-group">
               <div class="column units-2 lg-units-12">
-                <span class="grid">2 units</span>
-                <span class="lg-grid">12 units</span>
+                <span class="show-mobile-inline">2 units</span>
+                <span class="show-desktop-inline">12 units</span>
               </div>
             </div>
 
             <div class="column-group">
               <div class="column units-1 offset-1 lg-units-10 lg-offset-2">
-                <span class="grid">1 unit, offset by 1</span>
-                <span class="lg-grid">10 units, offset by 2</span>
+                <span class="show-mobile-inline">1 unit, offset by 1</span>
+                <span class="show-desktop-inline">10 units, offset by 2</span>
               </div>
             </div>
           </div>
@@ -203,7 +190,15 @@
           <p class="section-description">Chassis sets you up with basic headings, paragraphs, and blockquotes.</p>
           
           <h3 class="section-sub-title">Headings</h3>
-          <p>Use headings to title and give hierarchy to your content. Chassis gives you <strong>six</strong> heading sizes to choose from. <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> </p>
+          <p>Use headings to title and give hierarchy to your content. Chassis gives you <strong>six</strong> heading sizes to choose from. <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code>.</p>
+          <div class="hide-mobile">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+          </div>
 
 <pre class="prettyprint code-example">
 &lt;h1&gt;Heading 1&lt;/h1&gt; &lt;!-- 50px --&gt;
@@ -216,6 +211,7 @@
 
         <h3 class="section-sub-title">Body copy</h3>
         <p>The default paragraph <code>font-size</code> for body copy is <strong>18px</strong> with a unit-less <code>line-height</code> of <strong>1.5</strong>.</p>
+
 <pre class="prettyprint code-example">
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -287,9 +283,9 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&g
           <button class="button button-small"><i class="icon export"></i> Small button</button>
         </p>
 <pre class="prettyprint code-example">
-&lt;button class=&quot;button button-large&quot;&gt;&lt;i class=&quot;icon export&quot;&gt;&lt;/i&gt; Large button&lt;/button&gt;
-&lt;button class=&quot;button&quot;&gt;&lt;i class=&quot;icon export&quot;&gt;&lt;/i&gt; Normal button&lt;/button&gt;
-&lt;button class=&quot;button button-small&quot;&gt;&lt;i class=&quot;icon export&quot;&gt;&lt;/i&gt; Small button&lt;/button&gt;
+&lt;button class=&quot;button button-large&quot;&gt;&lt;i class=&quot;icon icon-export&quot;&gt;&lt;/i&gt; Large button&lt;/button&gt;
+&lt;button class=&quot;button&quot;&gt;&lt;i class=&quot;icon icon-export&quot;&gt;&lt;/i&gt; Normal button&lt;/button&gt;
+&lt;button class=&quot;button button-small&quot;&gt;&lt;i class=&quot;icon icon-export&quot;&gt;&lt;/i&gt; Small button&lt;/button&gt;
 </pre>
       </div>
     </div>
@@ -438,233 +434,233 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&g
         <h2 class="section-title">Icons</h2>
         <p class="section-description">The <a href="http://www.entypo.com/">Entypo</a> icon font by <a href="https://twitter.com/danielbruce_">Daniel Bruce</a> is included as the default icon set for Chassis. There are over 200 icons to choose from.</p>
 
-        <p>Use an icon by adding the cooresponding class to <code>&lt;i class=&quot;icon phone&quot;&gt;&lt;/i&gt;</code>. The icon's size is determined by the parent element.
+        <p>Use an icon by adding the corresponding class to <code>&lt;i class=&quot;icon icon-phone&quot;&gt;&lt;/i&gt;</code>. The icon's size is determined by the parent element.
 
         <div class="icon-examples">
-          <span class="icon-wrap"><i class="icon phone"></i></span>
-          <span class="icon-wrap"><i class="icon mobile"></i></span>
-          <span class="icon-wrap"><i class="icon mouse"></i></span>
-          <span class="icon-wrap"><i class="icon address"></i></span>
-          <span class="icon-wrap"><i class="icon mail"></i></span>
-          <span class="icon-wrap"><i class="icon paper-plane"></i></span>
-          <span class="icon-wrap"><i class="icon pencil"></i></span>
-          <span class="icon-wrap"><i class="icon feather"></i></span>
-          <span class="icon-wrap"><i class="icon attach"></i></span>
-          <span class="icon-wrap"><i class="icon inbox"></i></span>
-          <span class="icon-wrap"><i class="icon reply"></i></span>
-          <span class="icon-wrap"><i class="icon reply-all"></i></span>
-          <span class="icon-wrap"><i class="icon forward"></i></span>
-          <span class="icon-wrap"><i class="icon user"></i></span>
-          <span class="icon-wrap"><i class="icon users"></i></span>
-          <span class="icon-wrap"><i class="icon add-user"></i></span>
-          <span class="icon-wrap"><i class="icon vcard"></i></span>
-          <span class="icon-wrap"><i class="icon export"></i></span>
-          <span class="icon-wrap"><i class="icon location"></i></span>
-          <span class="icon-wrap"><i class="icon map"></i></span>
-          <span class="icon-wrap"><i class="icon compass"></i></span>
-          <span class="icon-wrap"><i class="icon direction"></i></span>
-          <span class="icon-wrap"><i class="icon hair-cross"></i></span>
-          <span class="icon-wrap"><i class="icon share"></i></span>
-          <span class="icon-wrap"><i class="icon shareable"></i></span>
-          <span class="icon-wrap"><i class="icon heart"></i></span>
-          <span class="icon-wrap"><i class="icon star"></i></span>
-          <span class="icon-wrap"><i class="icon star-empty"></i></span>
-          <span class="icon-wrap"><i class="icon yay"></i></span>
-          <span class="icon-wrap"><i class="icon nay"></i></span>
-          <span class="icon-wrap"><i class="icon chat"></i></span>
-          <span class="icon-wrap"><i class="icon comment"></i></span>
-          <span class="icon-wrap"><i class="icon quote"></i></span>
-          <span class="icon-wrap"><i class="icon home"></i></span>
-          <span class="icon-wrap"><i class="icon popup"></i></span>
-          <span class="icon-wrap"><i class="icon search"></i></span>
-          <span class="icon-wrap"><i class="icon flashlight"></i></span>
-          <span class="icon-wrap"><i class="icon print"></i></span>
-          <span class="icon-wrap"><i class="icon bell"></i></span>
-          <span class="icon-wrap"><i class="icon link"></i></span>
-          <span class="icon-wrap"><i class="icon flag"></i></span>
-          <span class="icon-wrap"><i class="icon cog"></i></span>
-          <span class="icon-wrap"><i class="icon tools"></i></span>
-          <span class="icon-wrap"><i class="icon trophy"></i></span>
-          <span class="icon-wrap"><i class="icon tag"></i></span>
-          <span class="icon-wrap"><i class="icon camera"></i></span>
-          <span class="icon-wrap"><i class="icon megaphone"></i></span>
-          <span class="icon-wrap"><i class="icon moon"></i></span>
-          <span class="icon-wrap"><i class="icon palette"></i></span>
-          <span class="icon-wrap"><i class="icon leaf"></i></span>
-          <span class="icon-wrap"><i class="icon note"></i></span>
-          <span class="icon-wrap"><i class="icon beamed-note"></i></span>
-          <span class="icon-wrap"><i class="icon new"></i></span>
-          <span class="icon-wrap"><i class="icon graduation-cap"></i></span>
-          <span class="icon-wrap"><i class="icon newspaper"></i></span>
-          <span class="icon-wrap"><i class="icon bag"></i></span>
-          <span class="icon-wrap"><i class="icon airplane"></i></span>
-          <span class="icon-wrap"><i class="icon lifebuoy"></i></span>
-          <span class="icon-wrap"><i class="icon eye"></i></span>
-          <span class="icon-wrap"><i class="icon clock"></i></span>
-          <span class="icon-wrap"><i class="icon mic"></i></span>
-          <span class="icon-wrap"><i class="icon calendar"></i></span>
-          <span class="icon-wrap"><i class="icon flash"></i></span>
-          <span class="icon-wrap"><i class="icon thunder-cloud"></i></span>
-          <span class="icon-wrap"><i class="icon droplet"></i></span>
-          <span class="icon-wrap"><i class="icon cd"></i></span>
-          <span class="icon-wrap"><i class="icon briefcase"></i></span>
-          <span class="icon-wrap"><i class="icon air"></i></span>
-          <span class="icon-wrap"><i class="icon hourglass"></i></span>
-          <span class="icon-wrap"><i class="icon gauge"></i></span>
-          <span class="icon-wrap"><i class="icon language"></i></span>
-          <span class="icon-wrap"><i class="icon network"></i></span>
-          <span class="icon-wrap"><i class="icon key"></i></span>
-          <span class="icon-wrap"><i class="icon battery"></i></span>
-          <span class="icon-wrap"><i class="icon bucket"></i></span>
-          <span class="icon-wrap"><i class="icon magnet"></i></span>
-          <span class="icon-wrap"><i class="icon drive"></i></span>
-          <span class="icon-wrap"><i class="icon cup"></i></span>
-          <span class="icon-wrap"><i class="icon rocket"></i></span>
-          <span class="icon-wrap"><i class="icon brush"></i></span>
-          <span class="icon-wrap"><i class="icon suitcase"></i></span>
-          <span class="icon-wrap"><i class="icon traffic-cone"></i></span>
-          <span class="icon-wrap"><i class="icon globe"></i></span>
-          <span class="icon-wrap"><i class="icon keyboard"></i></span>
-          <span class="icon-wrap"><i class="icon browser"></i></span>
-          <span class="icon-wrap"><i class="icon publish"></i></span>
-          <span class="icon-wrap"><i class="icon progress-3"></i></span>
-          <span class="icon-wrap"><i class="icon progress-2"></i></span>
-          <span class="icon-wrap"><i class="icon progress-1"></i></span>
-          <span class="icon-wrap"><i class="icon progress-0"></i></span>
-          <span class="icon-wrap"><i class="icon light-down"></i></span>
-          <span class="icon-wrap"><i class="icon light-up"></i></span>
-          <span class="icon-wrap"><i class="icon adjust"></i></span>
-          <span class="icon-wrap"><i class="icon code"></i></span>
-          <span class="icon-wrap"><i class="icon monitor"></i></span>
-          <span class="icon-wrap"><i class="icon infinity"></i></span>
-          <span class="icon-wrap"><i class="icon light-bulb"></i></span>
-          <span class="icon-wrap"><i class="icon credit-card"></i></span>
-          <span class="icon-wrap"><i class="icon database"></i></span>
-          <span class="icon-wrap"><i class="icon voicemail"></i></span>
-          <span class="icon-wrap"><i class="icon clipboard"></i></span>
-          <span class="icon-wrap"><i class="icon cart"></i></span>
-          <span class="icon-wrap"><i class="icon box"></i></span>
-          <span class="icon-wrap"><i class="icon ticket"></i></span>
-          <span class="icon-wrap"><i class="icon rss"></i></span>
-          <span class="icon-wrap"><i class="icon signal"></i></span>
-          <span class="icon-wrap"><i class="icon thermometer"></i></span>
-          <span class="icon-wrap"><i class="icon water"></i></span>
-          <span class="icon-wrap"><i class="icon sweden"></i></span>
-          <span class="icon-wrap"><i class="icon line-graph"></i></span>
-          <span class="icon-wrap"><i class="icon pie-chart"></i></span>
-          <span class="icon-wrap"><i class="icon bar-graph"></i></span>
-          <span class="icon-wrap"><i class="icon lock"></i></span>
-          <span class="icon-wrap"><i class="icon logout"></i></span>
-          <span class="icon-wrap"><i class="icon login"></i></span>
-          <span class="icon-wrap"><i class="icon check"></i></span>
-          <span class="icon-wrap"><i class="icon cross"></i></span>
-          <span class="icon-wrap"><i class="icon squared-minus"></i></span>
-          <span class="icon-wrap"><i class="icon squared-plus"></i></span>
-          <span class="icon-wrap"><i class="icon squared-cross"></i></span>
-          <span class="icon-wrap"><i class="icon circled-minus"></i></span>
-          <span class="icon-wrap"><i class="icon circled-plus"></i></span>
-          <span class="icon-wrap"><i class="icon circled-cross"></i></span>
-          <span class="icon-wrap"><i class="icon minus"></i></span>
-          <span class="icon-wrap"><i class="icon plus"></i></span>
-          <span class="icon-wrap"><i class="icon erase"></i></span>
-          <span class="icon-wrap"><i class="icon block"></i></span>
-          <span class="icon-wrap"><i class="icon info"></i></span>
-          <span class="icon-wrap"><i class="icon circled-info"></i></span>
-          <span class="icon-wrap"><i class="icon circled-help"></i></span>
-          <span class="icon-wrap"><i class="icon warning"></i></span>
-          <span class="icon-wrap"><i class="icon cycle"></i></span>
-          <span class="icon-wrap"><i class="icon cw"></i></span>
-          <span class="icon-wrap"><i class="icon ccw"></i></span>
-          <span class="icon-wrap"><i class="icon shuffle"></i></span>
-          <span class="icon-wrap"><i class="icon back"></i></span>
-          <span class="icon-wrap"><i class="icon level-up"></i></span>
-          <span class="icon-wrap"><i class="icon switch"></i></span>
-          <span class="icon-wrap"><i class="icon numbered-list"></i></span>
-          <span class="icon-wrap"><i class="icon add-to-list"></i></span>
-          <span class="icon-wrap"><i class="icon layout"></i></span>
-          <span class="icon-wrap"><i class="icon list"></i></span>
-          <span class="icon-wrap"><i class="icon text-doc"></i></span>
-          <span class="icon-wrap"><i class="icon text-doc-inverted"></i></span>
-          <span class="icon-wrap"><i class="icon doc"></i></span>
-          <span class="icon-wrap"><i class="icon docs"></i></span>
-          <span class="icon-wrap"><i class="icon landscape-doc"></i></span>
-          <span class="icon-wrap"><i class="icon picture"></i></span>
-          <span class="icon-wrap"><i class="icon video"></i></span>
-          <span class="icon-wrap"><i class="icon music"></i></span>
-          <span class="icon-wrap"><i class="icon folder"></i></span>
-          <span class="icon-wrap"><i class="icon archive"></i></span>
-          <span class="icon-wrap"><i class="icon trash"></i></span>
-          <span class="icon-wrap"><i class="icon upload"></i></span>
-          <span class="icon-wrap"><i class="icon bookmark"></i></span>
-          <span class="icon-wrap"><i class="icon bookmarks"></i></span>
-          <span class="icon-wrap"><i class="icon open-book"></i></span>
-          <span class="icon-wrap"><i class="icon play"></i></span>
-          <span class="icon-wrap"><i class="icon pause"></i></span>
-          <span class="icon-wrap"><i class="icon record"></i></span>
-          <span class="icon-wrap"><i class="icon stop"></i></span>
-          <span class="icon-wrap"><i class="icon ff"></i></span>
-          <span class="icon-wrap"><i class="icon fb"></i></span>
-          <span class="icon-wrap"><i class="icon to-start"></i></span>
-          <span class="icon-wrap"><i class="icon to-end"></i></span>
-          <span class="icon-wrap"><i class="icon resize-full"></i></span>
-          <span class="icon-wrap"><i class="icon resize-small"></i></span>
-          <span class="icon-wrap"><i class="icon volume"></i></span>
-          <span class="icon-wrap"><i class="icon sound"></i></span>
-          <span class="icon-wrap"><i class="icon mute"></i></span>
-          <span class="icon-wrap"><i class="icon flow-cascade"></i></span>
-          <span class="icon-wrap"><i class="icon flow-branch"></i></span>
-          <span class="icon-wrap"><i class="icon flow-tree"></i></span>
-          <span class="icon-wrap"><i class="icon flow-line"></i></span>
-          <span class="icon-wrap"><i class="icon flow-parallel"></i></span>
-          <span class="icon-wrap"><i class="icon left-bold"></i></span>
-          <span class="icon-wrap"><i class="icon down-bold"></i></span>
-          <span class="icon-wrap"><i class="icon up-bold"></i></span>
-          <span class="icon-wrap"><i class="icon right-bold"></i></span>
-          <span class="icon-wrap"><i class="icon left"></i></span>
-          <span class="icon-wrap"><i class="icon down"></i></span>
-          <span class="icon-wrap"><i class="icon up"></i></span>
-          <span class="icon-wrap"><i class="icon right"></i></span>
-          <span class="icon-wrap"><i class="icon circled-left"></i></span>
-          <span class="icon-wrap"><i class="icon circled-down"></i></span>
-          <span class="icon-wrap"><i class="icon circled-up"></i></span>
-          <span class="icon-wrap"><i class="icon circled-right"></i></span>
-          <span class="icon-wrap"><i class="icon triangle-left"></i></span>
-          <span class="icon-wrap"><i class="icon triangle-down"></i></span>
-          <span class="icon-wrap"><i class="icon triangle-up"></i></span>
-          <span class="icon-wrap"><i class="icon triangle-right"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-left"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-down"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-up"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-right"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-small-left"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-small-down"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-small-up"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-small-right"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-thin-left"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-thin-down"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-thin-up"></i></span>
-          <span class="icon-wrap"><i class="icon chevron-thin-right"></i></span>
-          <span class="icon-wrap"><i class="icon left-thin"></i></span>
-          <span class="icon-wrap"><i class="icon down-thin"></i></span>
-          <span class="icon-wrap"><i class="icon up-thin"></i></span>
-          <span class="icon-wrap"><i class="icon right-thin"></i></span>
-          <span class="icon-wrap"><i class="icon arrow-combo"></i></span>
-          <span class="icon-wrap"><i class="icon three-dots"></i></span>
-          <span class="icon-wrap"><i class="icon two-dots"></i></span>
-          <span class="icon-wrap"><i class="icon dot"></i></span>
-          <span class="icon-wrap"><i class="icon cc"></i></span>
-          <span class="icon-wrap"><i class="icon cc-by"></i></span>
-          <span class="icon-wrap"><i class="icon cc-nc"></i></span>
-          <span class="icon-wrap"><i class="icon cc-nc-eu"></i></span>
-          <span class="icon-wrap"><i class="icon cc-nc-jp"></i></span>
-          <span class="icon-wrap"><i class="icon cc-sa"></i></span>
-          <span class="icon-wrap"><i class="icon cc-nd"></i></span>
-          <span class="icon-wrap"><i class="icon cc-pd"></i></span>
-          <span class="icon-wrap"><i class="icon cc-zero"></i></span>
-          <span class="icon-wrap"><i class="icon cc-share"></i></span>
-          <span class="icon-wrap"><i class="icon cc-remix"></i></span>
-          <span class="icon-wrap"><i class="icon db-logo"></i></span>
-          <span class="icon-wrap"><i class="icon db-shape"></i></span>
+          <i class="icon icon-phone"></i>
+          <i class="icon icon-mobile"></i>
+          <i class="icon icon-mouse"></i>
+          <i class="icon icon-address"></i>
+          <i class="icon icon-mail"></i>
+          <i class="icon icon-paper-plane"></i>
+          <i class="icon icon-pencil"></i>
+          <i class="icon icon-feather"></i>
+          <i class="icon icon-attach"></i>
+          <i class="icon icon-inbox"></i>
+          <i class="icon icon-reply"></i>
+          <i class="icon icon-reply-all"></i>
+          <i class="icon icon-forward"></i>
+          <i class="icon icon-user"></i>
+          <i class="icon icon-users"></i>
+          <i class="icon icon-add-user"></i>
+          <i class="icon icon-vcard"></i>
+          <i class="icon icon-export"></i>
+          <i class="icon icon-location"></i>
+          <i class="icon icon-map"></i>
+          <i class="icon icon-compass"></i>
+          <i class="icon icon-direction"></i>
+          <i class="icon icon-hair-cross"></i>
+          <i class="icon icon-share"></i>
+          <i class="icon icon-shareable"></i>
+          <i class="icon icon-heart"></i>
+          <i class="icon icon-star"></i>
+          <i class="icon icon-star-empty"></i>
+          <i class="icon icon-yay"></i>
+          <i class="icon icon-nay"></i>
+          <i class="icon icon-chat"></i>
+          <i class="icon icon-comment"></i>
+          <i class="icon icon-quote"></i>
+          <i class="icon icon-home"></i>
+          <i class="icon icon-popup"></i>
+          <i class="icon icon-search"></i>
+          <i class="icon icon-flashlight"></i>
+          <i class="icon icon-print"></i>
+          <i class="icon icon-bell"></i>
+          <i class="icon icon-link"></i>
+          <i class="icon icon-flag"></i>
+          <i class="icon icon-cog"></i>
+          <i class="icon icon-tools"></i>
+          <i class="icon icon-trophy"></i>
+          <i class="icon icon-tag"></i>
+          <i class="icon icon-camera"></i>
+          <i class="icon icon-megaphone"></i>
+          <i class="icon icon-moon"></i>
+          <i class="icon icon-palette"></i>
+          <i class="icon icon-leaf"></i>
+          <i class="icon icon-note"></i>
+          <i class="icon icon-beamed-note"></i>
+          <i class="icon icon-new"></i>
+          <i class="icon icon-graduation-cap"></i>
+          <i class="icon icon-newspaper"></i>
+          <i class="icon icon-bag"></i>
+          <i class="icon icon-airplane"></i>
+          <i class="icon icon-lifebuoy"></i>
+          <i class="icon icon-eye"></i>
+          <i class="icon icon-clock"></i>
+          <i class="icon icon-mic"></i>
+          <i class="icon icon-calendar"></i>
+          <i class="icon icon-flash"></i>
+          <i class="icon icon-thunder-cloud"></i>
+          <i class="icon icon-droplet"></i>
+          <i class="icon icon-cd"></i>
+          <i class="icon icon-briefcase"></i>
+          <i class="icon icon-air"></i>
+          <i class="icon icon-hourglass"></i>
+          <i class="icon icon-gauge"></i>
+          <i class="icon icon-language"></i>
+          <i class="icon icon-network"></i>
+          <i class="icon icon-key"></i>
+          <i class="icon icon-battery"></i>
+          <i class="icon icon-bucket"></i>
+          <i class="icon icon-magnet"></i>
+          <i class="icon icon-drive"></i>
+          <i class="icon icon-cup"></i>
+          <i class="icon icon-rocket"></i>
+          <i class="icon icon-brush"></i>
+          <i class="icon icon-suitcase"></i>
+          <i class="icon icon-traffic-cone"></i>
+          <i class="icon icon-globe"></i>
+          <i class="icon icon-keyboard"></i>
+          <i class="icon icon-browser"></i>
+          <i class="icon icon-publish"></i>
+          <i class="icon icon-progress-3"></i>
+          <i class="icon icon-progress-2"></i>
+          <i class="icon icon-progress-1"></i>
+          <i class="icon icon-progress-0"></i>
+          <i class="icon icon-light-down"></i>
+          <i class="icon icon-light-up"></i>
+          <i class="icon icon-adjust"></i>
+          <i class="icon icon-code"></i>
+          <i class="icon icon-monitor"></i>
+          <i class="icon icon-infinity"></i>
+          <i class="icon icon-light-bulb"></i>
+          <i class="icon icon-credit-card"></i>
+          <i class="icon icon-database"></i>
+          <i class="icon icon-voicemail"></i>
+          <i class="icon icon-clipboard"></i>
+          <i class="icon icon-cart"></i>
+          <i class="icon icon-box"></i>
+          <i class="icon icon-ticket"></i>
+          <i class="icon icon-rss"></i>
+          <i class="icon icon-signal"></i>
+          <i class="icon icon-thermometer"></i>
+          <i class="icon icon-water"></i>
+          <i class="icon icon-sweden"></i>
+          <i class="icon icon-line-graph"></i>
+          <i class="icon icon-pie-chart"></i>
+          <i class="icon icon-bar-graph"></i>
+          <i class="icon icon-lock"></i>
+          <i class="icon icon-logout"></i>
+          <i class="icon icon-login"></i>
+          <i class="icon icon-check"></i>
+          <i class="icon icon-cross"></i>
+          <i class="icon icon-squared-minus"></i>
+          <i class="icon icon-squared-plus"></i>
+          <i class="icon icon-squared-cross"></i>
+          <i class="icon icon-circled-minus"></i>
+          <i class="icon icon-circled-plus"></i>
+          <i class="icon icon-circled-cross"></i>
+          <i class="icon icon-minus"></i>
+          <i class="icon icon-plus"></i>
+          <i class="icon icon-erase"></i>
+          <i class="icon icon-block"></i>
+          <i class="icon icon-info"></i>
+          <i class="icon icon-circled-info"></i>
+          <i class="icon icon-circled-help"></i>
+          <i class="icon icon-warning"></i>
+          <i class="icon icon-cycle"></i>
+          <i class="icon icon-cw"></i>
+          <i class="icon icon-ccw"></i>
+          <i class="icon icon-shuffle"></i>
+          <i class="icon icon-back"></i>
+          <i class="icon icon-level-up"></i>
+          <i class="icon icon-switch"></i>
+          <i class="icon icon-numbered-list"></i>
+          <i class="icon icon-add-to-list"></i>
+          <i class="icon icon-layout"></i>
+          <i class="icon icon-list"></i>
+          <i class="icon icon-text-doc"></i>
+          <i class="icon icon-text-doc-inverted"></i>
+          <i class="icon icon-doc"></i>
+          <i class="icon icon-docs"></i>
+          <i class="icon icon-landscape-doc"></i>
+          <i class="icon icon-picture"></i>
+          <i class="icon icon-video"></i>
+          <i class="icon icon-music"></i>
+          <i class="icon icon-folder"></i>
+          <i class="icon icon-archive"></i>
+          <i class="icon icon-trash"></i>
+          <i class="icon icon-upload"></i>
+          <i class="icon icon-bookmark"></i>
+          <i class="icon icon-bookmarks"></i>
+          <i class="icon icon-open-book"></i>
+          <i class="icon icon-play"></i>
+          <i class="icon icon-pause"></i>
+          <i class="icon icon-record"></i>
+          <i class="icon icon-stop"></i>
+          <i class="icon icon-ff"></i>
+          <i class="icon icon-fb"></i>
+          <i class="icon icon-to-start"></i>
+          <i class="icon icon-to-end"></i>
+          <i class="icon icon-resize-full"></i>
+          <i class="icon icon-resize-small"></i>
+          <i class="icon icon-volume"></i>
+          <i class="icon icon-sound"></i>
+          <i class="icon icon-mute"></i>
+          <i class="icon icon-flow-cascade"></i>
+          <i class="icon icon-flow-branch"></i>
+          <i class="icon icon-flow-tree"></i>
+          <i class="icon icon-flow-line"></i>
+          <i class="icon icon-flow-parallel"></i>
+          <i class="icon icon-left-bold"></i>
+          <i class="icon icon-down-bold"></i>
+          <i class="icon icon-up-bold"></i>
+          <i class="icon icon-right-bold"></i>
+          <i class="icon icon-left"></i>
+          <i class="icon icon-down"></i>
+          <i class="icon icon-up"></i>
+          <i class="icon icon-right"></i>
+          <i class="icon icon-circled-left"></i>
+          <i class="icon icon-circled-down"></i>
+          <i class="icon icon-circled-up"></i>
+          <i class="icon icon-circled-right"></i>
+          <i class="icon icon-triangle-left"></i>
+          <i class="icon icon-triangle-down"></i>
+          <i class="icon icon-triangle-up"></i>
+          <i class="icon icon-triangle-right"></i>
+          <i class="icon icon-chevron-left"></i>
+          <i class="icon icon-chevron-down"></i>
+          <i class="icon icon-chevron-up"></i>
+          <i class="icon icon-chevron-right"></i>
+          <i class="icon icon-chevron-small-left"></i>
+          <i class="icon icon-chevron-small-down"></i>
+          <i class="icon icon-chevron-small-up"></i>
+          <i class="icon icon-chevron-small-right"></i>
+          <i class="icon icon-chevron-thin-left"></i>
+          <i class="icon icon-chevron-thin-down"></i>
+          <i class="icon icon-chevron-thin-up"></i>
+          <i class="icon icon-chevron-thin-right"></i>
+          <i class="icon icon-left-thin"></i>
+          <i class="icon icon-down-thin"></i>
+          <i class="icon icon-up-thin"></i>
+          <i class="icon icon-right-thin"></i>
+          <i class="icon icon-arrow-combo"></i>
+          <i class="icon icon-three-dots"></i>
+          <i class="icon icon-two-dots"></i>
+          <i class="icon icon-dot"></i>
+          <i class="icon icon-cc"></i>
+          <i class="icon icon-cc-by"></i>
+          <i class="icon icon-cc-nc"></i>
+          <i class="icon icon-cc-nc-eu"></i>
+          <i class="icon icon-cc-nc-jp"></i>
+          <i class="icon icon-cc-sa"></i>
+          <i class="icon icon-cc-nd"></i>
+          <i class="icon icon-cc-pd"></i>
+          <i class="icon icon-cc-zero"></i>
+          <i class="icon icon-cc-share"></i>
+          <i class="icon icon-cc-remix"></i>
+          <i class="icon icon-db-logo"></i>
+          <i class="icon icon-db-shape"></i>
         </div>
       </div>
     </div>
@@ -713,7 +709,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&g
 
   <div class="container">
     <div class="column units-2">
-      <p class="footer">Chassis was made with <i class="icon">&hearts;</i>  by <a href="http://www.twitter.com/connors">@connors</a></p>
+      <p class="footer">Chassis was made with <i class="icon icon-heart"></i>  by <a href="http://www.twitter.com/connors">@connors</a></p>
     </div>
   </div>
 
