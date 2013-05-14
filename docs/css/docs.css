@@ -228,7 +228,7 @@ body pre.less-margin {
   }
   .masthead-text {
     font-size: 40px;
-    text-align: inherit;
+    text-align: left;
   }
   .download {
     display: inline-block;
@@ -245,7 +245,7 @@ body pre.less-margin {
     width: 20%;
     background-color: #f8f8f8;
     border-right: 1px solid #ddd;
-    text-align: inherit;
+    text-align: left;
     box-shadow: inset -1px 0 5px rgba(0,0,0,.05);
   }
   .title {
