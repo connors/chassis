@@ -95,6 +95,6 @@ input[type="color"]:focus {
 ------------------------------- */
 
 table {
-  overflow: hidden; /* Insures the the background-color doesn't bleed through the corners. */
+  overflow: hidden; /* Ensures the the background-color doesn't bleed through the corners. */
   border-radius: 3px;
 }
