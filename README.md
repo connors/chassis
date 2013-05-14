@@ -7,7 +7,7 @@ Chassis provides you with base CSS and HTML files to jump start your web develop
 ## Getting started
 
 - Clone the repo `git clone git@github.com:connors/chassis.git` or just [download](http://connors.github.com/chassis/chassis.zip) the bundled CSS.
-- [Read the docs](http://connors.github.com/chassis) to learn how to create simple layouts and use Chassis' base layer patterns.
+- [Read the docs](http://connors.github.com/chassis) to learn how to create simple layouts and use Chassis' base layer styles.
 
 
 ## Reporting bugs & contributing
