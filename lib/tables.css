@@ -19,6 +19,7 @@ tbody {
 th,
 td {
   padding: 10px;
+  text-align: left; /* Insures correct alignment in IE. */
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
