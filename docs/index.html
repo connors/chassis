@@ -22,11 +22,7 @@
   </head>
 
   <!-- TODO:
-    - Last bit of Browser/device testing.
-    - Add appropriate social network buttons.
     - Make sure .zip is made correctly
-    - ADD ANALYTICS
-    - Ship all the things!!!
    -->
 
   <body ontouchstart=""  data-spy="scroll" data-target=".header" data-offset="150">
@@ -42,8 +38,16 @@
         <li><a href="#icons">Icons</a></li>
         <li><a href="#layouts">Example layouts</a></li>
       </ul>
-      <iframe class="star-btn hide-mobile" src="http://ghbtns.com/github-btn.html?user=connors&repo=chassis&type=watch&size=large&count=true"
-  allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+      <div class="hide-mobile">
+        <iframe class="star-btn show-desktop" src="http://ghbtns.com/github-btn.html?user=connors&repo=chassis&type=watch"
+    allowtransparency="true" frameborder="0" scrolling="0" width="170" height="20"></iframe>
+        <a href="https://twitter.com/share" class="twitter-share-button show-desktop" data-text="Chassis: A lightweight HTML &amp; CSS base layer for mobile-first web development." data-via="connors" data-related="connors" data-count="none">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        <a href="https://twitter.com/connors" class="twitter-follow-button" data-show-count="false">Follow @connors</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </div>
+
+
       <ul class="version hide-mobile">
         <li>Version 1.0</li>
         <li><a href="https://github.com/connors/chassis">View on GitHub</a></li>
@@ -56,6 +60,17 @@
           <p class="masthead-text">A lightweight HTML &amp; CSS base layer for mobile-first web development</p>
           <p class="hide-mobile">Chassis provides you with base CSS and HTML files to jump start your web development. If you're looking for a full featured front-end framework, you're in the wrong place. Chassis only gives you what you need and nothing else.</p>
           <a href="http://connors.github.io/chassis/chassis.zip" class="download button button-large"><i class="icon icon-install"></i> Download Chassis</a>
+
+          <ul class="mobile-social-btns hide-desktop">
+            <li><iframe class="star-btn" src="http://ghbtns.com/github-btn.html?user=connors&repo=chassis&type=watch"
+      allowtransparency="true" frameborder="0" scrolling="0" width="50" height="20"></iframe></li>
+            
+            <li><a href="https://twitter.com/share" class="twitter-share-button" data-text="Chassis: A lightweight HTML &amp; CSS base layer for mobile-first web development." data-via="connors" data-related="connors" data-count="none">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+            
+            <li><a href="https://twitter.com/connors" class="twitter-follow-button" data-show-count="false">Follow @connors</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+          </ul> 
         </div>
       </div>
     </div>
@@ -713,9 +728,24 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.&lt;/p&g
     </div>
   </div>
 
-    <!-- Javascript placed at the bottom to speed up the page load. -->
-    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-    <script src="js/prettify.js"></script>
-    <script src="js/scrollspy.js"></script>
-    <script src="js/docs.js"></script>
-  </body>
+  <!-- Javascript placed at the bottom to speed up the page load. -->
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="js/prettify.js"></script>
+  <script src="js/scrollspy.js"></script>
+  <script src="js/docs.js"></script>
+
+  <!-- Analyics -->
+  <script type="text/javascript">
+    var _gauges = _gauges || [];
+    (function() {
+      var t   = document.createElement('script');
+      t.type  = 'text/javascript';
+      t.async = true;
+      t.id    = 'gauges-tracker';
+      t.setAttribute('data-site-id', '5191c085f5a1f52bcc0001d9');
+      t.src = '//secure.gaug.es/track.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(t, s);
+    })();
+  </script>
+</body>

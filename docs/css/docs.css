@@ -20,8 +20,24 @@
   display: block;
   margin-top: 10px;
 }
+.mobile-social-btns {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding-left: 18px;
+  height: 20px;
+  list-style: none;
+  text-align: center;
+}
+.mobile-social-btns li {
+  display: inline-block;
+  height: 20px;
+  padding: 0;
+  margin-right: 18px;
+  margin-bottom: 15px;
+  vertical-align: top;
+}
 .section {
-  margin: 40px 0 60px;
+  margin: 20px 0 40px;
   clear: both;
 }
 .section-description {
@@ -48,6 +64,11 @@
 /* The large hr dividing each section. */
 .docs-split {
   clear: both;
+}
+
+.star-btn,
+.twitter-share-button {
+  margin-bottom: 10px;
 }
 
 
@@ -197,7 +218,7 @@
 ------------------------------- */
 
 body pre.prettyprint {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   padding: 10px;
   overflow-x: auto;
   border: 1px solid #ddd;
@@ -233,6 +254,12 @@ body pre.less-margin {
   .download {
     display: inline-block;
   }
+  .section {
+    margin: 40px 0 60px;
+  }
+  body pre.prettyprint {
+    margin-bottom: 80px;
+  }
 
   /* Desktop sidebar */
   .header {
@@ -243,6 +270,7 @@ body pre.less-margin {
     left: 0;
     padding: 0 2%;
     width: 20%;
+    min-height: 700px;
     background-color: #f8f8f8;
     border-right: 1px solid #ddd;
     text-align: left;
@@ -263,10 +291,11 @@ body pre.less-margin {
   }
   .navigation li a {
     display: block;
-    padding: 12px 13%;
+    padding: 10px 13%;
     margin: 0 -12.5%;
     border-bottom: 1px solid #ddd;
     color: #333;
+    font-size: 16px;
     text-shadow: 0 1px 0 #fff;
     box-shadow: inset 0 1px 0 rgba(255,255,255,1);
     -webkit-transition: all 0.1s ease-in 0;
@@ -288,9 +317,6 @@ body pre.less-margin {
   .navigation li.active a {
     color: #333;
     font-weight: 700;
-  }
-  .star-btn { 
-    display: block;
   }
   .version {
     display: block;
