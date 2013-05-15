@@ -438,8 +438,7 @@ hr {
   font-family: "Entypo", sans-serif;
   font-style: inherit;
   font-weight: normal;
-  font-size: 1.6em;
-  line-height: .6em;
+  line-height: 1;
   cursor: default;
 }
 
@@ -449,7 +448,7 @@ hr {
 .icon-mouse:before{ content:'\E789'; }
 .icon-address:before{ content:'\E723'; }
 .icon-mail:before{ content:'\2709'; }
-.icon-paper-plane:before{ content:'\1F53F'; }
+.icon-paper-plane:before{ content:'\E79B'; }
 .icon-pencil:before{ content:'\270E'; }
 .icon-feather:before{ content:'\2712'; }
 .icon-attach:before{ content:'\1F4CE'; }
@@ -513,21 +512,21 @@ hr {
 .icon-droplet:before{ content:'\1F4A7'; }
 .icon-cd:before{ content:'\1F4BF'; }
 .icon-briefcase:before{ content:'\1F4BC'; }
-.icon-air:before{ content:'\1F4A8'; }
+.icon-air:before{ content:'\e753'; }
 .icon-hourglass:before{ content:'\23F3'; }
-.icon-gauge:before{ content:'\1F6C7'; }
-.icon-language:before{ content:'\1F394'; }
+.icon-gauge:before{ content:'\E7a2'; }
+.icon-language:before{ content:'\E752'; }
 .icon-network:before{ content:'\E776'; }
 .icon-key:before{ content:'\1F511'; }
 .icon-battery:before{ content:'\1F50B'; }
-.icon-bucket:before{ content:'\1F4FE'; }
+.icon-bucket:before{ content:'\E756'; }
 .icon-magnet:before{ content:'\E7A1'; }
-.icon-drive:before{ content:'\1F4FD'; }
+.icon-drive:before{ content:'\E755'; }
 .icon-cup:before{ content:'\2615'; }
 .icon-rocket:before{ content:'\1F680'; }
 .icon-brush:before{ content:'\E79A'; }
-.icon-suitcase:before{ content:'\1F6C6'; }
-.icon-traffic-cone:before{ content:'\1F6C8'; }
+.icon-suitcase:before{ content:'\E78E'; }
+.icon-traffic-cone:before{ content:'\E7A3'; }
 .icon-globe:before{ content:'\1F30E'; }
 .icon-keyboard:before{ content:'\2328'; }
 .icon-browser:before{ content:'\E74E'; }
@@ -544,7 +543,7 @@ hr {
 .icon-infinity:before{ content:'\221E'; }
 .icon-light-bulb:before{ content:'\1F4A1'; }
 .icon-credit-card:before{ content:'\1F4B3'; }
-.icon-database:before{ content:'\1F4F8'; }
+.icon-database:before{ content:'\E754'; }
 .icon-voicemail:before{ content:'\2707'; }
 .icon-clipboard:before{ content:'\1F4CB'; }
 .icon-cart:before{ content:'\E73D'; }
@@ -552,11 +551,11 @@ hr {
 .icon-ticket:before{ content:'\1F3AB'; }
 .icon-rss:before{ content:'\E73A'; }
 .icon-signal:before{ content:'\1F4F6'; }
-.icon-thermometer:before{ content:'\1F4FF'; }
+.icon-thermometer:before{ content:'\E757'; }
 .icon-water:before{ content:'\1F4A6'; }
 .icon-sweden:before{ content:'\F601'; }
 .icon-line-graph:before{ content:'\1F4C8'; }
-.icon-pie-chart:before{ content:'\25F4'; }
+.icon-pie-chart:before{ content:'\E751'; }
 .icon-bar-graph:before{ content:'\1F4CA'; }
 .icon-area-graph:before{ content:'\1F53E'; }
 .icon-lock:before{ content:'\1F512'; }
@@ -564,15 +563,15 @@ hr {
 .icon-logout:before{ content:'\E741'; }
 .icon-login:before{ content:'\E740'; }
 .icon-check:before{ content:'\2713'; }
-.icon-cross:before{ content:'\274C'; }
+.icon-cross:before{ content:'\2715'; }
 .icon-squared-minus:before{ content:'\229F'; }
 .icon-squared-plus:before{ content:'\229E'; }
 .icon-squared-cross:before{ content:'\274E'; }
-.icon-circled-minus:before{ content:'\2296'; }
-.icon-circled-plus:before{ content:'\2295'; }
+.icon-circled-minus:before{ content:'\2796'; }
+.icon-circled-plus:before{ content:'\2795'; }
 .icon-circled-cross:before{ content:'\2716'; }
-.icon-minus:before{ content:'\2796'; }
-.icon-plus:before{ content:'\2795'; }
+.icon-minus:before{ content:'\2d'; }
+.icon-plus:before{ content:'\2b'; }
 .icon-erase:before{ content:'\232B'; }
 .icon-block:before{ content:'\1F6AB'; }
 .icon-info:before{ content:'\2139'; }
@@ -604,7 +603,7 @@ hr {
 .icon-video:before{ content:'\1F3AC'; }
 .icon-music:before{ content:'\1F3B5'; }
 .icon-folder:before{ content:'\1F4C1'; }
-.icon-archive:before{ content:'\E800'; }
+.icon-archive:before{ content:'\E738'; }
 .icon-trash:before{ content:'\E729'; }
 .icon-upload:before{ content:'\1F4E4'; }
 .icon-download:before{ content:'\1F4E5'; }
@@ -616,8 +615,8 @@ hr {
 .icon-bookmarks:before{ content:'\1F4D1'; }
 .icon-open-book:before{ content:'\1F4D6'; }
 .icon-play:before{ content:'\25B6'; }
-.icon-pause:before{ content:'\2016'; }
-.icon-record:before{ content:'\25CF'; }
+.icon-pause:before{ content:'\2389'; }
+.icon-record:before{ content:'\26AB'; }
 .icon-stop:before{ content:'\25A0'; }
 .icon-ff:before{ content:'\23E9'; }
 .icon-fb:before{ content:'\23EA'; }
@@ -625,14 +624,14 @@ hr {
 .icon-to-end:before{ content:'\23ED'; }
 .icon-resize-full:before{ content:'\E744'; }
 .icon-resize-small:before{ content:'\E746'; }
-.icon-volume:before{ content:'\23F7'; }
+.icon-volume:before{ content:'\E742'; }
 .icon-sound:before{ content:'\1F50A'; }
 .icon-mute:before{ content:'\1F507'; }
-.icon-flow-cascade:before{ content:'\1F568'; }
-.icon-flow-branch:before{ content:'\1F569'; }
-.icon-flow-tree:before{ content:'\1F56A'; }
-.icon-flow-line:before{ content:'\1F56B'; }
-.icon-flow-parallel:before{ content:'\1F56C'; }
+.icon-flow-cascade:before{ content:'\E790'; }
+.icon-flow-branch:before{ content:'\E791'; }
+.icon-flow-tree:before{ content:'\E792'; }
+.icon-flow-line:before{ content:'\E793'; }
+.icon-flow-parallel:before{ content:'\E794'; }
 .icon-left-bold:before{ content:'\E4AD'; }
 .icon-down-bold:before{ content:'\E4B0'; }
 .icon-up-bold:before{ content:'\E4AF'; }
@@ -666,22 +665,22 @@ hr {
 .icon-up-thin:before{ content:'\2191'; }
 .icon-right-thin:before{ content:'\2192'; }
 .icon-arrow-combo:before{ content:'\E74F'; }
-.icon-three-dots:before{ content:'\23F6'; }
-.icon-two-dots:before{ content:'\23F5'; }
-.icon-dot:before{ content:'\23F4'; }
-.icon-cc:before{ content:'\1F545'; }
-.icon-cc-by:before{ content:'\1F546'; }
-.icon-cc-nc:before{ content:'\1F547'; }
-.icon-cc-nc-eu:before{ content:'\1F548'; }
-.icon-cc-nc-jp:before{ content:'\1F549'; }
-.icon-cc-sa:before{ content:'\1F54A'; }
-.icon-cc-nd:before{ content:'\1F54B'; }
-.icon-cc-pd:before{ content:'\1F54C'; }
-.icon-cc-zero:before{ content:'\1F54D'; }
-.icon-cc-share:before{ content:'\1F54E'; }
-.icon-cc-remix:before{ content:'\1F54F'; }
-.icon-db-logo:before{ content:'\1F5F9'; }
-.icon-db-shape:before{ content:'\1F5FA'; }/* -------------------------------------------------------------------- 
+.icon-three-dots:before{ content:'\E78D'; }
+.icon-two-dots:before{ content:'\E78C'; }
+.icon-dot:before{ content:'\E78B'; }
+.icon-cc:before{ content:'\E7A5'; }
+.icon-cc-by:before{ content:'\E7A6'; }
+.icon-cc-nc:before{ content:'\E7A7'; }
+.icon-cc-nc-eu:before{ content:'\E7A8'; }
+.icon-cc-nc-jp:before{ content:'\E7A9'; }
+.icon-cc-sa:before{ content:'\E7AA'; }
+.icon-cc-nd:before{ content:'\E7AB'; }
+.icon-cc-pd:before{ content:'\E7AC'; }
+.icon-cc-zero:before{ content:'\E7AD'; }
+.icon-cc-share:before{ content:'\E7AE'; }
+.icon-cc-remix:before{ content:'\E7AF'; }
+.icon-db-logo:before{ content:'\F603'; }
+.icon-db-shape:before{ content:'\F600'; }/* -------------------------------------------------------------------- 
    Forms
    -------------------------------------------------------------------- */
 
