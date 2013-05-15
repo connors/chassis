@@ -5,7 +5,7 @@
 build:
 	mkdir -p dist
 	cat lib/base.css lib/grid.css lib/buttons.css lib/icons.css lib/forms.css lib/tables.css > ./dist/chassis.tmp.css
-	@echo "/**\n * ==================================\n * Chassis v1.0\n * Licensed under The MIT License\n * http://opensource.org/licenses/MIT\n * ==================================\n */\n\n" > ./dist/copywrite.txt
+	@echo "/**\n * ==================================\n * Chassis v1.0.1\n * Licensed under The MIT License\n * http://opensource.org/licenses/MIT\n * ==================================\n */\n\n" > ./dist/copywrite.txt
 	cat ./dist/copywrite.txt ./dist/chassis.tmp.css > ./dist/chassis.css
 	rm  ./dist/chassis.tmp.css ./dist/copywrite.txt
 
