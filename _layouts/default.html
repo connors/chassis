@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include header.html %}
+  </head>
+  <body ontouchstart=""  data-spy="scroll" data-target=".header" data-offset="150">
+    <!-- Navigation -->
+    {% include nav.html %}
+
+    <!-- Page content -->
+    {{ content }}
+
+    <!-- Footer -->
+    {% include footer.html %}
+
+    <!-- Javascript -->
+    {% include javascript.html %}
+  </body>
+</html>

@@ -2,4 +2,9 @@ name: Chassis
 authors: Connor Sears
 description: A lightweight HTML & CSS base layer for mobile-first web development
 url: http://connors.github.io/chassis
+
+# Permalinks
+permalink:        pretty
+
+# Pygments
 pygments: true
