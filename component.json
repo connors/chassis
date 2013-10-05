@@ -1,5 +1,5 @@
 {
   "name": "chassis",
-  "version": "1.0.1",
+  "version": "1.5.0",
   "main": ["./dist/chassis.css", "./dist/chassis-theme.css"]
 }
