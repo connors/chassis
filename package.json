@@ -1,0 +1,31 @@
+{
+  "name": "chassis",
+  "version": "1.5.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-nodeunit": "~0.2.1"
+  },
+  "keywords": [
+    "chassis",
+    "html",
+    "css",
+    "mobile-first"
+  ],
+  "homepage": "http://connors.github.com/chassis/",
+  "author": "Connor Sears",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connors/chassis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/connors/chassis/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
+}
