@@ -6,8 +6,20 @@ Chassis provides you with base CSS and HTML files to jump start your web develop
 
 ## Getting started
 
-- Clone the repo `git clone git@github.com:connors/chassis.git` or just [download](http://connors.github.com/chassis/chassis.zip) the bundled CSS.
+- Clone the repo `git clone git@github.com:connors/chassis.git` or just [download](http://connors.github.com/chassis/archive/v1.5.0.zip) the bundled CSS.
 - [Read the docs](http://connors.github.com/chassis) to learn how to create simple layouts and use Chassis' base layer styles.
+
+## Documentation
+
+Chassis' documentation is built with [Jekyll](http://jekyllrb.com) and publicly hosted on GitHub Pages at [http://connors.github.com/chassis](http://connors.github.com/chassis). The docs may also be run locally.
+
+### Running documentation locally
+
+1. If necessary, [install Jekyll](http://jekyllrb.com/docs/installation).
+2. From the root `/chassis` directory, run `jekyll serve` in the command line.
+3. Open [http://localhost:4000](http://localhost:9001) in your browser, and voilà.
+
+Learn more about using Jekyll by reading its [documentation](http://jekyllrb.com/docs/home/).
 
 
 ## Reporting bugs & contributing
