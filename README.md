@@ -17,7 +17,7 @@ Chassis' documentation is built with [Jekyll](http://jekyllrb.com) and publicly 
 
 1. If necessary, [install Jekyll](http://jekyllrb.com/docs/installation).
 2. From the root `/chassis` directory, run `jekyll serve` in the command line.
-3. Open [http://localhost:4000](http://localhost:9001) in your browser, and voilà.
+3. Open [http://localhost:4000](http://localhost:9001) in your browser, and boom!
 
 Learn more about using Jekyll by reading its [documentation](http://jekyllrb.com/docs/home/).
 
