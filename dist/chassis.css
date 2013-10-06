@@ -401,6 +401,7 @@ hr {
   text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
+  outline: none;
   border: 1px solid #ccc;
   background-color: #f8f8f8;
 }
