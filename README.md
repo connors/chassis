@@ -30,8 +30,8 @@ Please file a Github issue to [report a bug](http://github.com/connors/chassis/i
 
 Connor Sears
 
-- [http://twitter.com/connors](http://twitter.com/connors)
-- [http://github.com/connors](http://github.com/connors)
+- [https://twitter.com/connors](https://twitter.com/connors)
+- [https://github.com/connors](https://github.com/connors)
 - [connorsears.com](http://connorsears.com)
 
 
